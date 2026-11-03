@@ -1,0 +1,952 @@
+timestamp,source_ip,destination_ip,username,event_id,event_type,protocol,source_port,destination_port,action,status,message
+2026-10-03 01:40:16,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,574,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:574
+2026-10-03 01:40:16,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,462,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:462
+2026-10-03 01:40:17,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,311,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:311
+2026-10-03 01:40:17,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,700,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:700
+2026-10-03 01:40:17,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,805,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:805
+2026-10-03 01:40:17,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,282,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:282
+2026-10-03 01:40:18,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,180,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:180
+2026-10-03 01:40:18,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,783,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:783
+2026-10-03 01:40:18,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,466,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:466
+2026-10-03 01:40:19,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,855,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:855
+2026-10-03 01:40:20,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,493,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:493
+2026-10-03 01:40:21,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,313,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:313
+2026-10-03 01:40:22,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,874,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:874
+2026-10-03 01:40:23,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,640,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:640
+2026-10-03 01:40:24,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,675,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:675
+2026-10-03 01:40:24,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,920,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:920
+2026-10-03 01:40:24,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,270,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:270
+2026-10-03 01:40:24,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,424,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:424
+2026-10-03 01:40:24,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,284,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:284
+2026-10-03 01:40:24,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,415,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:415
+2026-10-03 01:40:24,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,283,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:283
+2026-10-03 01:40:25,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,633,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:633
+2026-10-03 01:40:25,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,277,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:277
+2026-10-03 01:40:25,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,881,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:881
+2026-10-03 01:40:25,198.51.100.62,10.0.0.30,,5157,firewall_block,TCP,52686,298,deny,blocked,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:298
+2026-10-03 01:58:21,203.0.113.43,10.0.0.20,alice,4624,login_success,TCP,55013,22,login,success,Successful logon for alice from 203.0.113.43
+2026-10-03 02:07:47,203.0.113.53,10.0.0.20,alice,4625,login_failure,TCP,57116,22,login,failure,Failed logon for alice from 203.0.113.53
+2026-10-03 02:07:52,203.0.113.53,10.0.0.20,alice,4625,login_failure,TCP,53991,22,login,failure,Failed logon for alice from 203.0.113.53
+2026-10-03 02:07:55,203.0.113.53,10.0.0.20,alice,4625,login_failure,TCP,49602,22,login,failure,Failed logon for alice from 203.0.113.53
+2026-10-03 02:07:58,203.0.113.53,10.0.0.20,alice,4625,login_failure,TCP,52798,22,login,failure,Failed logon for alice from 203.0.113.53
+2026-10-03 02:08:01,203.0.113.53,10.0.0.20,alice,4625,login_failure,TCP,63899,22,login,failure,Failed logon for alice from 203.0.113.53
+2026-10-03 02:08:05,203.0.113.53,10.0.0.20,alice,4625,login_failure,TCP,49897,22,login,failure,Failed logon for alice from 203.0.113.53
+2026-10-03 02:08:08,203.0.113.53,10.0.0.20,alice,4625,login_failure,TCP,56000,22,login,failure,Failed logon for alice from 203.0.113.53
+2026-10-03 02:08:14,203.0.113.53,10.0.0.20,alice,4625,login_failure,TCP,56094,22,login,failure,Failed logon for alice from 203.0.113.53
+2026-10-03 02:54:02,192.168.1.5,10.0.0.40,tmp_user95,4720,account_created,,,,create_account,success,User account tmp_user95 was created
+2026-10-03 02:54:43,192.168.1.5,10.0.0.40,tmp_user95,4740,account_lockout,,,,lockout,success,User account tmp_user95 was locked out
+2026-10-03 02:55:07,192.168.1.5,10.0.0.40,tmp_user95,4722,account_enabled,,,,enable_account,success,User account tmp_user95 was enabled
+2026-10-03 02:55:51,192.168.1.5,10.0.0.40,tmp_user95,4720,account_created,,,,create_account,success,User account tmp_user95 was created
+2026-10-03 02:56:07,192.168.1.5,10.0.0.40,tmp_user95,4720,account_created,,,,create_account,success,User account tmp_user95 was created
+2026-10-03 02:56:35,192.168.1.5,10.0.0.40,tmp_user95,4724,password_reset,,,,reset_password,success,Password for account tmp_user95 was reset
+2026-10-03 03:19:19,198.51.100.75,10.0.0.20,alice,4624,login_success,TCP,53004,22,login,success,Successful logon for alice from 198.51.100.75
+2026-10-03 03:39:42,192.168.1.5,10.0.0.40,tmp_user98,4720,account_created,,,,create_account,success,User account tmp_user98 was created
+2026-10-03 03:40:16,192.168.1.5,10.0.0.40,tmp_user98,4740,account_lockout,,,,lockout,success,User account tmp_user98 was locked out
+2026-10-03 03:40:56,192.168.1.5,10.0.0.40,tmp_user98,4740,account_lockout,,,,lockout,success,User account tmp_user98 was locked out
+2026-10-03 03:41:16,192.168.1.5,10.0.0.40,tmp_user98,4725,account_disabled,,,,disable_account,success,User account tmp_user98 was disabled
+2026-10-03 03:41:54,192.168.1.5,10.0.0.40,tmp_user98,4740,account_lockout,,,,lockout,success,User account tmp_user98 was locked out
+2026-10-03 03:42:20,192.168.1.5,10.0.0.40,tmp_user98,4720,account_created,,,,create_account,success,User account tmp_user98 was created
+2026-10-03 04:32:54,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,766,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:766
+2026-10-03 04:32:55,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,377,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:377
+2026-10-03 04:32:56,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,794,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:794
+2026-10-03 04:32:57,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,1007,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:1007
+2026-10-03 04:32:58,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,971,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:971
+2026-10-03 04:32:59,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,282,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:282
+2026-10-03 04:33:00,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,336,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:336
+2026-10-03 04:33:00,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,396,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:396
+2026-10-03 04:33:01,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,464,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:464
+2026-10-03 04:33:02,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,67,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:67
+2026-10-03 04:33:02,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,837,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:837
+2026-10-03 04:33:02,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,31,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:31
+2026-10-03 04:33:03,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,553,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:553
+2026-10-03 04:33:04,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,846,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:846
+2026-10-03 04:33:04,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,456,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:456
+2026-10-03 04:33:04,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,416,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:416
+2026-10-03 04:33:04,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,419,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:419
+2026-10-03 04:33:04,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,136,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:136
+2026-10-03 04:33:05,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,363,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:363
+2026-10-03 04:33:06,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,900,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:900
+2026-10-03 04:33:07,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,1004,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:1004
+2026-10-03 04:33:08,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,666,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:666
+2026-10-03 04:33:08,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,938,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:938
+2026-10-03 04:33:08,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,506,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:506
+2026-10-03 04:33:09,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,876,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:876
+2026-10-03 04:33:09,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,830,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:830
+2026-10-03 04:33:10,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,86,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:86
+2026-10-03 04:33:10,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,780,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:780
+2026-10-03 04:33:11,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,641,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:641
+2026-10-03 04:33:12,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,808,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:808
+2026-10-03 04:33:12,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,79,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:79
+2026-10-03 04:33:12,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,224,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:224
+2026-10-03 04:33:12,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,925,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:925
+2026-10-03 04:33:12,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,936,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:936
+2026-10-03 04:33:13,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,87,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:87
+2026-10-03 04:33:14,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,504,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:504
+2026-10-03 04:33:14,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,811,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:811
+2026-10-03 04:33:15,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,81,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:81
+2026-10-03 04:33:15,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,101,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:101
+2026-10-03 04:33:16,198.51.100.22,10.0.0.40,,5157,firewall_block,TCP,59815,389,deny,blocked,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:389
+2026-10-03 07:00:19,192.168.1.6,10.0.0.10,,5156,network_connection,TCP,58476,443,allow,allowed,Connection allowed from 192.168.1.6:58476 to 10.0.0.10:443
+2026-10-03 07:00:43,192.168.1.13,10.0.0.40,,5156,network_connection,TCP,61000,443,allow,allowed,Connection allowed from 192.168.1.13:61000 to 10.0.0.40:443
+2026-10-03 07:02:42,192.168.1.15,10.0.0.30,,5156,network_connection,UDP,58078,53,allow,allowed,Connection allowed from 192.168.1.15:58078 to 10.0.0.30:53
+2026-10-03 07:03:30,192.168.1.16,10.0.0.40,,5156,network_connection,UDP,63686,53,allow,allowed,Connection allowed from 192.168.1.16:63686 to 10.0.0.40:53
+2026-10-03 07:04:45,192.168.1.10,10.0.0.20,alice,4624,login_success,TCP,50181,3389,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 07:05:02,192.168.1.6,10.0.0.30,,5156,network_connection,TCP,62802,445,allow,allowed,Connection allowed from 192.168.1.6:62802 to 10.0.0.30:445
+2026-10-03 07:06:26,192.168.1.15,10.0.0.40,frank,4624,login_success,TCP,53656,22,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 07:07:49,192.168.1.13,10.0.0.40,,5156,network_connection,UDP,57251,53,allow,allowed,Connection allowed from 192.168.1.13:57251 to 10.0.0.40:53
+2026-10-03 07:08:04,192.168.1.13,10.0.0.30,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 07:08:32,192.168.1.6,10.0.0.30,,5156,network_connection,UDP,52419,53,allow,allowed,Connection allowed from 192.168.1.6:52419 to 10.0.0.30:53
+2026-10-03 07:09:45,192.168.1.14,10.0.0.10,erin,4624,login_success,TCP,56736,3389,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 07:10:50,192.168.1.14,10.0.0.10,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 07:12:06,192.168.1.17,10.0.0.20,heidi,4624,login_success,TCP,61885,3389,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 07:14:48,192.168.1.17,10.0.0.20,heidi,4624,login_success,TCP,61257,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 07:15:02,192.168.1.17,10.0.0.30,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 07:15:05,192.168.1.16,10.0.0.10,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 07:18:45,192.168.1.11,10.0.0.30,,5156,network_connection,TCP,57555,8080,allow,allowed,Connection allowed from 192.168.1.11:57555 to 10.0.0.30:8080
+2026-10-03 07:20:34,192.168.1.6,10.0.0.20,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 07:21:49,192.168.1.12,10.0.0.30,carol,4624,login_success,TCP,63630,3389,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 07:22:41,192.168.1.16,10.0.0.30,,5156,network_connection,UDP,54041,53,allow,allowed,Connection allowed from 192.168.1.16:54041 to 10.0.0.30:53
+2026-10-03 07:22:41,192.168.1.12,10.0.0.10,carol,4624,login_success,TCP,56776,3389,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 07:22:50,192.168.1.13,10.0.0.30,dave,4624,login_success,TCP,57847,22,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 07:23:00,192.168.1.16,10.0.0.10,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 07:23:19,192.168.1.12,10.0.0.20,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 07:24:16,192.168.1.17,10.0.0.30,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 07:24:32,203.0.113.6,10.0.0.40,alice,4625,login_failure,TCP,59488,22,login,failure,Failed logon for alice from 203.0.113.6
+2026-10-03 07:24:36,203.0.113.6,10.0.0.40,alice,4625,login_failure,TCP,52036,22,login,failure,Failed logon for alice from 203.0.113.6
+2026-10-03 07:24:38,203.0.113.6,10.0.0.40,alice,4625,login_failure,TCP,55668,22,login,failure,Failed logon for alice from 203.0.113.6
+2026-10-03 07:24:43,192.168.1.16,10.0.0.20,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 07:24:43,203.0.113.6,10.0.0.40,alice,4625,login_failure,TCP,64159,22,login,failure,Failed logon for alice from 203.0.113.6
+2026-10-03 07:24:48,203.0.113.6,10.0.0.40,alice,4625,login_failure,TCP,49856,22,login,failure,Failed logon for alice from 203.0.113.6
+2026-10-03 07:24:49,203.0.113.6,10.0.0.40,alice,4625,login_failure,TCP,57258,22,login,failure,Failed logon for alice from 203.0.113.6
+2026-10-03 07:24:54,203.0.113.6,10.0.0.40,alice,4625,login_failure,TCP,59143,22,login,failure,Failed logon for alice from 203.0.113.6
+2026-10-03 07:24:57,203.0.113.6,10.0.0.40,alice,4625,login_failure,TCP,65206,22,login,failure,Failed logon for alice from 203.0.113.6
+2026-10-03 07:25:01,203.0.113.6,10.0.0.40,alice,4625,login_failure,TCP,54296,22,login,failure,Failed logon for alice from 203.0.113.6
+2026-10-03 07:25:18,203.0.113.6,10.0.0.40,alice,4624,login_success,TCP,60797,22,login,success,Successful logon for alice from 203.0.113.6
+2026-10-03 07:25:40,192.168.1.14,10.0.0.20,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 07:27:17,192.168.1.5,10.0.0.30,admin,4624,login_success,TCP,57508,22,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 07:29:03,192.168.1.12,10.0.0.40,,5156,network_connection,UDP,65409,53,allow,allowed,Connection allowed from 192.168.1.12:65409 to 10.0.0.40:53
+2026-10-03 07:29:58,192.168.1.11,10.0.0.30,,5156,network_connection,TCP,62404,445,allow,allowed,Connection allowed from 192.168.1.11:62404 to 10.0.0.30:445
+2026-10-03 07:30:06,192.168.1.14,10.0.0.40,,5156,network_connection,TCP,52955,80,allow,allowed,Connection allowed from 192.168.1.14:52955 to 10.0.0.40:80
+2026-10-03 07:32:05,192.168.1.12,10.0.0.10,,5156,network_connection,TCP,56859,8080,allow,allowed,Connection allowed from 192.168.1.12:56859 to 10.0.0.10:8080
+2026-10-03 07:32:52,192.168.1.16,10.0.0.20,grace,4624,login_success,TCP,52308,22,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 07:33:30,192.168.1.10,10.0.0.30,,5156,network_connection,TCP,53427,443,allow,allowed,Connection allowed from 192.168.1.10:53427 to 10.0.0.30:443
+2026-10-03 07:41:34,192.168.1.10,10.0.0.10,,5156,network_connection,TCP,54601,443,allow,allowed,Connection allowed from 192.168.1.10:54601 to 10.0.0.10:443
+2026-10-03 07:42:07,192.168.1.17,10.0.0.30,heidi,4624,login_success,TCP,59342,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 07:42:13,192.168.1.5,10.0.0.30,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 07:42:14,192.168.1.14,10.0.0.10,,5156,network_connection,TCP,61607,80,allow,allowed,Connection allowed from 192.168.1.14:61607 to 10.0.0.10:80
+2026-10-03 07:42:15,192.168.1.6,10.0.0.20,,5156,network_connection,TCP,63773,443,allow,allowed,Connection allowed from 192.168.1.6:63773 to 10.0.0.20:443
+2026-10-03 07:43:56,192.168.1.15,10.0.0.40,,5156,network_connection,TCP,61796,80,allow,allowed,Connection allowed from 192.168.1.15:61796 to 10.0.0.40:80
+2026-10-03 07:45:27,192.168.1.10,10.0.0.20,alice,4634,logout,,,,logout,success,User alice logged off
+2026-10-03 07:46:02,192.168.1.14,10.0.0.10,,5156,network_connection,TCP,49367,443,allow,allowed,Connection allowed from 192.168.1.14:49367 to 10.0.0.10:443
+2026-10-03 07:47:34,192.168.1.10,10.0.0.30,alice,4624,login_success,TCP,51400,22,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 07:47:39,192.168.1.13,10.0.0.40,,5156,network_connection,UDP,49297,53,allow,allowed,Connection allowed from 192.168.1.13:49297 to 10.0.0.40:53
+2026-10-03 07:50:21,192.168.1.13,10.0.0.20,,5156,network_connection,TCP,51400,443,allow,allowed,Connection allowed from 192.168.1.13:51400 to 10.0.0.20:443
+2026-10-03 07:50:38,192.168.1.5,10.0.0.20,,5156,network_connection,TCP,50333,8080,allow,allowed,Connection allowed from 192.168.1.5:50333 to 10.0.0.20:8080
+2026-10-03 07:51:20,192.168.1.16,10.0.0.30,grace,4624,login_success,TCP,59463,22,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 07:51:42,192.168.1.16,10.0.0.10,grace,4624,login_success,TCP,51356,22,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 07:52:14,192.168.1.17,10.0.0.30,,5156,network_connection,TCP,64655,445,allow,allowed,Connection allowed from 192.168.1.17:64655 to 10.0.0.30:445
+2026-10-03 07:54:30,192.168.1.13,10.0.0.20,,5156,network_connection,UDP,60609,53,allow,allowed,Connection allowed from 192.168.1.13:60609 to 10.0.0.20:53
+2026-10-03 07:55:42,192.168.1.13,10.0.0.10,dave,4624,login_success,TCP,63378,3389,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 07:57:51,192.168.1.14,10.0.0.10,,5156,network_connection,UDP,60864,53,allow,allowed,Connection allowed from 192.168.1.14:60864 to 10.0.0.10:53
+2026-10-03 07:59:04,192.168.1.14,10.0.0.10,erin,4624,login_success,TCP,59457,22,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 07:59:58,192.168.1.13,10.0.0.40,,5156,network_connection,TCP,64489,80,allow,allowed,Connection allowed from 192.168.1.13:64489 to 10.0.0.40:80
+2026-10-03 08:00:03,192.168.1.13,10.0.0.20,dave,4624,login_success,TCP,62278,3389,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 08:00:19,192.168.1.17,10.0.0.30,,5156,network_connection,TCP,53493,80,allow,allowed,Connection allowed from 192.168.1.17:53493 to 10.0.0.30:80
+2026-10-03 08:01:40,192.168.1.6,10.0.0.20,,5156,network_connection,TCP,49600,443,allow,allowed,Connection allowed from 192.168.1.6:49600 to 10.0.0.20:443
+2026-10-03 08:02:00,192.168.1.6,10.0.0.40,,5156,network_connection,TCP,59136,80,allow,allowed,Connection allowed from 192.168.1.6:59136 to 10.0.0.40:80
+2026-10-03 08:05:24,192.168.1.11,10.0.0.30,,5156,network_connection,TCP,57819,445,allow,allowed,Connection allowed from 192.168.1.11:57819 to 10.0.0.30:445
+2026-10-03 08:07:53,192.168.1.17,10.0.0.10,,5156,network_connection,TCP,57079,445,allow,allowed,Connection allowed from 192.168.1.17:57079 to 10.0.0.10:445
+2026-10-03 08:09:27,192.168.1.6,10.0.0.30,svc_backup,4624,login_success,TCP,63031,3389,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 08:10:27,192.168.1.14,10.0.0.40,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 08:11:27,192.168.1.17,10.0.0.40,heidi,4624,login_success,TCP,52088,3389,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 08:11:42,192.168.1.6,10.0.0.10,,5156,network_connection,TCP,64266,445,allow,allowed,Connection allowed from 192.168.1.6:64266 to 10.0.0.10:445
+2026-10-03 08:12:57,192.168.1.17,10.0.0.20,heidi,4624,login_success,TCP,60016,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 08:13:28,192.168.1.6,10.0.0.40,,5156,network_connection,TCP,56340,443,allow,allowed,Connection allowed from 192.168.1.6:56340 to 10.0.0.40:443
+2026-10-03 08:13:33,192.168.1.13,10.0.0.40,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 08:13:34,192.168.1.16,10.0.0.10,,5156,network_connection,TCP,49930,443,allow,allowed,Connection allowed from 192.168.1.16:49930 to 10.0.0.10:443
+2026-10-03 08:15:22,192.168.1.15,10.0.0.20,,5156,network_connection,TCP,60153,80,allow,allowed,Connection allowed from 192.168.1.15:60153 to 10.0.0.20:80
+2026-10-03 08:16:12,192.168.1.5,10.0.0.30,admin,4624,login_success,TCP,59074,22,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 08:16:39,192.168.1.12,10.0.0.10,,5156,network_connection,UDP,59289,53,allow,allowed,Connection allowed from 192.168.1.12:59289 to 10.0.0.10:53
+2026-10-03 08:16:41,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,56491,8080,allow,allowed,Connection allowed from 192.168.1.15:56491 to 10.0.0.10:8080
+2026-10-03 08:19:02,192.168.1.11,10.0.0.10,,5156,network_connection,TCP,52735,8080,allow,allowed,Connection allowed from 192.168.1.11:52735 to 10.0.0.10:8080
+2026-10-03 08:19:29,192.168.1.17,10.0.0.10,heidi,4624,login_success,TCP,58558,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 08:19:45,192.168.1.5,10.0.0.40,admin,4624,login_success,TCP,50100,22,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 08:20:23,192.168.1.14,10.0.0.20,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 08:20:27,192.168.1.15,10.0.0.30,frank,4634,logout,,,,logout,success,User frank logged off
+2026-10-03 08:20:42,192.168.1.14,10.0.0.30,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 08:21:06,192.168.1.5,10.0.0.40,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 08:21:38,192.168.1.6,10.0.0.40,svc_backup,4625,login_failure,TCP,59846,22,login,failure,Failed logon for svc_backup from 192.168.1.6
+2026-10-03 08:23:25,192.168.1.17,10.0.0.20,heidi,4625,login_failure,TCP,56552,3389,login,failure,Failed logon for heidi from 192.168.1.17
+2026-10-03 08:25:26,192.168.1.10,10.0.0.10,,5156,network_connection,TCP,59133,445,allow,allowed,Connection allowed from 192.168.1.10:59133 to 10.0.0.10:445
+2026-10-03 08:25:57,192.168.1.10,10.0.0.20,alice,4624,login_success,TCP,63866,22,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 08:26:09,192.168.1.12,10.0.0.10,,5156,network_connection,TCP,52461,445,allow,allowed,Connection allowed from 192.168.1.12:52461 to 10.0.0.10:445
+2026-10-03 08:26:58,192.168.1.6,10.0.0.40,,5156,network_connection,TCP,63509,8080,allow,allowed,Connection allowed from 192.168.1.6:63509 to 10.0.0.40:8080
+2026-10-03 08:27:38,192.168.1.12,10.0.0.30,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 08:28:55,192.168.1.11,10.0.0.20,bob,4624,login_success,TCP,60641,3389,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 08:30:04,192.168.1.15,10.0.0.30,,5156,network_connection,TCP,57709,443,allow,allowed,Connection allowed from 192.168.1.15:57709 to 10.0.0.30:443
+2026-10-03 08:30:42,192.168.1.12,10.0.0.10,,5156,network_connection,TCP,63291,8080,allow,allowed,Connection allowed from 192.168.1.12:63291 to 10.0.0.10:8080
+2026-10-03 08:32:15,192.168.1.14,10.0.0.40,erin,4624,login_success,TCP,53487,3389,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 08:32:41,192.168.1.15,10.0.0.10,,5156,network_connection,UDP,52610,53,allow,allowed,Connection allowed from 192.168.1.15:52610 to 10.0.0.10:53
+2026-10-03 08:34:13,192.168.1.5,10.0.0.30,admin,4624,login_success,TCP,60588,22,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 08:34:22,192.168.1.13,10.0.0.40,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 08:34:46,192.168.1.13,10.0.0.10,dave,4624,login_success,TCP,50447,22,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 08:35:18,192.168.1.5,10.0.0.30,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 08:37:01,192.168.1.14,10.0.0.40,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 08:38:02,192.168.1.16,10.0.0.30,,5156,network_connection,TCP,52144,80,allow,allowed,Connection allowed from 192.168.1.16:52144 to 10.0.0.30:80
+2026-10-03 08:40:50,192.168.1.11,10.0.0.40,,5156,network_connection,TCP,61245,443,allow,allowed,Connection allowed from 192.168.1.11:61245 to 10.0.0.40:443
+2026-10-03 08:41:53,192.168.1.12,10.0.0.40,,5156,network_connection,TCP,58111,443,allow,allowed,Connection allowed from 192.168.1.12:58111 to 10.0.0.40:443
+2026-10-03 08:42:22,192.168.1.17,10.0.0.20,,5156,network_connection,TCP,57141,445,allow,allowed,Connection allowed from 192.168.1.17:57141 to 10.0.0.20:445
+2026-10-03 08:42:58,192.168.1.15,10.0.0.30,,5156,network_connection,TCP,58992,80,allow,allowed,Connection allowed from 192.168.1.15:58992 to 10.0.0.30:80
+2026-10-03 08:43:14,192.168.1.14,10.0.0.20,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 08:45:06,192.168.1.10,10.0.0.20,alice,4634,logout,,,,logout,success,User alice logged off
+2026-10-03 08:45:18,192.168.1.13,10.0.0.30,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 08:46:12,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,55218,8080,allow,allowed,Connection allowed from 192.168.1.15:55218 to 10.0.0.10:8080
+2026-10-03 08:49:15,192.168.1.15,10.0.0.20,,5156,network_connection,TCP,62246,80,allow,allowed,Connection allowed from 192.168.1.15:62246 to 10.0.0.20:80
+2026-10-03 08:51:46,192.168.1.17,10.0.0.30,,5156,network_connection,TCP,59405,443,allow,allowed,Connection allowed from 192.168.1.17:59405 to 10.0.0.30:443
+2026-10-03 08:52:04,192.168.1.16,10.0.0.40,grace,4624,login_success,TCP,50908,22,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 08:53:12,192.168.1.14,10.0.0.20,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 08:53:30,192.168.1.6,10.0.0.20,svc_backup,4624,login_success,TCP,51567,22,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 08:54:31,192.168.1.17,10.0.0.30,heidi,4624,login_success,TCP,65449,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 08:57:05,192.168.1.15,10.0.0.20,frank,4624,login_success,TCP,58163,3389,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 08:57:12,192.168.1.15,10.0.0.40,frank,4634,logout,,,,logout,success,User frank logged off
+2026-10-03 08:59:23,192.168.1.14,10.0.0.20,erin,4624,login_success,TCP,51732,22,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 08:59:30,192.168.1.10,10.0.0.30,alice,4634,logout,,,,logout,success,User alice logged off
+2026-10-03 08:59:54,192.168.1.12,10.0.0.40,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 08:59:54,192.168.1.16,10.0.0.20,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 08:59:56,192.168.1.17,10.0.0.10,heidi,4624,login_success,TCP,62161,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 09:02:22,192.168.1.5,10.0.0.30,,5156,network_connection,TCP,64376,443,allow,allowed,Connection allowed from 192.168.1.5:64376 to 10.0.0.30:443
+2026-10-03 09:03:06,192.168.1.15,10.0.0.20,frank,4625,login_failure,TCP,62563,3389,login,failure,Failed logon for frank from 192.168.1.15
+2026-10-03 09:03:16,192.168.1.16,10.0.0.30,grace,4624,login_success,TCP,59862,3389,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 09:04:32,192.168.1.11,10.0.0.20,,5156,network_connection,TCP,60656,443,allow,allowed,Connection allowed from 192.168.1.11:60656 to 10.0.0.20:443
+2026-10-03 09:04:52,192.168.1.10,10.0.0.30,,5156,network_connection,UDP,60222,53,allow,allowed,Connection allowed from 192.168.1.10:60222 to 10.0.0.30:53
+2026-10-03 09:06:10,192.168.1.17,10.0.0.40,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 09:06:25,192.168.1.15,10.0.0.30,,5156,network_connection,TCP,53879,443,allow,allowed,Connection allowed from 192.168.1.15:53879 to 10.0.0.30:443
+2026-10-03 09:06:39,192.168.1.6,10.0.0.20,svc_backup,4624,login_success,TCP,56546,22,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 09:08:12,192.168.1.15,10.0.0.40,frank,4625,login_failure,TCP,64145,22,login,failure,Failed logon for frank from 192.168.1.15
+2026-10-03 09:08:16,192.168.1.15,10.0.0.20,frank,4624,login_success,TCP,58992,22,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 09:08:17,192.168.1.14,10.0.0.30,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 09:11:05,192.168.1.6,10.0.0.40,,5156,network_connection,TCP,65459,443,allow,allowed,Connection allowed from 192.168.1.6:65459 to 10.0.0.40:443
+2026-10-03 09:11:15,192.168.1.6,10.0.0.30,,5156,network_connection,TCP,60908,8080,allow,allowed,Connection allowed from 192.168.1.6:60908 to 10.0.0.30:8080
+2026-10-03 09:11:20,192.168.1.17,10.0.0.10,,5156,network_connection,TCP,65031,80,allow,allowed,Connection allowed from 192.168.1.17:65031 to 10.0.0.10:80
+2026-10-03 09:11:36,192.168.1.6,10.0.0.20,,5156,network_connection,UDP,60909,53,allow,allowed,Connection allowed from 192.168.1.6:60909 to 10.0.0.20:53
+2026-10-03 09:11:59,192.168.1.10,10.0.0.40,alice,4624,login_success,TCP,57287,3389,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 09:12:21,192.168.1.13,10.0.0.40,,5156,network_connection,TCP,65513,443,allow,allowed,Connection allowed from 192.168.1.13:65513 to 10.0.0.40:443
+2026-10-03 09:12:52,192.168.1.16,10.0.0.40,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 09:13:51,192.168.1.13,10.0.0.20,dave,4624,login_success,TCP,51719,3389,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 09:14:04,192.168.1.5,10.0.0.30,admin,4624,login_success,TCP,55276,22,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 09:15:11,192.168.1.5,10.0.0.10,admin,4624,login_success,TCP,62538,3389,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 09:15:18,192.168.1.14,10.0.0.30,,5156,network_connection,UDP,59842,53,allow,allowed,Connection allowed from 192.168.1.14:59842 to 10.0.0.30:53
+2026-10-03 09:16:58,192.168.1.17,10.0.0.30,,5156,network_connection,TCP,52925,443,allow,allowed,Connection allowed from 192.168.1.17:52925 to 10.0.0.30:443
+2026-10-03 09:17:17,192.168.1.17,10.0.0.20,heidi,4624,login_success,TCP,57205,3389,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 09:18:07,192.168.1.17,10.0.0.40,heidi,4624,login_success,TCP,65273,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 09:19:00,192.168.1.10,10.0.0.20,alice,4634,logout,,,,logout,success,User alice logged off
+2026-10-03 09:20:41,192.168.1.11,10.0.0.40,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 09:20:59,192.168.1.13,10.0.0.30,,5156,network_connection,TCP,58459,445,allow,allowed,Connection allowed from 192.168.1.13:58459 to 10.0.0.30:445
+2026-10-03 09:21:14,192.168.1.15,10.0.0.30,,5156,network_connection,TCP,57916,8080,allow,allowed,Connection allowed from 192.168.1.15:57916 to 10.0.0.30:8080
+2026-10-03 09:22:39,192.168.1.17,10.0.0.20,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 09:23:19,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,54310,443,allow,allowed,Connection allowed from 192.168.1.15:54310 to 10.0.0.10:443
+2026-10-03 09:24:12,192.168.1.6,10.0.0.20,,5156,network_connection,TCP,62748,443,allow,allowed,Connection allowed from 192.168.1.6:62748 to 10.0.0.20:443
+2026-10-03 09:24:34,192.168.1.13,10.0.0.30,dave,4624,login_success,TCP,50538,3389,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 09:26:12,192.168.1.5,10.0.0.20,,5156,network_connection,TCP,49791,445,allow,allowed,Connection allowed from 192.168.1.5:49791 to 10.0.0.20:445
+2026-10-03 09:29:47,192.168.1.6,10.0.0.30,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 09:31:22,192.168.1.5,10.0.0.30,admin,4624,login_success,TCP,53311,3389,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 09:32:31,192.168.1.11,10.0.0.10,,5156,network_connection,TCP,54394,443,allow,allowed,Connection allowed from 192.168.1.11:54394 to 10.0.0.10:443
+2026-10-03 09:33:40,192.168.1.6,10.0.0.40,svc_backup,4624,login_success,TCP,57088,22,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 09:34:25,192.168.1.5,10.0.0.20,,5156,network_connection,TCP,49265,443,allow,allowed,Connection allowed from 192.168.1.5:49265 to 10.0.0.20:443
+2026-10-03 09:34:49,192.168.1.5,10.0.0.10,,5156,network_connection,UDP,49790,53,allow,allowed,Connection allowed from 192.168.1.5:49790 to 10.0.0.10:53
+2026-10-03 09:37:14,192.168.1.5,10.0.0.40,admin,4624,login_success,TCP,60410,22,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 09:37:16,192.168.1.10,10.0.0.10,,5156,network_connection,TCP,59430,443,allow,allowed,Connection allowed from 192.168.1.10:59430 to 10.0.0.10:443
+2026-10-03 09:38:09,192.168.1.11,10.0.0.20,bob,4625,login_failure,TCP,65343,3389,login,failure,Failed logon for bob from 192.168.1.11
+2026-10-03 09:39:08,192.168.1.13,10.0.0.20,,5156,network_connection,TCP,60647,445,allow,allowed,Connection allowed from 192.168.1.13:60647 to 10.0.0.20:445
+2026-10-03 09:39:24,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,53433,8080,allow,allowed,Connection allowed from 192.168.1.15:53433 to 10.0.0.10:8080
+2026-10-03 09:39:38,192.168.1.16,10.0.0.10,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 09:40:32,192.168.1.10,10.0.0.20,alice,4624,login_success,TCP,57614,22,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 09:42:42,192.168.1.11,10.0.0.30,bob,4624,login_success,TCP,49818,3389,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 09:43:37,192.168.1.16,10.0.0.10,,5156,network_connection,TCP,57227,443,allow,allowed,Connection allowed from 192.168.1.16:57227 to 10.0.0.10:443
+2026-10-03 09:43:59,192.168.1.17,10.0.0.10,heidi,4624,login_success,TCP,51949,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 09:45:13,192.168.1.11,10.0.0.40,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 09:45:47,192.168.1.16,10.0.0.40,grace,4624,login_success,TCP,51747,3389,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 09:46:04,192.168.1.5,10.0.0.10,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 09:46:43,192.168.1.15,10.0.0.40,,5156,network_connection,TCP,56682,80,allow,allowed,Connection allowed from 192.168.1.15:56682 to 10.0.0.40:80
+2026-10-03 09:47:26,192.168.1.5,10.0.0.10,,5156,network_connection,UDP,63841,53,allow,allowed,Connection allowed from 192.168.1.5:63841 to 10.0.0.10:53
+2026-10-03 09:48:44,192.168.1.11,10.0.0.10,,5156,network_connection,TCP,62717,445,allow,allowed,Connection allowed from 192.168.1.11:62717 to 10.0.0.10:445
+2026-10-03 09:50:19,192.168.1.6,10.0.0.30,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 09:51:29,192.168.1.5,10.0.0.30,admin,4625,login_failure,TCP,63654,3389,login,failure,Failed logon for admin from 192.168.1.5
+2026-10-03 09:51:36,192.168.1.14,10.0.0.10,erin,4625,login_failure,TCP,53033,3389,login,failure,Failed logon for erin from 192.168.1.14
+2026-10-03 09:55:02,192.168.1.14,10.0.0.30,,5156,network_connection,TCP,63111,443,allow,allowed,Connection allowed from 192.168.1.14:63111 to 10.0.0.30:443
+2026-10-03 09:57:34,192.168.1.13,10.0.0.30,,5156,network_connection,TCP,51657,8080,allow,allowed,Connection allowed from 192.168.1.13:51657 to 10.0.0.30:8080
+2026-10-03 09:59:58,192.168.1.10,10.0.0.40,,5156,network_connection,TCP,58637,443,allow,allowed,Connection allowed from 192.168.1.10:58637 to 10.0.0.40:443
+2026-10-03 10:00:02,192.168.1.6,10.0.0.40,,5156,network_connection,TCP,61321,443,allow,allowed,Connection allowed from 192.168.1.6:61321 to 10.0.0.40:443
+2026-10-03 10:00:16,192.168.1.16,10.0.0.20,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 10:05:57,192.168.1.11,10.0.0.20,,5156,network_connection,TCP,61735,445,allow,allowed,Connection allowed from 192.168.1.11:61735 to 10.0.0.20:445
+2026-10-03 10:07:08,192.168.1.11,10.0.0.40,bob,4624,login_success,TCP,63737,22,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 10:07:54,192.168.1.17,10.0.0.10,,5156,network_connection,TCP,49851,8080,allow,allowed,Connection allowed from 192.168.1.17:49851 to 10.0.0.10:8080
+2026-10-03 10:09:45,192.168.1.15,10.0.0.20,,5156,network_connection,TCP,62020,8080,allow,allowed,Connection allowed from 192.168.1.15:62020 to 10.0.0.20:8080
+2026-10-03 10:12:12,192.168.1.5,10.0.0.40,admin,4624,login_success,TCP,55164,3389,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 10:12:39,192.168.1.5,10.0.0.30,,5156,network_connection,TCP,62157,443,allow,allowed,Connection allowed from 192.168.1.5:62157 to 10.0.0.30:443
+2026-10-03 10:13:37,192.168.1.15,10.0.0.10,frank,4624,login_success,TCP,65368,3389,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 10:13:47,192.168.1.17,10.0.0.30,,5156,network_connection,TCP,58425,445,allow,allowed,Connection allowed from 192.168.1.17:58425 to 10.0.0.30:445
+2026-10-03 10:14:04,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,56368,443,allow,allowed,Connection allowed from 192.168.1.15:56368 to 10.0.0.10:443
+2026-10-03 10:15:47,192.168.1.14,10.0.0.40,,5156,network_connection,TCP,54742,443,allow,allowed,Connection allowed from 192.168.1.14:54742 to 10.0.0.40:443
+2026-10-03 10:16:25,192.168.1.12,10.0.0.30,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 10:16:42,192.168.1.12,10.0.0.40,,5156,network_connection,TCP,63867,80,allow,allowed,Connection allowed from 192.168.1.12:63867 to 10.0.0.40:80
+2026-10-03 10:18:36,192.168.1.14,10.0.0.20,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 10:19:07,192.168.1.12,10.0.0.30,,5156,network_connection,TCP,61881,445,allow,allowed,Connection allowed from 192.168.1.12:61881 to 10.0.0.30:445
+2026-10-03 10:21:38,192.168.1.12,10.0.0.30,,5156,network_connection,TCP,60469,443,allow,allowed,Connection allowed from 192.168.1.12:60469 to 10.0.0.30:443
+2026-10-03 10:22:14,192.168.1.14,10.0.0.40,,5156,network_connection,TCP,61331,443,allow,allowed,Connection allowed from 192.168.1.14:61331 to 10.0.0.40:443
+2026-10-03 10:23:18,192.168.1.12,10.0.0.40,,5156,network_connection,TCP,59064,8080,allow,allowed,Connection allowed from 192.168.1.12:59064 to 10.0.0.40:8080
+2026-10-03 10:23:43,192.168.1.6,10.0.0.40,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 10:24:54,192.168.1.17,10.0.0.10,heidi,4624,login_success,TCP,60914,3389,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 10:25:38,192.168.1.10,10.0.0.10,alice,4624,login_success,TCP,56073,22,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 10:26:21,192.168.1.17,10.0.0.40,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 10:26:56,192.168.1.5,10.0.0.40,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 10:27:50,192.168.1.6,10.0.0.30,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 10:31:40,192.168.1.6,10.0.0.10,,5156,network_connection,TCP,60984,80,allow,allowed,Connection allowed from 192.168.1.6:60984 to 10.0.0.10:80
+2026-10-03 10:32:07,192.168.1.16,10.0.0.30,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 10:32:29,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,64985,8080,allow,allowed,Connection allowed from 192.168.1.15:64985 to 10.0.0.10:8080
+2026-10-03 10:32:50,192.168.1.14,10.0.0.10,,5156,network_connection,UDP,62802,53,allow,allowed,Connection allowed from 192.168.1.14:62802 to 10.0.0.10:53
+2026-10-03 10:33:30,192.168.1.15,10.0.0.40,frank,4624,login_success,TCP,63977,3389,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 10:33:43,192.168.1.17,10.0.0.20,,5156,network_connection,TCP,62580,443,allow,allowed,Connection allowed from 192.168.1.17:62580 to 10.0.0.20:443
+2026-10-03 10:34:22,192.168.1.10,10.0.0.30,alice,4624,login_success,TCP,61481,3389,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 10:35:20,192.168.1.14,10.0.0.40,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 10:37:09,192.168.1.16,10.0.0.10,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 10:38:32,192.168.1.16,10.0.0.10,grace,4624,login_success,TCP,53642,3389,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 10:39:02,192.168.1.5,10.0.0.30,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 10:42:17,192.168.1.11,10.0.0.20,,5156,network_connection,TCP,54506,443,allow,allowed,Connection allowed from 192.168.1.11:54506 to 10.0.0.20:443
+2026-10-03 10:42:37,192.168.1.12,10.0.0.40,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 10:43:15,192.168.1.11,10.0.0.30,,5156,network_connection,UDP,54216,53,allow,allowed,Connection allowed from 192.168.1.11:54216 to 10.0.0.30:53
+2026-10-03 10:43:53,192.168.1.6,10.0.0.10,svc_backup,4625,login_failure,TCP,57983,22,login,failure,Failed logon for svc_backup from 192.168.1.6
+2026-10-03 10:44:56,192.168.1.15,10.0.0.30,frank,4624,login_success,TCP,61720,3389,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 10:45:28,192.168.1.17,10.0.0.20,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 10:46:26,192.168.1.17,10.0.0.20,,5156,network_connection,TCP,65235,8080,allow,allowed,Connection allowed from 192.168.1.17:65235 to 10.0.0.20:8080
+2026-10-03 10:47:05,192.168.1.16,10.0.0.10,,5156,network_connection,TCP,52445,8080,allow,allowed,Connection allowed from 192.168.1.16:52445 to 10.0.0.10:8080
+2026-10-03 10:47:47,192.168.1.15,10.0.0.20,frank,4634,logout,,,,logout,success,User frank logged off
+2026-10-03 10:48:18,192.168.1.15,10.0.0.30,,5156,network_connection,TCP,56761,80,allow,allowed,Connection allowed from 192.168.1.15:56761 to 10.0.0.30:80
+2026-10-03 10:48:49,192.168.1.12,10.0.0.20,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 10:50:30,192.168.1.16,10.0.0.20,grace,4624,login_success,TCP,63276,3389,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 10:51:12,192.168.1.12,10.0.0.10,carol,4624,login_success,TCP,64721,22,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 10:51:33,192.168.1.10,10.0.0.40,alice,4624,login_success,TCP,64392,3389,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 10:51:48,192.168.1.6,10.0.0.20,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 10:51:51,192.168.1.16,10.0.0.30,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 10:52:16,192.168.1.17,10.0.0.10,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 10:52:40,192.168.1.12,10.0.0.30,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 10:53:09,192.168.1.5,10.0.0.40,admin,4624,login_success,TCP,58592,22,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 10:53:54,192.168.1.15,10.0.0.20,frank,4624,login_success,TCP,57285,3389,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 10:55:10,192.168.1.12,10.0.0.40,carol,4624,login_success,TCP,60037,3389,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 10:56:53,192.168.1.13,10.0.0.10,dave,4624,login_success,TCP,64108,22,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 11:00:45,192.168.1.5,10.0.0.20,admin,4624,login_success,TCP,50938,3389,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 11:01:20,192.168.1.14,10.0.0.10,erin,4624,login_success,TCP,54726,3389,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 11:02:17,192.168.1.13,10.0.0.30,dave,4624,login_success,TCP,64137,3389,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 11:03:41,192.168.1.17,10.0.0.30,,5156,network_connection,TCP,53237,80,allow,allowed,Connection allowed from 192.168.1.17:53237 to 10.0.0.30:80
+2026-10-03 11:04:24,192.168.1.13,10.0.0.20,,5156,network_connection,UDP,60722,53,allow,allowed,Connection allowed from 192.168.1.13:60722 to 10.0.0.20:53
+2026-10-03 11:05:48,192.168.1.12,10.0.0.30,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 11:07:03,192.168.1.13,10.0.0.40,,5156,network_connection,TCP,64130,445,allow,allowed,Connection allowed from 192.168.1.13:64130 to 10.0.0.40:445
+2026-10-03 11:08:45,192.168.1.17,10.0.0.10,heidi,4624,login_success,TCP,54089,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 11:11:26,192.168.1.5,10.0.0.10,,5156,network_connection,TCP,58794,445,allow,allowed,Connection allowed from 192.168.1.5:58794 to 10.0.0.10:445
+2026-10-03 11:12:02,192.168.1.13,10.0.0.10,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 11:12:51,192.168.1.11,10.0.0.30,bob,4624,login_success,TCP,64189,3389,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 11:13:02,192.168.1.10,10.0.0.40,,5156,network_connection,TCP,62764,8080,allow,allowed,Connection allowed from 192.168.1.10:62764 to 10.0.0.40:8080
+2026-10-03 11:14:13,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,58194,8080,allow,allowed,Connection allowed from 192.168.1.15:58194 to 10.0.0.10:8080
+2026-10-03 11:14:38,192.168.1.13,10.0.0.40,,5156,network_connection,TCP,49304,445,allow,allowed,Connection allowed from 192.168.1.13:49304 to 10.0.0.40:445
+2026-10-03 11:18:38,192.168.1.13,10.0.0.30,dave,4624,login_success,TCP,57802,3389,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 11:21:19,192.168.1.6,10.0.0.10,svc_backup,4624,login_success,TCP,60933,22,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 11:21:35,192.168.1.6,10.0.0.20,,5156,network_connection,UDP,60415,53,allow,allowed,Connection allowed from 192.168.1.6:60415 to 10.0.0.20:53
+2026-10-03 11:24:11,192.168.1.5,10.0.0.40,admin,4624,login_success,TCP,56536,3389,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 11:24:26,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,60117,8080,allow,allowed,Connection allowed from 192.168.1.15:60117 to 10.0.0.10:8080
+2026-10-03 11:25:45,192.168.1.17,10.0.0.40,,5156,network_connection,TCP,51568,445,allow,allowed,Connection allowed from 192.168.1.17:51568 to 10.0.0.40:445
+2026-10-03 11:26:42,192.168.1.11,10.0.0.30,,5156,network_connection,TCP,53646,8080,allow,allowed,Connection allowed from 192.168.1.11:53646 to 10.0.0.30:8080
+2026-10-03 11:27:31,192.168.1.10,10.0.0.40,alice,4634,logout,,,,logout,success,User alice logged off
+2026-10-03 11:28:29,192.168.1.14,10.0.0.20,,5156,network_connection,TCP,51171,445,allow,allowed,Connection allowed from 192.168.1.14:51171 to 10.0.0.20:445
+2026-10-03 11:29:40,192.168.1.15,10.0.0.20,frank,4634,logout,,,,logout,success,User frank logged off
+2026-10-03 11:30:40,192.168.1.14,10.0.0.20,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 11:30:49,192.168.1.13,10.0.0.10,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 11:31:07,192.168.1.11,10.0.0.20,,5156,network_connection,TCP,61887,443,allow,allowed,Connection allowed from 192.168.1.11:61887 to 10.0.0.20:443
+2026-10-03 11:32:25,192.168.1.5,10.0.0.40,admin,4624,login_success,TCP,55414,3389,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 11:33:55,192.168.1.6,10.0.0.40,svc_backup,4625,login_failure,TCP,55743,3389,login,failure,Failed logon for svc_backup from 192.168.1.6
+2026-10-03 11:34:00,192.168.1.11,10.0.0.40,bob,4624,login_success,TCP,57818,3389,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 11:34:46,192.168.1.14,10.0.0.10,,5156,network_connection,TCP,63752,443,allow,allowed,Connection allowed from 192.168.1.14:63752 to 10.0.0.10:443
+2026-10-03 11:35:08,192.168.1.13,10.0.0.40,,5156,network_connection,UDP,54854,53,allow,allowed,Connection allowed from 192.168.1.13:54854 to 10.0.0.40:53
+2026-10-03 11:36:22,192.168.1.16,10.0.0.20,,5156,network_connection,TCP,53054,8080,allow,allowed,Connection allowed from 192.168.1.16:53054 to 10.0.0.20:8080
+2026-10-03 11:37:18,192.168.1.17,10.0.0.10,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 11:38:19,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,54222,443,allow,allowed,Connection allowed from 192.168.1.15:54222 to 10.0.0.10:443
+2026-10-03 11:41:14,192.168.1.17,10.0.0.30,heidi,4624,login_success,TCP,50793,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 11:45:36,192.168.1.11,10.0.0.40,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 11:46:26,192.168.1.6,10.0.0.10,svc_backup,4624,login_success,TCP,56078,3389,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 11:47:53,192.168.1.11,10.0.0.30,bob,4624,login_success,TCP,50778,22,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 11:48:50,192.168.1.12,10.0.0.30,,5156,network_connection,TCP,51184,443,allow,allowed,Connection allowed from 192.168.1.12:51184 to 10.0.0.30:443
+2026-10-03 11:49:06,192.168.1.6,10.0.0.10,svc_backup,4624,login_success,TCP,49236,22,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 11:49:23,192.168.1.12,10.0.0.10,,5156,network_connection,TCP,59344,443,allow,allowed,Connection allowed from 192.168.1.12:59344 to 10.0.0.10:443
+2026-10-03 11:49:24,192.168.1.5,10.0.0.40,admin,4625,login_failure,TCP,55695,22,login,failure,Failed logon for admin from 192.168.1.5
+2026-10-03 11:49:25,192.168.1.11,10.0.0.40,bob,4624,login_success,TCP,57346,3389,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 11:49:51,192.168.1.13,10.0.0.30,dave,4624,login_success,TCP,55382,3389,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 11:50:28,192.168.1.10,10.0.0.30,,5156,network_connection,TCP,58822,80,allow,allowed,Connection allowed from 192.168.1.10:58822 to 10.0.0.30:80
+2026-10-03 11:52:16,192.168.1.5,10.0.0.30,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 11:52:50,192.168.1.13,10.0.0.20,dave,4624,login_success,TCP,55480,3389,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 11:52:50,192.168.1.16,10.0.0.30,grace,4624,login_success,TCP,55699,22,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 11:53:23,192.168.1.12,10.0.0.30,,5156,network_connection,UDP,63745,53,allow,allowed,Connection allowed from 192.168.1.12:63745 to 10.0.0.30:53
+2026-10-03 11:54:07,192.168.1.11,10.0.0.20,,5156,network_connection,TCP,50473,443,allow,allowed,Connection allowed from 192.168.1.11:50473 to 10.0.0.20:443
+2026-10-03 11:54:10,192.168.1.12,10.0.0.30,,5156,network_connection,TCP,55737,80,allow,allowed,Connection allowed from 192.168.1.12:55737 to 10.0.0.30:80
+2026-10-03 11:55:02,192.168.1.17,10.0.0.30,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 11:56:38,192.168.1.14,10.0.0.10,,5156,network_connection,TCP,51957,443,allow,allowed,Connection allowed from 192.168.1.14:51957 to 10.0.0.10:443
+2026-10-03 11:57:58,192.168.1.10,10.0.0.10,,5156,network_connection,TCP,50596,443,allow,allowed,Connection allowed from 192.168.1.10:50596 to 10.0.0.10:443
+2026-10-03 12:00:11,192.168.1.12,10.0.0.40,carol,4624,login_success,TCP,50156,22,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 12:00:39,198.51.100.5,10.0.0.40,carol,4624,login_success,TCP,65458,22,login,success,Successful logon for carol from 198.51.100.5
+2026-10-03 12:01:09,192.168.1.10,10.0.0.10,alice,4624,login_success,TCP,52503,3389,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 12:03:31,192.168.1.6,10.0.0.20,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 12:07:51,192.168.1.5,10.0.0.30,,5156,network_connection,TCP,57348,445,allow,allowed,Connection allowed from 192.168.1.5:57348 to 10.0.0.30:445
+2026-10-03 12:07:54,203.0.113.157,10.0.0.40,carol,4624,login_success,TCP,56946,22,login,success,Successful logon for carol from 203.0.113.157
+2026-10-03 12:08:24,192.168.1.6,10.0.0.40,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 12:10:51,192.168.1.6,10.0.0.40,,5156,network_connection,TCP,52039,443,allow,allowed,Connection allowed from 192.168.1.6:52039 to 10.0.0.40:443
+2026-10-03 12:11:07,192.168.1.16,10.0.0.40,grace,4625,login_failure,TCP,58059,3389,login,failure,Failed logon for grace from 192.168.1.16
+2026-10-03 12:11:31,192.168.1.16,10.0.0.20,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 12:12:45,198.51.100.118,10.0.0.40,carol,4624,login_success,TCP,63631,22,login,success,Successful logon for carol from 198.51.100.118
+2026-10-03 12:15:24,192.168.1.11,10.0.0.30,bob,4624,login_success,TCP,59594,22,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 12:15:41,192.168.1.10,10.0.0.20,alice,4624,login_success,TCP,58193,3389,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 12:16:20,192.168.1.11,10.0.0.40,,5156,network_connection,TCP,64290,80,allow,allowed,Connection allowed from 192.168.1.11:64290 to 10.0.0.40:80
+2026-10-03 12:16:23,192.168.1.15,10.0.0.30,frank,4634,logout,,,,logout,success,User frank logged off
+2026-10-03 12:16:25,203.0.113.64,10.0.0.30,carol,4624,login_success,TCP,55955,22,login,success,Successful logon for carol from 203.0.113.64
+2026-10-03 12:17:55,192.168.1.11,10.0.0.30,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 12:19:50,203.0.113.39,10.0.0.10,carol,4624,login_success,TCP,60588,22,login,success,Successful logon for carol from 203.0.113.39
+2026-10-03 12:19:58,192.168.1.10,10.0.0.20,,5156,network_connection,TCP,52996,8080,allow,allowed,Connection allowed from 192.168.1.10:52996 to 10.0.0.20:8080
+2026-10-03 12:20:12,192.168.1.17,10.0.0.10,heidi,4624,login_success,TCP,65191,3389,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 12:20:42,192.168.1.11,10.0.0.20,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 12:22:08,192.168.1.13,10.0.0.10,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 12:22:12,192.168.1.15,10.0.0.30,,5156,network_connection,TCP,59140,80,allow,allowed,Connection allowed from 192.168.1.15:59140 to 10.0.0.30:80
+2026-10-03 12:22:13,192.168.1.6,10.0.0.30,svc_backup,4624,login_success,TCP,55383,3389,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 12:22:53,192.168.1.14,10.0.0.30,,5156,network_connection,TCP,54531,80,allow,allowed,Connection allowed from 192.168.1.14:54531 to 10.0.0.30:80
+2026-10-03 12:22:57,192.168.1.17,10.0.0.30,,5156,network_connection,TCP,61362,80,allow,allowed,Connection allowed from 192.168.1.17:61362 to 10.0.0.30:80
+2026-10-03 12:23:27,192.168.1.12,10.0.0.20,,5156,network_connection,TCP,55052,445,allow,allowed,Connection allowed from 192.168.1.12:55052 to 10.0.0.20:445
+2026-10-03 12:26:48,192.168.1.16,10.0.0.30,,5156,network_connection,TCP,56161,445,allow,allowed,Connection allowed from 192.168.1.16:56161 to 10.0.0.30:445
+2026-10-03 12:27:20,192.168.1.12,10.0.0.20,carol,4624,login_success,TCP,51912,22,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 12:28:17,192.168.1.13,10.0.0.10,,5156,network_connection,TCP,52722,443,allow,allowed,Connection allowed from 192.168.1.13:52722 to 10.0.0.10:443
+2026-10-03 12:29:45,192.168.1.12,10.0.0.10,carol,4624,login_success,TCP,59723,22,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 12:30:08,192.168.1.11,10.0.0.40,bob,4672,privilege_assigned,,,,assign_privileges,success,Special privileges assigned to bob
+2026-10-03 12:30:22,192.168.1.5,10.0.0.30,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 12:30:35,192.168.1.11,10.0.0.40,bob,4732,group_member_added,,,,add_to_group,success,Member bob was added to a privileged group
+2026-10-03 12:31:01,192.168.1.11,10.0.0.20,bob,,sudo_command,,,,sudo,success,bob ran a command as root via sudo
+2026-10-03 12:31:33,192.168.1.11,10.0.0.20,bob,,sudo_command,,,,sudo,success,bob ran a command as root via sudo
+2026-10-03 12:31:50,192.168.1.17,10.0.0.10,,5156,network_connection,TCP,63566,443,allow,allowed,Connection allowed from 192.168.1.17:63566 to 10.0.0.10:443
+2026-10-03 12:32:02,192.168.1.11,10.0.0.10,bob,,sudo_command,,,,sudo,success,bob ran a command as root via sudo
+2026-10-03 12:37:51,192.168.1.6,10.0.0.10,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 12:38:30,192.168.1.5,10.0.0.20,admin,4625,login_failure,TCP,63914,22,login,failure,Failed logon for admin from 192.168.1.5
+2026-10-03 12:38:45,192.168.1.11,10.0.0.20,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 12:40:45,192.168.1.17,10.0.0.10,,5156,network_connection,TCP,58568,443,allow,allowed,Connection allowed from 192.168.1.17:58568 to 10.0.0.10:443
+2026-10-03 12:42:25,192.168.1.16,10.0.0.20,,5156,network_connection,TCP,51400,8080,allow,allowed,Connection allowed from 192.168.1.16:51400 to 10.0.0.20:8080
+2026-10-03 12:43:59,192.168.1.6,10.0.0.10,svc_backup,4624,login_success,TCP,62704,3389,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 12:44:15,192.168.1.10,10.0.0.40,,5156,network_connection,TCP,49814,443,allow,allowed,Connection allowed from 192.168.1.10:49814 to 10.0.0.40:443
+2026-10-03 12:45:11,192.168.1.15,10.0.0.10,frank,4624,login_success,TCP,53793,22,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 12:45:12,192.168.1.14,10.0.0.30,,5156,network_connection,TCP,62159,445,allow,allowed,Connection allowed from 192.168.1.14:62159 to 10.0.0.30:445
+2026-10-03 12:45:26,192.168.1.14,10.0.0.20,erin,4624,login_success,TCP,65416,22,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 12:46:07,192.168.1.17,10.0.0.40,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 12:46:08,192.168.1.14,10.0.0.10,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 12:46:29,192.168.1.14,10.0.0.20,erin,4624,login_success,TCP,54231,3389,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 12:47:26,192.168.1.12,10.0.0.20,carol,4624,login_success,TCP,61140,3389,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 12:47:30,192.168.1.16,10.0.0.40,grace,4625,login_failure,TCP,54136,3389,login,failure,Failed logon for grace from 192.168.1.16
+2026-10-03 12:49:19,192.168.1.17,10.0.0.10,heidi,4624,login_success,TCP,51838,3389,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 12:52:50,192.168.1.14,10.0.0.30,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 12:55:12,192.168.1.13,10.0.0.40,dave,4624,login_success,TCP,62612,22,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 12:55:45,192.168.1.12,10.0.0.10,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 12:55:49,192.168.1.10,10.0.0.30,alice,4624,login_success,TCP,61211,3389,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 12:56:24,192.168.1.15,10.0.0.20,frank,4634,logout,,,,logout,success,User frank logged off
+2026-10-03 12:59:01,192.168.1.16,10.0.0.10,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 12:59:39,192.168.1.15,10.0.0.20,frank,4634,logout,,,,logout,success,User frank logged off
+2026-10-03 12:59:50,192.168.1.5,10.0.0.30,,5156,network_connection,TCP,58935,443,allow,allowed,Connection allowed from 192.168.1.5:58935 to 10.0.0.30:443
+2026-10-03 12:59:51,192.168.1.5,10.0.0.30,,5156,network_connection,TCP,63062,8080,allow,allowed,Connection allowed from 192.168.1.5:63062 to 10.0.0.30:8080
+2026-10-03 13:02:36,192.168.1.13,10.0.0.20,dave,4624,login_success,TCP,62835,3389,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 13:03:12,192.168.1.5,10.0.0.30,,5156,network_connection,UDP,63636,53,allow,allowed,Connection allowed from 192.168.1.5:63636 to 10.0.0.30:53
+2026-10-03 13:06:47,192.168.1.15,10.0.0.20,,5156,network_connection,TCP,59953,445,allow,allowed,Connection allowed from 192.168.1.15:59953 to 10.0.0.20:445
+2026-10-03 13:07:18,192.168.1.6,10.0.0.40,,5156,network_connection,TCP,50640,443,allow,allowed,Connection allowed from 192.168.1.6:50640 to 10.0.0.40:443
+2026-10-03 13:07:22,192.168.1.6,10.0.0.20,,5156,network_connection,TCP,54871,8080,allow,allowed,Connection allowed from 192.168.1.6:54871 to 10.0.0.20:8080
+2026-10-03 13:07:35,192.168.1.14,10.0.0.40,,5156,network_connection,TCP,49456,443,allow,allowed,Connection allowed from 192.168.1.14:49456 to 10.0.0.40:443
+2026-10-03 13:07:56,192.168.1.6,10.0.0.20,,5156,network_connection,TCP,51838,80,allow,allowed,Connection allowed from 192.168.1.6:51838 to 10.0.0.20:80
+2026-10-03 13:08:02,192.168.1.14,10.0.0.30,,5156,network_connection,TCP,60876,80,allow,allowed,Connection allowed from 192.168.1.14:60876 to 10.0.0.30:80
+2026-10-03 13:08:48,192.168.1.15,10.0.0.10,frank,4634,logout,,,,logout,success,User frank logged off
+2026-10-03 13:09:26,192.168.1.13,10.0.0.40,,5156,network_connection,TCP,64605,445,allow,allowed,Connection allowed from 192.168.1.13:64605 to 10.0.0.40:445
+2026-10-03 13:10:00,192.168.1.15,10.0.0.20,,5156,network_connection,TCP,63442,8080,allow,allowed,Connection allowed from 192.168.1.15:63442 to 10.0.0.20:8080
+2026-10-03 13:10:11,192.168.1.10,10.0.0.20,,5156,network_connection,TCP,57397,8080,allow,allowed,Connection allowed from 192.168.1.10:57397 to 10.0.0.20:8080
+2026-10-03 13:12:09,192.168.1.12,10.0.0.40,,5156,network_connection,TCP,62964,443,allow,allowed,Connection allowed from 192.168.1.12:62964 to 10.0.0.40:443
+2026-10-03 13:12:44,192.168.1.12,10.0.0.30,carol,4624,login_success,TCP,58131,22,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 13:15:09,192.168.1.10,10.0.0.10,,5156,network_connection,TCP,54915,443,allow,allowed,Connection allowed from 192.168.1.10:54915 to 10.0.0.10:443
+2026-10-03 13:15:16,192.168.1.13,10.0.0.30,,5156,network_connection,UDP,61311,53,allow,allowed,Connection allowed from 192.168.1.13:61311 to 10.0.0.30:53
+2026-10-03 13:18:50,192.168.1.16,10.0.0.20,grace,4624,login_success,TCP,51856,3389,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 13:19:17,192.168.1.10,10.0.0.20,,5156,network_connection,UDP,65392,53,allow,allowed,Connection allowed from 192.168.1.10:65392 to 10.0.0.20:53
+2026-10-03 13:23:40,192.168.1.17,10.0.0.20,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 13:23:57,192.168.1.14,10.0.0.40,erin,4672,privilege_assigned,,,,assign_privileges,success,Special privileges assigned to erin
+2026-10-03 13:24:05,192.168.1.5,10.0.0.20,,5156,network_connection,TCP,53039,443,allow,allowed,Connection allowed from 192.168.1.5:53039 to 10.0.0.20:443
+2026-10-03 13:24:08,192.168.1.11,10.0.0.10,bob,4624,login_success,TCP,62907,22,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 13:24:41,192.168.1.14,10.0.0.40,erin,4728,group_member_added,,,,add_to_group,success,Member erin was added to a privileged group
+2026-10-03 13:24:49,192.168.1.11,10.0.0.20,,5156,network_connection,TCP,61627,443,allow,allowed,Connection allowed from 192.168.1.11:61627 to 10.0.0.20:443
+2026-10-03 13:26:29,192.168.1.10,10.0.0.10,alice,4624,login_success,TCP,60270,22,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 13:26:59,192.168.1.11,10.0.0.20,,5156,network_connection,TCP,49526,445,allow,allowed,Connection allowed from 192.168.1.11:49526 to 10.0.0.20:445
+2026-10-03 13:29:49,192.168.1.6,10.0.0.20,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 13:30:31,192.168.1.14,10.0.0.10,,5156,network_connection,UDP,55210,53,allow,allowed,Connection allowed from 192.168.1.14:55210 to 10.0.0.10:53
+2026-10-03 13:31:30,192.168.1.13,10.0.0.40,,5156,network_connection,TCP,61570,443,allow,allowed,Connection allowed from 192.168.1.13:61570 to 10.0.0.40:443
+2026-10-03 13:31:38,192.168.1.17,10.0.0.40,heidi,4624,login_success,TCP,52881,3389,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 13:32:03,192.168.1.14,10.0.0.30,,5156,network_connection,TCP,50170,443,allow,allowed,Connection allowed from 192.168.1.14:50170 to 10.0.0.30:443
+2026-10-03 13:34:47,192.168.1.5,10.0.0.20,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 13:35:20,192.168.1.14,10.0.0.40,,5156,network_connection,TCP,62901,80,allow,allowed,Connection allowed from 192.168.1.14:62901 to 10.0.0.40:80
+2026-10-03 13:37:36,192.168.1.10,10.0.0.10,,5156,network_connection,TCP,64280,443,allow,allowed,Connection allowed from 192.168.1.10:64280 to 10.0.0.10:443
+2026-10-03 13:38:08,192.168.1.6,10.0.0.40,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 13:38:09,192.168.1.6,10.0.0.20,,5156,network_connection,TCP,57819,445,allow,allowed,Connection allowed from 192.168.1.6:57819 to 10.0.0.20:445
+2026-10-03 13:38:32,192.168.1.11,10.0.0.40,,5156,network_connection,TCP,57498,443,allow,allowed,Connection allowed from 192.168.1.11:57498 to 10.0.0.40:443
+2026-10-03 13:38:33,192.168.1.14,10.0.0.40,,5156,network_connection,UDP,52401,53,allow,allowed,Connection allowed from 192.168.1.14:52401 to 10.0.0.40:53
+2026-10-03 13:39:18,192.168.1.17,10.0.0.20,,5156,network_connection,TCP,60207,8080,allow,allowed,Connection allowed from 192.168.1.17:60207 to 10.0.0.20:8080
+2026-10-03 13:40:39,192.168.1.6,10.0.0.40,,5156,network_connection,TCP,51744,80,allow,allowed,Connection allowed from 192.168.1.6:51744 to 10.0.0.40:80
+2026-10-03 13:41:06,192.168.1.17,10.0.0.40,,5156,network_connection,TCP,50224,443,allow,allowed,Connection allowed from 192.168.1.17:50224 to 10.0.0.40:443
+2026-10-03 13:42:37,192.168.1.6,10.0.0.30,,5156,network_connection,TCP,59447,443,allow,allowed,Connection allowed from 192.168.1.6:59447 to 10.0.0.30:443
+2026-10-03 13:42:41,192.168.1.15,10.0.0.40,,5156,network_connection,UDP,53117,53,allow,allowed,Connection allowed from 192.168.1.15:53117 to 10.0.0.40:53
+2026-10-03 13:43:19,192.168.1.15,10.0.0.20,,5156,network_connection,TCP,53154,80,allow,allowed,Connection allowed from 192.168.1.15:53154 to 10.0.0.20:80
+2026-10-03 13:43:47,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,64767,443,allow,allowed,Connection allowed from 192.168.1.15:64767 to 10.0.0.10:443
+2026-10-03 13:44:08,192.168.1.17,10.0.0.10,heidi,4624,login_success,TCP,52079,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 13:44:25,192.168.1.11,10.0.0.20,bob,4624,login_success,TCP,59307,22,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 13:47:02,192.168.1.6,10.0.0.20,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 13:47:28,192.168.1.16,10.0.0.30,grace,4625,login_failure,TCP,65411,3389,login,failure,Failed logon for grace from 192.168.1.16
+2026-10-03 13:49:35,192.168.1.14,10.0.0.30,erin,4625,login_failure,TCP,63815,3389,login,failure,Failed logon for erin from 192.168.1.14
+2026-10-03 13:50:45,192.168.1.15,10.0.0.40,,5156,network_connection,UDP,60425,53,allow,allowed,Connection allowed from 192.168.1.15:60425 to 10.0.0.40:53
+2026-10-03 13:52:13,192.168.1.17,10.0.0.30,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 13:53:30,192.168.1.17,10.0.0.20,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 13:53:57,192.168.1.11,10.0.0.10,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 13:54:06,192.168.1.13,10.0.0.40,,5156,network_connection,TCP,51729,445,allow,allowed,Connection allowed from 192.168.1.13:51729 to 10.0.0.40:445
+2026-10-03 13:54:28,192.168.1.5,10.0.0.20,admin,4624,login_success,TCP,52491,22,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 13:55:19,192.168.1.15,10.0.0.20,frank,4634,logout,,,,logout,success,User frank logged off
+2026-10-03 13:55:39,192.168.1.16,10.0.0.20,grace,4625,login_failure,TCP,54385,3389,login,failure,Failed logon for grace from 192.168.1.16
+2026-10-03 13:56:43,192.168.1.12,10.0.0.30,carol,4625,login_failure,TCP,65214,3389,login,failure,Failed logon for carol from 192.168.1.12
+2026-10-03 13:57:24,192.168.1.15,10.0.0.40,frank,4624,login_success,TCP,64444,3389,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 14:00:16,192.168.1.13,10.0.0.20,,5156,network_connection,TCP,57562,443,allow,allowed,Connection allowed from 192.168.1.13:57562 to 10.0.0.20:443
+2026-10-03 14:00:46,192.168.1.14,10.0.0.20,,5156,network_connection,TCP,58931,80,allow,allowed,Connection allowed from 192.168.1.14:58931 to 10.0.0.20:80
+2026-10-03 14:02:18,192.168.1.13,10.0.0.30,,5156,network_connection,TCP,54637,80,allow,allowed,Connection allowed from 192.168.1.13:54637 to 10.0.0.30:80
+2026-10-03 14:02:40,192.168.1.16,10.0.0.30,grace,4624,login_success,TCP,49684,3389,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 14:04:09,192.168.1.13,10.0.0.40,dave,4625,login_failure,TCP,61137,22,login,failure,Failed logon for dave from 192.168.1.13
+2026-10-03 14:06:08,192.168.1.14,10.0.0.10,,5156,network_connection,TCP,61600,443,allow,allowed,Connection allowed from 192.168.1.14:61600 to 10.0.0.10:443
+2026-10-03 14:06:39,192.168.1.5,10.0.0.20,,5156,network_connection,TCP,61895,445,allow,allowed,Connection allowed from 192.168.1.5:61895 to 10.0.0.20:445
+2026-10-03 14:07:17,192.168.1.17,10.0.0.20,heidi,4624,login_success,TCP,50810,3389,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 14:07:44,192.168.1.5,10.0.0.40,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 14:08:32,192.168.1.16,10.0.0.40,,5156,network_connection,TCP,64303,445,allow,allowed,Connection allowed from 192.168.1.16:64303 to 10.0.0.40:445
+2026-10-03 14:08:47,192.168.1.14,10.0.0.20,,5156,network_connection,TCP,52078,443,allow,allowed,Connection allowed from 192.168.1.14:52078 to 10.0.0.20:443
+2026-10-03 14:08:52,192.168.1.16,10.0.0.10,grace,4624,login_success,TCP,55571,22,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 14:08:57,192.168.1.5,10.0.0.30,,5156,network_connection,TCP,57375,443,allow,allowed,Connection allowed from 192.168.1.5:57375 to 10.0.0.30:443
+2026-10-03 14:09:36,192.168.1.14,10.0.0.40,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 14:10:44,192.168.1.14,10.0.0.10,erin,4624,login_success,TCP,50990,3389,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 14:10:46,192.168.1.15,10.0.0.20,frank,4624,login_success,TCP,65153,22,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 14:11:43,192.168.1.11,10.0.0.20,bob,4625,login_failure,TCP,53062,3389,login,failure,Failed logon for bob from 192.168.1.11
+2026-10-03 14:13:21,192.168.1.16,10.0.0.30,,5156,network_connection,UDP,61321,53,allow,allowed,Connection allowed from 192.168.1.16:61321 to 10.0.0.30:53
+2026-10-03 14:14:34,192.168.1.13,10.0.0.10,dave,4624,login_success,TCP,58630,22,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 14:14:51,192.168.1.16,10.0.0.20,grace,4624,login_success,TCP,63312,3389,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 14:15:48,192.168.1.17,10.0.0.40,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 14:15:55,192.168.1.11,10.0.0.40,,5156,network_connection,TCP,52360,445,allow,allowed,Connection allowed from 192.168.1.11:52360 to 10.0.0.40:445
+2026-10-03 14:19:55,192.168.1.6,10.0.0.40,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 14:20:11,192.168.1.16,10.0.0.30,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 14:22:09,192.168.1.14,10.0.0.20,,5156,network_connection,TCP,52849,8080,allow,allowed,Connection allowed from 192.168.1.14:52849 to 10.0.0.20:8080
+2026-10-03 14:22:21,192.168.1.5,10.0.0.40,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 14:22:37,192.168.1.14,10.0.0.40,,5156,network_connection,UDP,59051,53,allow,allowed,Connection allowed from 192.168.1.14:59051 to 10.0.0.40:53
+2026-10-03 14:22:46,192.168.1.13,10.0.0.20,,5156,network_connection,TCP,63648,445,allow,allowed,Connection allowed from 192.168.1.13:63648 to 10.0.0.20:445
+2026-10-03 14:23:42,192.168.1.5,10.0.0.40,,5156,network_connection,TCP,54215,8080,allow,allowed,Connection allowed from 192.168.1.5:54215 to 10.0.0.40:8080
+2026-10-03 14:24:00,192.168.1.10,10.0.0.20,,5156,network_connection,TCP,59710,80,allow,allowed,Connection allowed from 192.168.1.10:59710 to 10.0.0.20:80
+2026-10-03 14:24:17,192.168.1.5,10.0.0.20,,5156,network_connection,TCP,56657,80,allow,allowed,Connection allowed from 192.168.1.5:56657 to 10.0.0.20:80
+2026-10-03 14:24:25,192.168.1.10,10.0.0.40,alice,4624,login_success,TCP,56356,22,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 14:26:45,192.168.1.17,10.0.0.40,heidi,4624,login_success,TCP,50163,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 14:26:56,192.168.1.6,10.0.0.20,,5156,network_connection,UDP,65351,53,allow,allowed,Connection allowed from 192.168.1.6:65351 to 10.0.0.20:53
+2026-10-03 14:26:56,192.168.1.5,10.0.0.40,admin,4624,login_success,TCP,58319,3389,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 14:30:28,192.168.1.15,10.0.0.20,frank,4625,login_failure,TCP,57425,3389,login,failure,Failed logon for frank from 192.168.1.15
+2026-10-03 14:31:20,192.168.1.6,10.0.0.10,,5156,network_connection,TCP,52204,8080,allow,allowed,Connection allowed from 192.168.1.6:52204 to 10.0.0.10:8080
+2026-10-03 14:32:32,192.168.1.11,10.0.0.40,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 14:34:00,192.168.1.17,10.0.0.40,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 14:35:18,192.168.1.5,10.0.0.40,admin,4624,login_success,TCP,55267,3389,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 14:39:11,192.168.1.14,10.0.0.10,,5156,network_connection,TCP,53014,443,allow,allowed,Connection allowed from 192.168.1.14:53014 to 10.0.0.10:443
+2026-10-03 14:40:25,192.168.1.16,10.0.0.30,grace,4624,login_success,TCP,53028,22,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 14:40:34,192.168.1.12,10.0.0.20,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 14:41:34,192.168.1.5,10.0.0.40,,5156,network_connection,TCP,64488,443,allow,allowed,Connection allowed from 192.168.1.5:64488 to 10.0.0.40:443
+2026-10-03 14:42:07,192.168.1.6,10.0.0.20,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 14:43:13,192.168.1.5,10.0.0.40,,5156,network_connection,TCP,54712,8080,allow,allowed,Connection allowed from 192.168.1.5:54712 to 10.0.0.40:8080
+2026-10-03 14:44:19,192.168.1.16,10.0.0.30,,5156,network_connection,UDP,63496,53,allow,allowed,Connection allowed from 192.168.1.16:63496 to 10.0.0.30:53
+2026-10-03 14:44:50,192.168.1.10,10.0.0.30,alice,4624,login_success,TCP,53939,22,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 14:45:21,192.168.1.10,10.0.0.10,alice,4624,login_success,TCP,54984,3389,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 14:50:01,192.168.1.11,10.0.0.30,bob,4624,login_success,TCP,57124,3389,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 14:51:08,192.168.1.12,10.0.0.40,,5156,network_connection,TCP,58946,8080,allow,allowed,Connection allowed from 192.168.1.12:58946 to 10.0.0.40:8080
+2026-10-03 14:52:57,192.168.1.6,10.0.0.10,,5156,network_connection,TCP,50376,443,allow,allowed,Connection allowed from 192.168.1.6:50376 to 10.0.0.10:443
+2026-10-03 14:54:20,192.168.1.12,10.0.0.40,carol,4624,login_success,TCP,57617,3389,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 14:54:44,192.168.1.11,10.0.0.20,bob,4624,login_success,TCP,63671,3389,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 14:56:02,192.168.1.10,10.0.0.30,alice,4624,login_success,TCP,58113,3389,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 14:57:56,192.168.1.6,10.0.0.30,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 14:58:31,192.168.1.11,10.0.0.40,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 15:00:07,192.168.1.11,10.0.0.20,,5156,network_connection,TCP,54004,443,allow,allowed,Connection allowed from 192.168.1.11:54004 to 10.0.0.20:443
+2026-10-03 15:00:24,192.168.1.13,10.0.0.30,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 15:01:55,192.168.1.10,10.0.0.40,,5156,network_connection,TCP,54827,8080,allow,allowed,Connection allowed from 192.168.1.10:54827 to 10.0.0.40:8080
+2026-10-03 15:04:36,192.168.1.13,10.0.0.30,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 15:05:08,192.168.1.12,10.0.0.20,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 15:05:38,192.168.1.6,10.0.0.30,,5156,network_connection,TCP,58715,80,allow,allowed,Connection allowed from 192.168.1.6:58715 to 10.0.0.30:80
+2026-10-03 15:06:01,192.168.1.16,10.0.0.20,grace,4624,login_success,TCP,51006,22,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 15:06:06,192.168.1.13,10.0.0.40,dave,4624,login_success,TCP,57303,22,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 15:06:18,192.168.1.14,10.0.0.10,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 15:07:16,192.168.1.14,10.0.0.40,erin,4624,login_success,TCP,58509,3389,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 15:09:53,192.168.1.16,10.0.0.10,,5156,network_connection,TCP,63934,443,allow,allowed,Connection allowed from 192.168.1.16:63934 to 10.0.0.10:443
+2026-10-03 15:14:41,192.168.1.12,10.0.0.30,,5156,network_connection,TCP,51106,80,allow,allowed,Connection allowed from 192.168.1.12:51106 to 10.0.0.30:80
+2026-10-03 15:16:24,192.168.1.13,10.0.0.40,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 15:16:51,192.168.1.12,10.0.0.10,,5156,network_connection,TCP,53470,80,allow,allowed,Connection allowed from 192.168.1.12:53470 to 10.0.0.10:80
+2026-10-03 15:17:38,192.168.1.5,10.0.0.20,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 15:18:04,192.168.1.16,10.0.0.40,,5156,network_connection,TCP,53045,443,allow,allowed,Connection allowed from 192.168.1.16:53045 to 10.0.0.40:443
+2026-10-03 15:18:53,192.168.1.6,10.0.0.30,,5156,network_connection,TCP,51431,8080,allow,allowed,Connection allowed from 192.168.1.6:51431 to 10.0.0.30:8080
+2026-10-03 15:19:11,192.168.1.17,10.0.0.10,heidi,4624,login_success,TCP,56774,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 15:19:14,192.168.1.14,10.0.0.30,,5156,network_connection,TCP,65175,8080,allow,allowed,Connection allowed from 192.168.1.14:65175 to 10.0.0.30:8080
+2026-10-03 15:19:42,192.168.1.16,10.0.0.30,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 15:19:54,192.168.1.12,10.0.0.20,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 15:21:42,192.168.1.12,10.0.0.40,,5156,network_connection,TCP,59790,443,allow,allowed,Connection allowed from 192.168.1.12:59790 to 10.0.0.40:443
+2026-10-03 15:22:08,192.168.1.5,10.0.0.20,,5156,network_connection,TCP,63328,443,allow,allowed,Connection allowed from 192.168.1.5:63328 to 10.0.0.20:443
+2026-10-03 15:24:20,192.168.1.12,10.0.0.40,,5156,network_connection,TCP,60761,443,allow,allowed,Connection allowed from 192.168.1.12:60761 to 10.0.0.40:443
+2026-10-03 15:25:38,192.168.1.6,10.0.0.10,,5156,network_connection,TCP,58440,8080,allow,allowed,Connection allowed from 192.168.1.6:58440 to 10.0.0.10:8080
+2026-10-03 15:25:43,192.168.1.5,10.0.0.30,,5156,network_connection,TCP,57711,80,allow,allowed,Connection allowed from 192.168.1.5:57711 to 10.0.0.30:80
+2026-10-03 15:26:05,192.168.1.13,10.0.0.10,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 15:26:16,192.168.1.13,10.0.0.10,,5156,network_connection,TCP,53013,80,allow,allowed,Connection allowed from 192.168.1.13:53013 to 10.0.0.10:80
+2026-10-03 15:26:23,192.168.1.10,10.0.0.40,alice,4624,login_success,TCP,64950,3389,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 15:28:08,192.168.1.5,10.0.0.20,,5156,network_connection,UDP,63405,53,allow,allowed,Connection allowed from 192.168.1.5:63405 to 10.0.0.20:53
+2026-10-03 15:28:33,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,51175,80,allow,allowed,Connection allowed from 192.168.1.15:51175 to 10.0.0.10:80
+2026-10-03 15:28:57,192.168.1.12,10.0.0.40,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 15:29:26,192.168.1.10,10.0.0.20,,5156,network_connection,UDP,49792,53,allow,allowed,Connection allowed from 192.168.1.10:49792 to 10.0.0.20:53
+2026-10-03 15:29:31,192.168.1.14,10.0.0.40,erin,4624,login_success,TCP,62037,3389,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 15:30:03,192.168.1.10,10.0.0.20,alice,4624,login_success,TCP,63370,3389,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 15:32:07,192.168.1.6,10.0.0.10,svc_backup,4624,login_success,TCP,61173,22,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 15:32:35,192.168.1.6,10.0.0.20,svc_backup,4624,login_success,TCP,64237,3389,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 15:34:00,192.168.1.14,10.0.0.20,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 15:35:13,192.168.1.17,10.0.0.30,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 15:38:38,192.168.1.6,10.0.0.30,,5156,network_connection,TCP,50030,8080,allow,allowed,Connection allowed from 192.168.1.6:50030 to 10.0.0.30:8080
+2026-10-03 15:39:44,192.168.1.6,10.0.0.30,svc_backup,4624,login_success,TCP,56384,22,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 15:40:40,192.168.1.5,10.0.0.30,,5156,network_connection,UDP,56594,53,allow,allowed,Connection allowed from 192.168.1.5:56594 to 10.0.0.30:53
+2026-10-03 15:41:03,192.168.1.5,10.0.0.10,,5156,network_connection,TCP,50741,80,allow,allowed,Connection allowed from 192.168.1.5:50741 to 10.0.0.10:80
+2026-10-03 15:41:10,192.168.1.6,10.0.0.20,svc_backup,4624,login_success,TCP,60215,22,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 15:41:24,192.168.1.16,10.0.0.20,grace,4624,login_success,TCP,63707,3389,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 15:41:38,192.168.1.6,10.0.0.30,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 15:41:43,192.168.1.15,10.0.0.30,,5156,network_connection,UDP,65227,53,allow,allowed,Connection allowed from 192.168.1.15:65227 to 10.0.0.30:53
+2026-10-03 15:43:55,192.168.1.17,10.0.0.20,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 15:47:33,192.168.1.5,10.0.0.20,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 15:47:35,192.168.1.16,10.0.0.10,,5156,network_connection,TCP,60881,445,allow,allowed,Connection allowed from 192.168.1.16:60881 to 10.0.0.10:445
+2026-10-03 15:47:46,192.168.1.10,10.0.0.20,alice,4634,logout,,,,logout,success,User alice logged off
+2026-10-03 15:49:34,192.168.1.5,10.0.0.10,,5156,network_connection,TCP,53446,445,allow,allowed,Connection allowed from 192.168.1.5:53446 to 10.0.0.10:445
+2026-10-03 15:50:41,192.168.1.15,10.0.0.40,,5156,network_connection,TCP,61530,80,allow,allowed,Connection allowed from 192.168.1.15:61530 to 10.0.0.40:80
+2026-10-03 15:50:47,192.168.1.10,10.0.0.40,,5156,network_connection,TCP,55320,445,allow,allowed,Connection allowed from 192.168.1.10:55320 to 10.0.0.40:445
+2026-10-03 15:51:27,192.168.1.17,10.0.0.10,,5156,network_connection,UDP,54879,53,allow,allowed,Connection allowed from 192.168.1.17:54879 to 10.0.0.10:53
+2026-10-03 15:52:50,192.168.1.10,10.0.0.20,,5156,network_connection,UDP,60778,53,allow,allowed,Connection allowed from 192.168.1.10:60778 to 10.0.0.20:53
+2026-10-03 15:54:36,192.168.1.10,10.0.0.40,alice,4624,login_success,TCP,54504,22,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 15:55:23,192.168.1.11,10.0.0.30,,5156,network_connection,TCP,62114,8080,allow,allowed,Connection allowed from 192.168.1.11:62114 to 10.0.0.30:8080
+2026-10-03 15:56:24,192.168.1.16,10.0.0.20,grace,4624,login_success,TCP,60386,3389,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 15:57:32,192.168.1.13,10.0.0.20,dave,4624,login_success,TCP,63630,22,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 15:58:13,192.168.1.12,10.0.0.30,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 15:58:29,192.168.1.10,10.0.0.20,alice,4634,logout,,,,logout,success,User alice logged off
+2026-10-03 15:58:30,192.168.1.5,10.0.0.20,,5156,network_connection,TCP,51834,8080,allow,allowed,Connection allowed from 192.168.1.5:51834 to 10.0.0.20:8080
+2026-10-03 15:58:55,192.168.1.10,10.0.0.10,,5156,network_connection,TCP,54547,443,allow,allowed,Connection allowed from 192.168.1.10:54547 to 10.0.0.10:443
+2026-10-03 15:59:10,192.168.1.16,10.0.0.40,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 15:59:27,192.168.1.6,10.0.0.40,,5156,network_connection,TCP,54842,443,allow,allowed,Connection allowed from 192.168.1.6:54842 to 10.0.0.40:443
+2026-10-03 16:00:48,192.168.1.5,10.0.0.10,,5156,network_connection,TCP,59487,443,allow,allowed,Connection allowed from 192.168.1.5:59487 to 10.0.0.10:443
+2026-10-03 16:01:45,192.168.1.15,10.0.0.20,,5156,network_connection,TCP,65281,443,allow,allowed,Connection allowed from 192.168.1.15:65281 to 10.0.0.20:443
+2026-10-03 16:02:28,192.168.1.6,10.0.0.10,svc_backup,4624,login_success,TCP,50601,3389,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 16:02:38,192.168.1.12,10.0.0.40,,5156,network_connection,TCP,63699,443,allow,allowed,Connection allowed from 192.168.1.12:63699 to 10.0.0.40:443
+2026-10-03 16:03:19,192.168.1.12,10.0.0.10,carol,4624,login_success,TCP,53648,22,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 16:03:39,192.168.1.11,10.0.0.20,,5156,network_connection,TCP,51812,443,allow,allowed,Connection allowed from 192.168.1.11:51812 to 10.0.0.20:443
+2026-10-03 16:04:02,192.168.1.16,10.0.0.30,,5156,network_connection,TCP,51126,445,allow,allowed,Connection allowed from 192.168.1.16:51126 to 10.0.0.30:445
+2026-10-03 16:06:11,192.168.1.17,10.0.0.10,,5156,network_connection,TCP,53002,445,allow,allowed,Connection allowed from 192.168.1.17:53002 to 10.0.0.10:445
+2026-10-03 16:06:21,192.168.1.14,10.0.0.30,erin,4624,login_success,TCP,54313,3389,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 16:08:36,192.168.1.13,10.0.0.10,,5156,network_connection,TCP,63314,443,allow,allowed,Connection allowed from 192.168.1.13:63314 to 10.0.0.10:443
+2026-10-03 16:09:14,192.168.1.17,10.0.0.30,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 16:10:41,192.168.1.16,10.0.0.10,grace,4624,login_success,TCP,53342,22,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 16:15:36,192.168.1.16,10.0.0.30,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 16:17:33,192.168.1.10,10.0.0.10,,5156,network_connection,TCP,56226,80,allow,allowed,Connection allowed from 192.168.1.10:56226 to 10.0.0.10:80
+2026-10-03 16:17:43,192.168.1.16,10.0.0.20,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 16:18:48,192.168.1.17,10.0.0.20,,5156,network_connection,TCP,64520,443,allow,allowed,Connection allowed from 192.168.1.17:64520 to 10.0.0.20:443
+2026-10-03 16:22:09,192.168.1.11,10.0.0.10,,5156,network_connection,TCP,65295,8080,allow,allowed,Connection allowed from 192.168.1.11:65295 to 10.0.0.10:8080
+2026-10-03 16:23:29,192.168.1.5,10.0.0.20,,5156,network_connection,TCP,51306,80,allow,allowed,Connection allowed from 192.168.1.5:51306 to 10.0.0.20:80
+2026-10-03 16:24:09,192.168.1.12,10.0.0.20,,5156,network_connection,TCP,54576,445,allow,allowed,Connection allowed from 192.168.1.12:54576 to 10.0.0.20:445
+2026-10-03 16:24:39,192.168.1.16,10.0.0.10,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 16:25:36,192.168.1.13,10.0.0.10,,5156,network_connection,UDP,54817,53,allow,allowed,Connection allowed from 192.168.1.13:54817 to 10.0.0.10:53
+2026-10-03 16:27:02,192.168.1.10,10.0.0.10,alice,4624,login_success,TCP,50021,22,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 16:27:05,192.168.1.11,10.0.0.30,bob,4624,login_success,TCP,51774,22,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 16:28:11,192.168.1.17,10.0.0.30,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 16:29:33,192.168.1.14,10.0.0.10,,5156,network_connection,TCP,57895,80,allow,allowed,Connection allowed from 192.168.1.14:57895 to 10.0.0.10:80
+2026-10-03 16:30:16,192.168.1.6,10.0.0.20,,5156,network_connection,TCP,64895,445,allow,allowed,Connection allowed from 192.168.1.6:64895 to 10.0.0.20:445
+2026-10-03 16:30:37,192.168.1.16,10.0.0.40,,5156,network_connection,TCP,51936,443,allow,allowed,Connection allowed from 192.168.1.16:51936 to 10.0.0.40:443
+2026-10-03 16:31:49,192.168.1.13,10.0.0.20,dave,4624,login_success,TCP,62588,22,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 16:32:20,192.168.1.16,10.0.0.30,grace,4624,login_success,TCP,59600,22,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 16:34:36,192.168.1.12,10.0.0.40,,5156,network_connection,TCP,51702,443,allow,allowed,Connection allowed from 192.168.1.12:51702 to 10.0.0.40:443
+2026-10-03 16:35:22,192.168.1.11,10.0.0.30,,5156,network_connection,TCP,51386,443,allow,allowed,Connection allowed from 192.168.1.11:51386 to 10.0.0.30:443
+2026-10-03 16:36:19,192.168.1.16,10.0.0.10,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 16:36:42,192.168.1.16,10.0.0.30,,5156,network_connection,UDP,49570,53,allow,allowed,Connection allowed from 192.168.1.16:49570 to 10.0.0.30:53
+2026-10-03 16:37:42,192.168.1.17,10.0.0.20,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 16:38:50,192.168.1.6,10.0.0.20,,5156,network_connection,UDP,63914,53,allow,allowed,Connection allowed from 192.168.1.6:63914 to 10.0.0.20:53
+2026-10-03 16:40:01,192.168.1.17,10.0.0.30,,5156,network_connection,TCP,64977,443,allow,allowed,Connection allowed from 192.168.1.17:64977 to 10.0.0.30:443
+2026-10-03 16:41:25,192.168.1.14,10.0.0.40,,5156,network_connection,TCP,63907,443,allow,allowed,Connection allowed from 192.168.1.14:63907 to 10.0.0.40:443
+2026-10-03 16:42:09,192.168.1.15,10.0.0.30,frank,4625,login_failure,TCP,61995,22,login,failure,Failed logon for frank from 192.168.1.15
+2026-10-03 16:42:19,192.168.1.6,10.0.0.20,,5156,network_connection,TCP,59517,443,allow,allowed,Connection allowed from 192.168.1.6:59517 to 10.0.0.20:443
+2026-10-03 16:42:31,192.168.1.12,10.0.0.10,,5156,network_connection,TCP,52471,80,allow,allowed,Connection allowed from 192.168.1.12:52471 to 10.0.0.10:80
+2026-10-03 16:43:34,192.168.1.16,10.0.0.40,,5156,network_connection,TCP,58669,443,allow,allowed,Connection allowed from 192.168.1.16:58669 to 10.0.0.40:443
+2026-10-03 16:44:07,192.168.1.13,10.0.0.10,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 16:45:05,192.168.1.14,10.0.0.40,,5156,network_connection,TCP,53339,443,allow,allowed,Connection allowed from 192.168.1.14:53339 to 10.0.0.40:443
+2026-10-03 16:46:20,192.168.1.13,10.0.0.20,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 16:47:03,192.168.1.5,10.0.0.40,admin,4624,login_success,TCP,62210,3389,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 16:47:34,192.168.1.10,10.0.0.30,alice,4624,login_success,TCP,64775,22,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 16:47:53,192.168.1.14,10.0.0.30,,5156,network_connection,TCP,65203,445,allow,allowed,Connection allowed from 192.168.1.14:65203 to 10.0.0.30:445
+2026-10-03 16:49:13,192.168.1.13,10.0.0.20,,5156,network_connection,TCP,62570,443,allow,allowed,Connection allowed from 192.168.1.13:62570 to 10.0.0.20:443
+2026-10-03 16:51:00,192.168.1.13,10.0.0.30,,5156,network_connection,TCP,58175,443,allow,allowed,Connection allowed from 192.168.1.13:58175 to 10.0.0.30:443
+2026-10-03 16:51:41,192.168.1.5,10.0.0.10,,5156,network_connection,TCP,58962,445,allow,allowed,Connection allowed from 192.168.1.5:58962 to 10.0.0.10:445
+2026-10-03 16:54:06,192.168.1.5,10.0.0.10,admin,4624,login_success,TCP,64733,3389,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 16:54:40,192.168.1.16,10.0.0.40,,5156,network_connection,TCP,62286,80,allow,allowed,Connection allowed from 192.168.1.16:62286 to 10.0.0.40:80
+2026-10-03 16:55:16,192.168.1.12,10.0.0.30,carol,4624,login_success,TCP,64597,3389,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 16:55:49,192.168.1.17,10.0.0.20,,5156,network_connection,TCP,61202,8080,allow,allowed,Connection allowed from 192.168.1.17:61202 to 10.0.0.20:8080
+2026-10-03 16:57:30,192.168.1.10,10.0.0.40,,5156,network_connection,TCP,63379,443,allow,allowed,Connection allowed from 192.168.1.10:63379 to 10.0.0.40:443
+2026-10-03 16:59:42,192.168.1.14,10.0.0.10,erin,4624,login_success,TCP,59276,3389,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 17:00:51,192.168.1.11,10.0.0.20,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 17:00:57,192.168.1.17,10.0.0.30,,5156,network_connection,TCP,51572,443,allow,allowed,Connection allowed from 192.168.1.17:51572 to 10.0.0.30:443
+2026-10-03 17:05:18,192.168.1.5,10.0.0.30,admin,4624,login_success,TCP,56848,3389,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 17:06:11,192.168.1.12,10.0.0.40,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 17:06:56,192.168.1.12,10.0.0.30,carol,4624,login_success,TCP,52659,22,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 17:07:01,192.168.1.14,10.0.0.20,erin,4624,login_success,TCP,52510,22,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 17:07:26,192.168.1.15,10.0.0.40,,5156,network_connection,TCP,50837,8080,allow,allowed,Connection allowed from 192.168.1.15:50837 to 10.0.0.40:8080
+2026-10-03 17:07:26,192.168.1.6,10.0.0.30,,5156,network_connection,TCP,50025,8080,allow,allowed,Connection allowed from 192.168.1.6:50025 to 10.0.0.30:8080
+2026-10-03 17:08:45,192.168.1.12,10.0.0.30,,5156,network_connection,TCP,64892,443,allow,allowed,Connection allowed from 192.168.1.12:64892 to 10.0.0.30:443
+2026-10-03 17:09:04,192.168.1.17,10.0.0.30,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 17:11:20,192.168.1.10,10.0.0.10,alice,4634,logout,,,,logout,success,User alice logged off
+2026-10-03 17:11:48,192.168.1.17,10.0.0.10,heidi,4624,login_success,TCP,51364,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 17:13:45,192.168.1.6,10.0.0.40,svc_backup,4624,login_success,TCP,63749,22,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 17:14:30,192.168.1.10,10.0.0.30,,5156,network_connection,TCP,51223,443,allow,allowed,Connection allowed from 192.168.1.10:51223 to 10.0.0.30:443
+2026-10-03 17:15:33,192.168.1.6,10.0.0.30,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 17:16:49,192.168.1.5,10.0.0.10,,5156,network_connection,TCP,52694,80,allow,allowed,Connection allowed from 192.168.1.5:52694 to 10.0.0.10:80
+2026-10-03 17:17:15,192.168.1.11,10.0.0.10,,5156,network_connection,UDP,61832,53,allow,allowed,Connection allowed from 192.168.1.11:61832 to 10.0.0.10:53
+2026-10-03 17:17:50,192.168.1.17,10.0.0.40,heidi,4624,login_success,TCP,61453,3389,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 17:18:05,192.168.1.17,10.0.0.10,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 17:18:19,192.168.1.13,10.0.0.10,dave,4624,login_success,TCP,65239,22,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 17:19:50,192.168.1.14,10.0.0.10,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 17:20:07,192.168.1.11,10.0.0.10,bob,4624,login_success,TCP,53404,22,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 17:20:09,192.168.1.17,10.0.0.10,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 17:21:21,192.168.1.15,10.0.0.30,frank,4624,login_success,TCP,64712,22,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 17:22:19,192.168.1.14,10.0.0.30,,5156,network_connection,UDP,64422,53,allow,allowed,Connection allowed from 192.168.1.14:64422 to 10.0.0.30:53
+2026-10-03 17:23:16,192.168.1.11,10.0.0.30,,5156,network_connection,TCP,54575,8080,allow,allowed,Connection allowed from 192.168.1.11:54575 to 10.0.0.30:8080
+2026-10-03 17:23:34,192.168.1.15,10.0.0.10,frank,4634,logout,,,,logout,success,User frank logged off
+2026-10-03 17:29:44,192.168.1.16,10.0.0.10,grace,4624,login_success,TCP,55063,3389,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 17:29:57,192.168.1.6,10.0.0.10,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 17:30:14,192.168.1.11,10.0.0.30,,5156,network_connection,TCP,52916,443,allow,allowed,Connection allowed from 192.168.1.11:52916 to 10.0.0.30:443
+2026-10-03 17:31:01,192.168.1.10,10.0.0.40,alice,4624,login_success,TCP,58154,3389,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 17:31:25,192.168.1.17,10.0.0.20,heidi,4624,login_success,TCP,57233,3389,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 17:31:36,192.168.1.6,10.0.0.40,svc_backup,4624,login_success,TCP,58176,3389,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 17:32:38,192.168.1.13,10.0.0.20,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 17:33:52,192.168.1.6,10.0.0.40,,5156,network_connection,TCP,61414,80,allow,allowed,Connection allowed from 192.168.1.6:61414 to 10.0.0.40:80
+2026-10-03 17:35:04,192.168.1.14,10.0.0.10,erin,4624,login_success,TCP,55620,3389,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 17:36:06,192.168.1.17,10.0.0.20,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 17:36:12,192.168.1.5,10.0.0.20,admin,4624,login_success,TCP,57876,3389,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 17:37:23,192.168.1.17,10.0.0.30,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 17:37:37,192.168.1.6,10.0.0.10,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 17:38:08,192.168.1.14,10.0.0.30,,5156,network_connection,TCP,55733,8080,allow,allowed,Connection allowed from 192.168.1.14:55733 to 10.0.0.30:8080
+2026-10-03 17:40:25,192.168.1.15,10.0.0.20,frank,4625,login_failure,TCP,53830,3389,login,failure,Failed logon for frank from 192.168.1.15
+2026-10-03 17:40:38,192.168.1.17,10.0.0.20,heidi,4624,login_success,TCP,55933,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 17:40:41,192.168.1.11,10.0.0.30,,5156,network_connection,TCP,49866,80,allow,allowed,Connection allowed from 192.168.1.11:49866 to 10.0.0.30:80
+2026-10-03 17:44:53,192.168.1.5,10.0.0.10,,5156,network_connection,UDP,61008,53,allow,allowed,Connection allowed from 192.168.1.5:61008 to 10.0.0.10:53
+2026-10-03 17:45:57,192.168.1.14,10.0.0.20,erin,4624,login_success,TCP,57026,22,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 17:46:39,192.168.1.11,10.0.0.10,,5156,network_connection,TCP,60873,80,allow,allowed,Connection allowed from 192.168.1.11:60873 to 10.0.0.10:80
+2026-10-03 17:47:43,192.168.1.14,10.0.0.40,,5156,network_connection,TCP,52702,443,allow,allowed,Connection allowed from 192.168.1.14:52702 to 10.0.0.40:443
+2026-10-03 17:48:03,192.168.1.10,10.0.0.10,,5156,network_connection,UDP,49685,53,allow,allowed,Connection allowed from 192.168.1.10:49685 to 10.0.0.10:53
+2026-10-03 17:48:46,192.168.1.12,10.0.0.10,,5156,network_connection,TCP,50443,8080,allow,allowed,Connection allowed from 192.168.1.12:50443 to 10.0.0.10:8080
+2026-10-03 17:48:53,192.168.1.11,10.0.0.30,,5156,network_connection,TCP,56971,8080,allow,allowed,Connection allowed from 192.168.1.11:56971 to 10.0.0.30:8080
+2026-10-03 17:49:09,192.168.1.15,10.0.0.40,frank,4624,login_success,TCP,58687,22,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 17:49:35,192.168.1.10,10.0.0.40,,5156,network_connection,TCP,63519,443,allow,allowed,Connection allowed from 192.168.1.10:63519 to 10.0.0.40:443
+2026-10-03 17:49:40,192.168.1.16,10.0.0.10,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 17:49:55,192.168.1.14,10.0.0.40,erin,4624,login_success,TCP,57229,3389,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 17:51:10,192.168.1.13,10.0.0.20,,5156,network_connection,TCP,63123,443,allow,allowed,Connection allowed from 192.168.1.13:63123 to 10.0.0.20:443
+2026-10-03 17:51:19,192.168.1.10,10.0.0.40,alice,4624,login_success,TCP,49250,22,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 17:51:25,192.168.1.12,10.0.0.40,,5156,network_connection,TCP,50035,445,allow,allowed,Connection allowed from 192.168.1.12:50035 to 10.0.0.40:445
+2026-10-03 17:52:25,192.168.1.11,10.0.0.10,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 17:52:29,192.168.1.14,10.0.0.40,erin,4624,login_success,TCP,50637,22,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 17:52:31,192.168.1.11,10.0.0.40,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 17:52:54,192.168.1.11,10.0.0.10,bob,4624,login_success,TCP,61579,3389,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 17:53:01,192.168.1.10,10.0.0.10,alice,4634,logout,,,,logout,success,User alice logged off
+2026-10-03 17:54:32,192.168.1.12,10.0.0.20,carol,4624,login_success,TCP,57433,22,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 17:55:21,192.168.1.5,10.0.0.10,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 17:55:54,192.168.1.11,10.0.0.40,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 17:56:19,192.168.1.13,10.0.0.20,,5156,network_connection,TCP,50940,443,allow,allowed,Connection allowed from 192.168.1.13:50940 to 10.0.0.20:443
+2026-10-03 17:56:58,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,53784,445,allow,allowed,Connection allowed from 192.168.1.15:53784 to 10.0.0.10:445
+2026-10-03 17:58:18,192.168.1.15,10.0.0.20,frank,4624,login_success,TCP,53528,3389,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 17:59:07,192.168.1.10,10.0.0.20,alice,4634,logout,,,,logout,success,User alice logged off
+2026-10-03 17:59:10,192.168.1.5,10.0.0.40,,5156,network_connection,TCP,51605,443,allow,allowed,Connection allowed from 192.168.1.5:51605 to 10.0.0.40:443
+2026-10-03 18:01:37,192.168.1.5,10.0.0.20,admin,4624,login_success,TCP,50376,3389,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 18:01:41,192.168.1.17,10.0.0.30,heidi,4624,login_success,TCP,62867,3389,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 18:02:12,192.168.1.17,10.0.0.10,,5156,network_connection,TCP,64645,443,allow,allowed,Connection allowed from 192.168.1.17:64645 to 10.0.0.10:443
+2026-10-03 18:03:10,192.168.1.17,10.0.0.40,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 18:04:05,192.168.1.14,10.0.0.20,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 18:04:57,192.168.1.10,10.0.0.10,,5156,network_connection,TCP,62427,445,allow,allowed,Connection allowed from 192.168.1.10:62427 to 10.0.0.10:445
+2026-10-03 18:07:06,192.168.1.10,10.0.0.10,,5156,network_connection,TCP,54739,8080,allow,allowed,Connection allowed from 192.168.1.10:54739 to 10.0.0.10:8080
+2026-10-03 18:08:40,192.168.1.17,10.0.0.10,,5156,network_connection,TCP,58469,445,allow,allowed,Connection allowed from 192.168.1.17:58469 to 10.0.0.10:445
+2026-10-03 18:08:50,192.168.1.11,10.0.0.30,bob,4624,login_success,TCP,63474,22,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 18:09:18,192.168.1.16,10.0.0.10,,5156,network_connection,TCP,62802,443,allow,allowed,Connection allowed from 192.168.1.16:62802 to 10.0.0.10:443
+2026-10-03 18:09:22,192.168.1.14,10.0.0.30,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 18:09:51,192.168.1.17,10.0.0.10,,5156,network_connection,UDP,53545,53,allow,allowed,Connection allowed from 192.168.1.17:53545 to 10.0.0.10:53
+2026-10-03 18:11:00,192.168.1.15,10.0.0.30,,5156,network_connection,TCP,54902,443,allow,allowed,Connection allowed from 192.168.1.15:54902 to 10.0.0.30:443
+2026-10-03 18:12:04,192.168.1.6,10.0.0.20,svc_backup,4624,login_success,TCP,59034,22,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 18:12:15,192.168.1.13,10.0.0.30,dave,4624,login_success,TCP,55796,22,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 18:13:13,192.168.1.14,10.0.0.10,,5156,network_connection,TCP,55278,445,allow,allowed,Connection allowed from 192.168.1.14:55278 to 10.0.0.10:445
+2026-10-03 18:14:09,192.168.1.10,10.0.0.40,alice,4625,login_failure,TCP,52103,22,login,failure,Failed logon for alice from 192.168.1.10
+2026-10-03 18:14:28,192.168.1.12,10.0.0.10,carol,4624,login_success,TCP,62277,3389,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 18:14:43,192.168.1.5,10.0.0.40,,5156,network_connection,TCP,60899,8080,allow,allowed,Connection allowed from 192.168.1.5:60899 to 10.0.0.40:8080
+2026-10-03 18:15:30,192.168.1.15,10.0.0.40,frank,4624,login_success,TCP,50940,22,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 18:18:01,192.168.1.16,10.0.0.30,grace,4624,login_success,TCP,50759,3389,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 18:18:08,192.168.1.12,10.0.0.10,,5156,network_connection,TCP,61983,445,allow,allowed,Connection allowed from 192.168.1.12:61983 to 10.0.0.10:445
+2026-10-03 18:18:18,192.168.1.6,10.0.0.30,svc_backup,4625,login_failure,TCP,52272,22,login,failure,Failed logon for svc_backup from 192.168.1.6
+2026-10-03 18:20:17,192.168.1.11,10.0.0.30,bob,4624,login_success,TCP,50877,22,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 18:23:13,192.168.1.17,10.0.0.40,heidi,4625,login_failure,TCP,61036,22,login,failure,Failed logon for heidi from 192.168.1.17
+2026-10-03 18:24:59,192.168.1.16,10.0.0.30,,5156,network_connection,TCP,51034,445,allow,allowed,Connection allowed from 192.168.1.16:51034 to 10.0.0.30:445
+2026-10-03 18:25:41,192.168.1.11,10.0.0.30,,5156,network_connection,TCP,61604,445,allow,allowed,Connection allowed from 192.168.1.11:61604 to 10.0.0.30:445
+2026-10-03 18:25:50,192.168.1.5,10.0.0.30,admin,4625,login_failure,TCP,53873,3389,login,failure,Failed logon for admin from 192.168.1.5
+2026-10-03 18:26:10,192.168.1.16,10.0.0.40,,5156,network_connection,TCP,61451,443,allow,allowed,Connection allowed from 192.168.1.16:61451 to 10.0.0.40:443
+2026-10-03 18:27:10,192.168.1.17,10.0.0.30,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 18:28:02,192.168.1.16,10.0.0.30,,5156,network_connection,TCP,63707,443,allow,allowed,Connection allowed from 192.168.1.16:63707 to 10.0.0.30:443
+2026-10-03 18:28:24,192.168.1.6,10.0.0.40,,5156,network_connection,TCP,64187,443,allow,allowed,Connection allowed from 192.168.1.6:64187 to 10.0.0.40:443
+2026-10-03 18:29:40,192.168.1.15,10.0.0.10,,5156,network_connection,UDP,56289,53,allow,allowed,Connection allowed from 192.168.1.15:56289 to 10.0.0.10:53
+2026-10-03 18:30:13,192.168.1.13,10.0.0.30,,5156,network_connection,TCP,58052,8080,allow,allowed,Connection allowed from 192.168.1.13:58052 to 10.0.0.30:8080
+2026-10-03 18:30:40,192.168.1.12,10.0.0.20,carol,4624,login_success,TCP,64149,22,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 18:31:18,192.168.1.16,10.0.0.10,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 18:31:48,192.168.1.5,10.0.0.30,,5156,network_connection,TCP,54361,445,allow,allowed,Connection allowed from 192.168.1.5:54361 to 10.0.0.30:445
+2026-10-03 18:31:52,192.168.1.11,10.0.0.20,bob,4624,login_success,TCP,64726,22,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 18:33:13,192.168.1.16,10.0.0.40,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 18:33:41,192.168.1.14,10.0.0.40,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 18:34:51,192.168.1.14,10.0.0.40,erin,4624,login_success,TCP,51395,22,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 18:35:21,192.168.1.15,10.0.0.40,frank,4624,login_success,TCP,57389,22,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 18:35:55,192.168.1.15,10.0.0.20,frank,4624,login_success,TCP,58673,3389,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 18:36:19,192.168.1.17,10.0.0.10,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 18:36:20,192.168.1.6,10.0.0.30,svc_backup,4624,login_success,TCP,53846,22,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 18:37:17,192.168.1.15,10.0.0.20,,5156,network_connection,TCP,58291,80,allow,allowed,Connection allowed from 192.168.1.15:58291 to 10.0.0.20:80
+2026-10-03 18:37:27,192.168.1.6,10.0.0.40,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 18:38:30,192.168.1.14,10.0.0.10,erin,4624,login_success,TCP,58416,3389,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 18:40:26,192.168.1.14,10.0.0.10,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 18:40:31,192.168.1.6,10.0.0.20,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 18:41:21,192.168.1.12,10.0.0.20,carol,4624,login_success,TCP,64633,22,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 18:41:44,192.168.1.5,10.0.0.40,admin,4624,login_success,TCP,58267,22,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 18:42:23,192.168.1.17,10.0.0.10,heidi,4624,login_success,TCP,56418,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 18:44:47,192.168.1.11,10.0.0.20,bob,4624,login_success,TCP,52527,22,login,success,Successful logon for bob from 192.168.1.11
+2026-10-03 18:46:03,192.168.1.12,10.0.0.20,,5156,network_connection,TCP,64827,8080,allow,allowed,Connection allowed from 192.168.1.12:64827 to 10.0.0.20:8080
+2026-10-03 18:48:30,192.168.1.13,10.0.0.20,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 18:50:18,192.168.1.13,10.0.0.10,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 18:50:35,192.168.1.17,10.0.0.20,heidi,4624,login_success,TCP,56285,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 18:51:36,192.168.1.16,10.0.0.10,,5156,network_connection,TCP,60552,443,allow,allowed,Connection allowed from 192.168.1.16:60552 to 10.0.0.10:443
+2026-10-03 18:52:08,192.168.1.11,10.0.0.40,,5156,network_connection,TCP,59698,445,allow,allowed,Connection allowed from 192.168.1.11:59698 to 10.0.0.40:445
+2026-10-03 18:52:41,192.168.1.12,10.0.0.20,carol,4624,login_success,TCP,57539,22,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 18:54:30,192.168.1.16,10.0.0.20,grace,4624,login_success,TCP,51073,22,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 18:54:42,192.168.1.6,10.0.0.20,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 18:55:58,192.168.1.15,10.0.0.40,frank,4624,login_success,TCP,51031,22,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 18:56:07,192.168.1.10,10.0.0.30,,5156,network_connection,TCP,51244,443,allow,allowed,Connection allowed from 192.168.1.10:51244 to 10.0.0.30:443
+2026-10-03 18:57:23,192.168.1.17,10.0.0.10,,5156,network_connection,TCP,53526,445,allow,allowed,Connection allowed from 192.168.1.17:53526 to 10.0.0.10:445
+2026-10-03 18:58:51,192.168.1.11,10.0.0.10,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 18:59:30,192.168.1.15,10.0.0.20,frank,4624,login_success,TCP,52068,22,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 19:00:26,192.168.1.12,10.0.0.20,carol,4624,login_success,TCP,54100,22,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 19:01:15,192.168.1.13,10.0.0.10,,5156,network_connection,TCP,53288,443,allow,allowed,Connection allowed from 192.168.1.13:53288 to 10.0.0.10:443
+2026-10-03 19:01:19,192.168.1.17,10.0.0.40,,5156,network_connection,TCP,57262,443,allow,allowed,Connection allowed from 192.168.1.17:57262 to 10.0.0.40:443
+2026-10-03 19:02:46,192.168.1.17,10.0.0.10,heidi,4625,login_failure,TCP,61555,22,login,failure,Failed logon for heidi from 192.168.1.17
+2026-10-03 19:03:13,192.168.1.14,10.0.0.20,,5156,network_connection,UDP,65035,53,allow,allowed,Connection allowed from 192.168.1.14:65035 to 10.0.0.20:53
+2026-10-03 19:04:22,192.168.1.13,10.0.0.10,,5156,network_connection,TCP,60047,8080,allow,allowed,Connection allowed from 192.168.1.13:60047 to 10.0.0.10:8080
+2026-10-03 19:04:23,192.168.1.14,10.0.0.20,,5156,network_connection,UDP,55559,53,allow,allowed,Connection allowed from 192.168.1.14:55559 to 10.0.0.20:53
+2026-10-03 19:04:36,192.168.1.12,10.0.0.30,carol,4634,logout,,,,logout,success,User carol logged off
+2026-10-03 19:05:15,192.168.1.12,10.0.0.40,carol,4624,login_success,TCP,60241,22,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 19:05:28,192.168.1.14,10.0.0.30,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 19:06:31,192.168.1.13,10.0.0.20,,5156,network_connection,TCP,55760,445,allow,allowed,Connection allowed from 192.168.1.13:55760 to 10.0.0.20:445
+2026-10-03 19:06:46,192.168.1.10,10.0.0.10,alice,4634,logout,,,,logout,success,User alice logged off
+2026-10-03 19:07:55,198.51.100.49,10.0.0.30,guest,4625,login_failure,TCP,58048,22,login,failure,Failed logon for guest from 198.51.100.49
+2026-10-03 19:08:15,192.168.1.17,10.0.0.10,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 19:08:18,198.51.100.49,10.0.0.20,,5157,firewall_block,TCP,61328,3389,deny,blocked,Connection blocked from 198.51.100.49:61328 to 10.0.0.20:3389
+2026-10-03 19:08:37,198.51.100.49,10.0.0.30,,5157,firewall_block,TCP,54886,22,deny,blocked,Connection blocked from 198.51.100.49:54886 to 10.0.0.30:22
+2026-10-03 19:08:49,192.168.1.16,10.0.0.30,grace,4625,login_failure,TCP,61685,3389,login,failure,Failed logon for grace from 192.168.1.16
+2026-10-03 19:08:58,198.51.100.49,10.0.0.20,guest,4625,login_failure,TCP,63693,22,login,failure,Failed logon for guest from 198.51.100.49
+2026-10-03 19:09:24,198.51.100.49,10.0.0.40,,5157,firewall_block,TCP,54200,23,deny,blocked,Connection blocked from 198.51.100.49:54200 to 10.0.0.40:23
+2026-10-03 19:09:44,198.51.100.49,10.0.0.30,oracle,4625,login_failure,TCP,53847,22,login,failure,Failed logon for oracle from 198.51.100.49
+2026-10-03 19:09:50,192.168.1.6,10.0.0.10,svc_backup,4624,login_success,TCP,53893,22,login,success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03 19:09:57,198.51.100.49,10.0.0.20,test,4625,login_failure,TCP,50349,22,login,failure,Failed logon for test from 198.51.100.49
+2026-10-03 19:10:21,198.51.100.49,10.0.0.10,,5157,firewall_block,TCP,49286,445,deny,blocked,Connection blocked from 198.51.100.49:49286 to 10.0.0.10:445
+2026-10-03 19:10:32,198.51.100.49,10.0.0.10,,5157,firewall_block,TCP,60073,3389,deny,blocked,Connection blocked from 198.51.100.49:60073 to 10.0.0.10:3389
+2026-10-03 19:10:43,198.51.100.49,10.0.0.30,,5157,firewall_block,TCP,49888,8080,deny,blocked,Connection blocked from 198.51.100.49:49888 to 10.0.0.30:8080
+2026-10-03 19:11:02,198.51.100.49,10.0.0.20,,5157,firewall_block,TCP,59666,23,deny,blocked,Connection blocked from 198.51.100.49:59666 to 10.0.0.20:23
+2026-10-03 19:11:18,198.51.100.49,10.0.0.30,,5157,firewall_block,TCP,63606,1433,deny,blocked,Connection blocked from 198.51.100.49:63606 to 10.0.0.30:1433
+2026-10-03 19:11:31,198.51.100.49,10.0.0.20,,5157,firewall_block,TCP,58118,22,deny,blocked,Connection blocked from 198.51.100.49:58118 to 10.0.0.20:22
+2026-10-03 19:11:41,198.51.100.49,10.0.0.10,test,4625,login_failure,TCP,60631,22,login,failure,Failed logon for test from 198.51.100.49
+2026-10-03 19:12:08,198.51.100.49,10.0.0.20,,5157,firewall_block,TCP,58434,8080,deny,blocked,Connection blocked from 198.51.100.49:58434 to 10.0.0.20:8080
+2026-10-03 19:12:10,192.168.1.16,10.0.0.10,grace,4624,login_success,TCP,53451,22,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 19:12:25,198.51.100.49,10.0.0.30,,5157,firewall_block,TCP,60251,8080,deny,blocked,Connection blocked from 198.51.100.49:60251 to 10.0.0.30:8080
+2026-10-03 19:12:45,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,53189,80,allow,allowed,Connection allowed from 192.168.1.15:53189 to 10.0.0.10:80
+2026-10-03 19:12:49,198.51.100.49,10.0.0.10,,5157,firewall_block,TCP,64577,1433,deny,blocked,Connection blocked from 198.51.100.49:64577 to 10.0.0.10:1433
+2026-10-03 19:13:00,198.51.100.49,10.0.0.10,,5157,firewall_block,TCP,51973,3389,deny,blocked,Connection blocked from 198.51.100.49:51973 to 10.0.0.10:3389
+2026-10-03 19:15:53,192.168.1.14,10.0.0.40,,5156,network_connection,TCP,63565,443,allow,allowed,Connection allowed from 192.168.1.14:63565 to 10.0.0.40:443
+2026-10-03 19:16:18,192.168.1.15,10.0.0.10,frank,4624,login_success,TCP,63263,22,login,success,Successful logon for frank from 192.168.1.15
+2026-10-03 19:17:36,192.168.1.13,10.0.0.40,,5156,network_connection,TCP,50012,445,allow,allowed,Connection allowed from 192.168.1.13:50012 to 10.0.0.40:445
+2026-10-03 19:18:22,192.168.1.15,10.0.0.40,,5156,network_connection,UDP,51721,53,allow,allowed,Connection allowed from 192.168.1.15:51721 to 10.0.0.40:53
+2026-10-03 19:18:53,192.168.1.11,10.0.0.40,,5156,network_connection,TCP,59075,443,allow,allowed,Connection allowed from 192.168.1.11:59075 to 10.0.0.40:443
+2026-10-03 19:18:55,192.168.1.5,10.0.0.30,,5156,network_connection,TCP,61703,443,allow,allowed,Connection allowed from 192.168.1.5:61703 to 10.0.0.30:443
+2026-10-03 19:21:50,192.168.1.16,10.0.0.10,grace,4624,login_success,TCP,57630,22,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 19:23:23,192.168.1.16,10.0.0.30,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 19:23:32,192.168.1.6,10.0.0.10,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 19:25:00,192.168.1.14,10.0.0.10,erin,4634,logout,,,,logout,success,User erin logged off
+2026-10-03 19:25:23,192.168.1.10,10.0.0.40,alice,4624,login_success,TCP,55530,3389,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 19:27:51,192.168.1.14,10.0.0.20,,5156,network_connection,TCP,61395,445,allow,allowed,Connection allowed from 192.168.1.14:61395 to 10.0.0.20:445
+2026-10-03 19:30:33,192.168.1.17,10.0.0.20,,5156,network_connection,TCP,53732,445,allow,allowed,Connection allowed from 192.168.1.17:53732 to 10.0.0.20:445
+2026-10-03 19:31:12,192.168.1.13,10.0.0.20,dave,4624,login_success,TCP,58844,22,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 19:31:20,192.168.1.13,10.0.0.30,dave,4625,login_failure,TCP,50801,22,login,failure,Failed logon for dave from 192.168.1.13
+2026-10-03 19:32:10,192.168.1.16,10.0.0.40,grace,4624,login_success,TCP,56400,22,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 19:34:34,192.168.1.10,10.0.0.10,alice,4624,login_success,TCP,56137,3389,login,success,Successful logon for alice from 192.168.1.10
+2026-10-03 19:35:13,192.168.1.6,10.0.0.20,,5156,network_connection,TCP,59918,443,allow,allowed,Connection allowed from 192.168.1.6:59918 to 10.0.0.20:443
+2026-10-03 19:35:30,192.168.1.12,10.0.0.30,,5156,network_connection,UDP,57467,53,allow,allowed,Connection allowed from 192.168.1.12:57467 to 10.0.0.30:53
+2026-10-03 19:35:39,192.168.1.10,10.0.0.20,alice,4634,logout,,,,logout,success,User alice logged off
+2026-10-03 19:36:02,192.168.1.12,10.0.0.30,,5156,network_connection,TCP,56390,445,allow,allowed,Connection allowed from 192.168.1.12:56390 to 10.0.0.30:445
+2026-10-03 19:36:24,192.168.1.17,10.0.0.10,,5156,network_connection,TCP,61931,443,allow,allowed,Connection allowed from 192.168.1.17:61931 to 10.0.0.10:443
+2026-10-03 19:36:48,192.168.1.6,10.0.0.40,,5156,network_connection,TCP,59742,445,allow,allowed,Connection allowed from 192.168.1.6:59742 to 10.0.0.40:445
+2026-10-03 19:36:50,192.168.1.10,10.0.0.30,,5156,network_connection,TCP,61294,8080,allow,allowed,Connection allowed from 192.168.1.10:61294 to 10.0.0.30:8080
+2026-10-03 19:37:13,192.168.1.10,10.0.0.30,,5156,network_connection,TCP,64621,445,allow,allowed,Connection allowed from 192.168.1.10:64621 to 10.0.0.30:445
+2026-10-03 19:37:14,192.168.1.12,10.0.0.10,carol,4624,login_success,TCP,57054,3389,login,success,Successful logon for carol from 192.168.1.12
+2026-10-03 19:37:14,192.168.1.5,10.0.0.10,,5156,network_connection,TCP,62869,445,allow,allowed,Connection allowed from 192.168.1.5:62869 to 10.0.0.10:445
+2026-10-03 19:37:34,192.168.1.6,10.0.0.20,,5156,network_connection,TCP,58791,443,allow,allowed,Connection allowed from 192.168.1.6:58791 to 10.0.0.20:443
+2026-10-03 19:39:03,192.168.1.11,10.0.0.30,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 19:39:15,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,61849,445,allow,allowed,Connection allowed from 192.168.1.15:61849 to 10.0.0.10:445
+2026-10-03 19:40:03,192.168.1.15,10.0.0.40,,5156,network_connection,TCP,51062,8080,allow,allowed,Connection allowed from 192.168.1.15:51062 to 10.0.0.40:8080
+2026-10-03 19:40:09,192.168.1.16,10.0.0.30,grace,4634,logout,,,,logout,success,User grace logged off
+2026-10-03 19:40:31,192.168.1.15,10.0.0.20,,5156,network_connection,TCP,60844,445,allow,allowed,Connection allowed from 192.168.1.15:60844 to 10.0.0.20:445
+2026-10-03 19:40:32,192.168.1.16,10.0.0.20,,5156,network_connection,TCP,61082,445,allow,allowed,Connection allowed from 192.168.1.16:61082 to 10.0.0.20:445
+2026-10-03 19:41:21,192.168.1.11,10.0.0.30,bob,4634,logout,,,,logout,success,User bob logged off
+2026-10-03 19:42:55,192.168.1.13,10.0.0.30,dave,4624,login_success,TCP,52694,3389,login,success,Successful logon for dave from 192.168.1.13
+2026-10-03 19:43:20,192.168.1.5,10.0.0.10,admin,4624,login_success,TCP,57387,22,login,success,Successful logon for admin from 192.168.1.5
+2026-10-03 19:43:27,192.168.1.6,10.0.0.10,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 19:43:54,192.168.1.15,10.0.0.30,,5156,network_connection,TCP,58666,445,allow,allowed,Connection allowed from 192.168.1.15:58666 to 10.0.0.30:445
+2026-10-03 19:44:07,192.168.1.5,10.0.0.20,admin,4634,logout,,,,logout,success,User admin logged off
+2026-10-03 19:44:08,192.168.1.12,10.0.0.40,,5156,network_connection,UDP,62105,53,allow,allowed,Connection allowed from 192.168.1.12:62105 to 10.0.0.40:53
+2026-10-03 19:44:33,192.168.1.17,10.0.0.10,,5156,network_connection,TCP,64109,80,allow,allowed,Connection allowed from 192.168.1.17:64109 to 10.0.0.10:80
+2026-10-03 19:45:30,192.168.1.17,10.0.0.10,,5156,network_connection,TCP,57538,80,allow,allowed,Connection allowed from 192.168.1.17:57538 to 10.0.0.10:80
+2026-10-03 19:46:28,192.168.1.5,10.0.0.20,admin,4625,login_failure,TCP,52507,22,login,failure,Failed logon for admin from 192.168.1.5
+2026-10-03 19:48:11,192.168.1.17,10.0.0.40,,5156,network_connection,TCP,63435,443,allow,allowed,Connection allowed from 192.168.1.17:63435 to 10.0.0.40:443
+2026-10-03 19:49:05,192.168.1.12,10.0.0.40,,5156,network_connection,UDP,63210,53,allow,allowed,Connection allowed from 192.168.1.12:63210 to 10.0.0.40:53
+2026-10-03 19:50:26,192.168.1.10,10.0.0.30,,5156,network_connection,TCP,53500,443,allow,allowed,Connection allowed from 192.168.1.10:53500 to 10.0.0.30:443
+2026-10-03 19:51:10,192.168.1.16,10.0.0.30,grace,4624,login_success,TCP,56207,3389,login,success,Successful logon for grace from 192.168.1.16
+2026-10-03 19:52:11,192.168.1.17,10.0.0.40,heidi,4624,login_success,TCP,58523,22,login,success,Successful logon for heidi from 192.168.1.17
+2026-10-03 19:53:33,192.168.1.13,10.0.0.10,,5156,network_connection,TCP,57305,8080,allow,allowed,Connection allowed from 192.168.1.13:57305 to 10.0.0.10:8080
+2026-10-03 19:54:19,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,61240,80,allow,allowed,Connection allowed from 192.168.1.15:61240 to 10.0.0.10:80
+2026-10-03 19:54:51,192.168.1.6,10.0.0.40,,5156,network_connection,TCP,53737,8080,allow,allowed,Connection allowed from 192.168.1.6:53737 to 10.0.0.40:8080
+2026-10-03 19:55:08,192.168.1.12,10.0.0.10,,5156,network_connection,TCP,54529,80,allow,allowed,Connection allowed from 192.168.1.12:54529 to 10.0.0.10:80
+2026-10-03 19:55:21,192.168.1.17,10.0.0.30,heidi,4634,logout,,,,logout,success,User heidi logged off
+2026-10-03 19:56:24,192.168.1.14,10.0.0.40,erin,4624,login_success,TCP,51835,3389,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 19:57:28,192.168.1.17,10.0.0.20,heidi,4625,login_failure,TCP,49294,22,login,failure,Failed logon for heidi from 192.168.1.17
+2026-10-03 19:57:50,192.168.1.13,10.0.0.40,dave,4634,logout,,,,logout,success,User dave logged off
+2026-10-03 19:57:53,192.168.1.15,10.0.0.10,,5156,network_connection,TCP,50434,443,allow,allowed,Connection allowed from 192.168.1.15:50434 to 10.0.0.10:443
+2026-10-03 19:58:32,192.168.1.14,10.0.0.40,erin,4624,login_success,TCP,53354,22,login,success,Successful logon for erin from 192.168.1.14
+2026-10-03 19:59:04,192.168.1.10,10.0.0.40,,5156,network_connection,TCP,52428,445,allow,allowed,Connection allowed from 192.168.1.10:52428 to 10.0.0.40:445
+2026-10-03 19:59:40,192.168.1.6,10.0.0.30,svc_backup,4634,logout,,,,logout,success,User svc_backup logged off
+2026-10-03 20:33:05,203.0.113.148,10.0.0.30,postgres,4625,login_failure,TCP,59522,22,login,failure,Failed logon for postgres from 203.0.113.148
+2026-10-03 20:33:23,203.0.113.148,10.0.0.30,,5157,firewall_block,TCP,53402,8080,deny,blocked,Connection blocked from 203.0.113.148:53402 to 10.0.0.30:8080
+2026-10-03 20:33:51,203.0.113.148,10.0.0.40,,5157,firewall_block,TCP,65290,23,deny,blocked,Connection blocked from 203.0.113.148:65290 to 10.0.0.40:23
+2026-10-03 20:34:20,203.0.113.148,10.0.0.30,,5157,firewall_block,TCP,55494,22,deny,blocked,Connection blocked from 203.0.113.148:55494 to 10.0.0.30:22
+2026-10-03 20:34:33,203.0.113.148,10.0.0.10,,5157,firewall_block,TCP,55945,8080,deny,blocked,Connection blocked from 203.0.113.148:55945 to 10.0.0.10:8080
+2026-10-03 20:34:56,203.0.113.148,10.0.0.30,,5157,firewall_block,TCP,60609,8080,deny,blocked,Connection blocked from 203.0.113.148:60609 to 10.0.0.30:8080
+2026-10-03 20:35:26,203.0.113.148,10.0.0.20,,5157,firewall_block,TCP,58380,445,deny,blocked,Connection blocked from 203.0.113.148:58380 to 10.0.0.20:445
+2026-10-03 20:35:38,203.0.113.148,10.0.0.30,,5157,firewall_block,TCP,49352,22,deny,blocked,Connection blocked from 203.0.113.148:49352 to 10.0.0.30:22
+2026-10-03 20:35:58,203.0.113.148,10.0.0.10,,5157,firewall_block,TCP,54907,23,deny,blocked,Connection blocked from 203.0.113.148:54907 to 10.0.0.10:23
+2026-10-03 20:36:18,203.0.113.148,10.0.0.40,postgres,4625,login_failure,TCP,50317,22,login,failure,Failed logon for postgres from 203.0.113.148
+2026-10-03 20:36:48,203.0.113.148,10.0.0.20,,5157,firewall_block,TCP,64245,8080,deny,blocked,Connection blocked from 203.0.113.148:64245 to 10.0.0.20:8080
+2026-10-03 20:37:08,203.0.113.148,10.0.0.40,,5157,firewall_block,TCP,50987,8080,deny,blocked,Connection blocked from 203.0.113.148:50987 to 10.0.0.40:8080
+2026-10-03 20:37:27,203.0.113.148,10.0.0.30,,5157,firewall_block,TCP,49765,23,deny,blocked,Connection blocked from 203.0.113.148:49765 to 10.0.0.30:23
+2026-10-03 20:37:55,203.0.113.148,10.0.0.30,,5157,firewall_block,TCP,51321,23,deny,blocked,Connection blocked from 203.0.113.148:51321 to 10.0.0.30:23
+2026-10-03 20:38:13,203.0.113.148,10.0.0.30,postgres,4625,login_failure,TCP,54590,22,login,failure,Failed logon for postgres from 203.0.113.148
+2026-10-03 22:44:42,198.51.100.142,10.0.0.20,bob,4625,login_failure,TCP,61492,22,login,failure,Failed logon for bob from 198.51.100.142
+2026-10-03 22:44:47,198.51.100.142,10.0.0.20,bob,4625,login_failure,TCP,50576,22,login,failure,Failed logon for bob from 198.51.100.142
+2026-10-03 22:44:50,198.51.100.142,10.0.0.20,bob,4625,login_failure,TCP,54733,22,login,failure,Failed logon for bob from 198.51.100.142
+2026-10-03 22:44:51,198.51.100.142,10.0.0.20,bob,4625,login_failure,TCP,58458,22,login,failure,Failed logon for bob from 198.51.100.142
+2026-10-03 22:44:53,198.51.100.142,10.0.0.20,bob,4625,login_failure,TCP,58041,22,login,failure,Failed logon for bob from 198.51.100.142
+2026-10-03 22:44:54,198.51.100.142,10.0.0.20,bob,4625,login_failure,TCP,64387,22,login,failure,Failed logon for bob from 198.51.100.142
+2026-10-03 22:45:00,198.51.100.142,10.0.0.20,bob,4625,login_failure,TCP,49425,22,login,failure,Failed logon for bob from 198.51.100.142
+2026-10-03 22:45:01,198.51.100.142,10.0.0.20,bob,4625,login_failure,TCP,61887,22,login,failure,Failed logon for bob from 198.51.100.142
+2026-10-03 22:45:33,198.51.100.142,10.0.0.20,bob,4624,login_success,TCP,60955,22,login,success,Successful logon for bob from 198.51.100.142

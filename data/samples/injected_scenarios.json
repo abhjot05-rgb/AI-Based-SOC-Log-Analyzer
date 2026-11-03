@@ -1,0 +1,14 @@
+{
+  "note": "Attacks injected by the generator. Compare with detected alerts.",
+  "seed": 42,
+  "injected": {
+    "brute_force": 3,
+    "brute_force_followed_by_success": 2,
+    "port_scan": 2,
+    "off_hours_login": 2,
+    "multi_ip_login": 1,
+    "account_activity": 2,
+    "privilege_activity": 2,
+    "suspicious_ip": 2
+  }
+}

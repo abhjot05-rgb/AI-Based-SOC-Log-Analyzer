@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% block title %}Logs{% endblock %}
+{% block heading %}Log Viewer{% endblock %}
+
+{% block content %}
+<div class="card soc-card mb-3">
+  <div class="card-body">
+    <form id="filterForm" autocomplete="off">
+      <div class="row g-3">
+        <div class="col-lg-4">
+          <label class="form-label soc-label" for="q">Search</label>
+          <input type="search" id="q" class="form-control" maxlength="100"
+                 placeholder="Message, user, IP or event type">
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <label class="form-label soc-label" for="source_ip">Source IP</label>
+          <input type="text" id="source_ip" class="form-control" maxlength="100" placeholder="e.g. 203.0.113.">
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <label class="form-label soc-label" for="username">Username</label>
+          <input type="text" id="username" class="form-control" maxlength="100">
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <label class="form-label soc-label" for="event_type">Event type</label>
+          <select id="event_type" class="form-select"><option value="">All event types</option></select>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <label class="form-label soc-label" for="severity">Severity</label>
+          <select id="severity" class="form-select"><option value="">All severities</option></select>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <label class="form-label soc-label" for="date_from">From date</label>
+          <input type="date" id="date_from" class="form-control">
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <label class="form-label soc-label" for="date_to">To date</label>
+          <input type="date" id="date_to" class="form-control">
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <label class="form-label soc-label" for="scopeSelect">Upload</label>
+          <select id="scopeSelect" class="form-select"><option value="">All uploads</option></select>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <label class="form-label soc-label" for="per_page">Per page</label>
+          <select id="per_page" class="form-select">
+            <option value="25">25</option>
+            <option value="50" selected>50</option>
+            <option value="100">100</option>
+            <option value="200">200</option>
+          </select>
+        </div>
+        <div class="col-md-8 col-lg-3 d-flex align-items-end gap-3">
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="checkbox" id="anomalies_only">
+            <label class="form-check-label" for="anomalies_only">ML anomalies only</label>
+          </div>
+          <button type="button" id="resetBtn" class="btn btn-outline-secondary ms-auto">Reset</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div id="statusBox" class="d-none" role="status"></div>
+
+<div class="card soc-card mb-4">
+  <div class="table-responsive">
+    <table class="table table-sm table-hover align-middle soc-table mb-0">
+      <thead>
+        <tr>
+          <th class="sortable" data-sort="timestamp">Time<span class="sort-ind"></span></th>
+          <th class="sortable" data-sort="source_ip">Source IP<span class="sort-ind"></span></th>
+          <th class="sortable" data-sort="destination_ip">Destination IP<span class="sort-ind"></span></th>
+          <th class="sortable" data-sort="username">User<span class="sort-ind"></span></th>
+          <th class="sortable" data-sort="event_id">Event ID<span class="sort-ind"></span></th>
+          <th class="sortable" data-sort="event_type">Event type<span class="sort-ind"></span></th>
+          <th>Status</th>
+          <th class="sortable" data-sort="severity">Severity<span class="sort-ind"></span></th>
+          <th class="sortable" data-sort="anomaly_score">ML score<span class="sort-ind"></span></th>
+          <th>Message</th>
+        </tr>
+      </thead>
+      <tbody id="logsBody"><tr><td colspan="10" class="text-secondary">Loading...</td></tr></tbody>
+    </table>
+  </div>
+  <div id="pager" class="pager-bar"></div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/listpage.js') }}"></script>
+<script src="{{ url_for('static', filename='js/logs.js') }}"></script>
+{% endblock %}

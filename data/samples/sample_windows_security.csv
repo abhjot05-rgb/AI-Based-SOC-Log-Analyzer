@@ -1,0 +1,949 @@
+TimeCreated,EventID,Computer,TargetUserName,SourceAddress,SourcePort,DestAddress,DestPort,Protocol,LogonType,Status,Message
+2026-10-03T01:40:16Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,574,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:574
+2026-10-03T01:40:16Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,462,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:462
+2026-10-03T01:40:17Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,311,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:311
+2026-10-03T01:40:17Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,700,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:700
+2026-10-03T01:40:17Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,805,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:805
+2026-10-03T01:40:17Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,282,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:282
+2026-10-03T01:40:18Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,180,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:180
+2026-10-03T01:40:18Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,783,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:783
+2026-10-03T01:40:18Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,466,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:466
+2026-10-03T01:40:19Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,855,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:855
+2026-10-03T01:40:20Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,493,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:493
+2026-10-03T01:40:21Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,313,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:313
+2026-10-03T01:40:22Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,874,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:874
+2026-10-03T01:40:23Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,640,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:640
+2026-10-03T01:40:24Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,675,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:675
+2026-10-03T01:40:24Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,920,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:920
+2026-10-03T01:40:24Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,270,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:270
+2026-10-03T01:40:24Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,424,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:424
+2026-10-03T01:40:24Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,284,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:284
+2026-10-03T01:40:24Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,415,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:415
+2026-10-03T01:40:24Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,283,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:283
+2026-10-03T01:40:25Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,633,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:633
+2026-10-03T01:40:25Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,277,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:277
+2026-10-03T01:40:25Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,881,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:881
+2026-10-03T01:40:25Z,5157,WIN-DC01,,198.51.100.62,52686,10.0.0.30,298,6,,Audit Failure,Connection blocked from 198.51.100.62:52686 to 10.0.0.30:298
+2026-10-03T01:58:21Z,4624,WIN-DC01,alice,203.0.113.43,55013,10.0.0.20,22,6,10,Audit Success,Successful logon for alice from 203.0.113.43
+2026-10-03T02:07:47Z,4625,WIN-DC01,alice,203.0.113.53,57116,10.0.0.20,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.53
+2026-10-03T02:07:52Z,4625,WIN-DC01,alice,203.0.113.53,53991,10.0.0.20,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.53
+2026-10-03T02:07:55Z,4625,WIN-DC01,alice,203.0.113.53,49602,10.0.0.20,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.53
+2026-10-03T02:07:58Z,4625,WIN-DC01,alice,203.0.113.53,52798,10.0.0.20,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.53
+2026-10-03T02:08:01Z,4625,WIN-DC01,alice,203.0.113.53,63899,10.0.0.20,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.53
+2026-10-03T02:08:05Z,4625,WIN-DC01,alice,203.0.113.53,49897,10.0.0.20,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.53
+2026-10-03T02:08:08Z,4625,WIN-DC01,alice,203.0.113.53,56000,10.0.0.20,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.53
+2026-10-03T02:08:14Z,4625,WIN-DC01,alice,203.0.113.53,56094,10.0.0.20,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.53
+2026-10-03T02:54:02Z,4720,WIN-DC01,tmp_user95,192.168.1.5,,10.0.0.40,,,,Audit Success,User account tmp_user95 was created
+2026-10-03T02:54:43Z,4740,WIN-DC01,tmp_user95,192.168.1.5,,10.0.0.40,,,,Audit Success,User account tmp_user95 was locked out
+2026-10-03T02:55:07Z,4722,WIN-DC01,tmp_user95,192.168.1.5,,10.0.0.40,,,,Audit Success,User account tmp_user95 was enabled
+2026-10-03T02:55:51Z,4720,WIN-DC01,tmp_user95,192.168.1.5,,10.0.0.40,,,,Audit Success,User account tmp_user95 was created
+2026-10-03T02:56:07Z,4720,WIN-DC01,tmp_user95,192.168.1.5,,10.0.0.40,,,,Audit Success,User account tmp_user95 was created
+2026-10-03T02:56:35Z,4724,WIN-DC01,tmp_user95,192.168.1.5,,10.0.0.40,,,,Audit Success,Password for account tmp_user95 was reset
+2026-10-03T03:19:19Z,4624,WIN-DC01,alice,198.51.100.75,53004,10.0.0.20,22,6,10,Audit Success,Successful logon for alice from 198.51.100.75
+2026-10-03T03:39:42Z,4720,WIN-DC01,tmp_user98,192.168.1.5,,10.0.0.40,,,,Audit Success,User account tmp_user98 was created
+2026-10-03T03:40:16Z,4740,WIN-DC01,tmp_user98,192.168.1.5,,10.0.0.40,,,,Audit Success,User account tmp_user98 was locked out
+2026-10-03T03:40:56Z,4740,WIN-DC01,tmp_user98,192.168.1.5,,10.0.0.40,,,,Audit Success,User account tmp_user98 was locked out
+2026-10-03T03:41:16Z,4725,WIN-DC01,tmp_user98,192.168.1.5,,10.0.0.40,,,,Audit Success,User account tmp_user98 was disabled
+2026-10-03T03:41:54Z,4740,WIN-DC01,tmp_user98,192.168.1.5,,10.0.0.40,,,,Audit Success,User account tmp_user98 was locked out
+2026-10-03T03:42:20Z,4720,WIN-DC01,tmp_user98,192.168.1.5,,10.0.0.40,,,,Audit Success,User account tmp_user98 was created
+2026-10-03T04:32:54Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,766,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:766
+2026-10-03T04:32:55Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,377,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:377
+2026-10-03T04:32:56Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,794,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:794
+2026-10-03T04:32:57Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,1007,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:1007
+2026-10-03T04:32:58Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,971,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:971
+2026-10-03T04:32:59Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,282,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:282
+2026-10-03T04:33:00Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,336,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:336
+2026-10-03T04:33:00Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,396,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:396
+2026-10-03T04:33:01Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,464,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:464
+2026-10-03T04:33:02Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,67,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:67
+2026-10-03T04:33:02Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,837,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:837
+2026-10-03T04:33:02Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,31,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:31
+2026-10-03T04:33:03Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,553,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:553
+2026-10-03T04:33:04Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,846,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:846
+2026-10-03T04:33:04Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,456,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:456
+2026-10-03T04:33:04Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,416,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:416
+2026-10-03T04:33:04Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,419,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:419
+2026-10-03T04:33:04Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,136,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:136
+2026-10-03T04:33:05Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,363,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:363
+2026-10-03T04:33:06Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,900,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:900
+2026-10-03T04:33:07Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,1004,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:1004
+2026-10-03T04:33:08Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,666,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:666
+2026-10-03T04:33:08Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,938,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:938
+2026-10-03T04:33:08Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,506,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:506
+2026-10-03T04:33:09Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,876,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:876
+2026-10-03T04:33:09Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,830,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:830
+2026-10-03T04:33:10Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,86,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:86
+2026-10-03T04:33:10Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,780,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:780
+2026-10-03T04:33:11Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,641,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:641
+2026-10-03T04:33:12Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,808,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:808
+2026-10-03T04:33:12Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,79,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:79
+2026-10-03T04:33:12Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,224,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:224
+2026-10-03T04:33:12Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,925,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:925
+2026-10-03T04:33:12Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,936,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:936
+2026-10-03T04:33:13Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,87,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:87
+2026-10-03T04:33:14Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,504,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:504
+2026-10-03T04:33:14Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,811,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:811
+2026-10-03T04:33:15Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,81,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:81
+2026-10-03T04:33:15Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,101,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:101
+2026-10-03T04:33:16Z,5157,WIN-DC01,,198.51.100.22,59815,10.0.0.40,389,6,,Audit Failure,Connection blocked from 198.51.100.22:59815 to 10.0.0.40:389
+2026-10-03T07:00:19Z,5156,WIN-DC01,,192.168.1.6,58476,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.6:58476 to 10.0.0.10:443
+2026-10-03T07:00:43Z,5156,WIN-DC01,,192.168.1.13,61000,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.13:61000 to 10.0.0.40:443
+2026-10-03T07:02:42Z,5156,WIN-DC01,,192.168.1.15,58078,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.15:58078 to 10.0.0.30:53
+2026-10-03T07:03:30Z,5156,WIN-DC01,,192.168.1.16,63686,10.0.0.40,53,17,,Audit Success,Connection allowed from 192.168.1.16:63686 to 10.0.0.40:53
+2026-10-03T07:04:45Z,4624,WIN-DC01,alice,192.168.1.10,50181,10.0.0.20,3389,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T07:05:02Z,5156,WIN-DC01,,192.168.1.6,62802,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.6:62802 to 10.0.0.30:445
+2026-10-03T07:06:26Z,4624,WIN-DC01,frank,192.168.1.15,53656,10.0.0.40,22,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T07:07:49Z,5156,WIN-DC01,,192.168.1.13,57251,10.0.0.40,53,17,,Audit Success,Connection allowed from 192.168.1.13:57251 to 10.0.0.40:53
+2026-10-03T07:08:04Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.30,,,,Audit Success,User dave logged off
+2026-10-03T07:08:32Z,5156,WIN-DC01,,192.168.1.6,52419,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.6:52419 to 10.0.0.30:53
+2026-10-03T07:09:45Z,4624,WIN-DC01,erin,192.168.1.14,56736,10.0.0.10,3389,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T07:10:50Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.10,,,,Audit Success,User erin logged off
+2026-10-03T07:12:06Z,4624,WIN-DC01,heidi,192.168.1.17,61885,10.0.0.20,3389,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T07:14:48Z,4624,WIN-DC01,heidi,192.168.1.17,61257,10.0.0.20,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T07:15:02Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.30,,,,Audit Success,User heidi logged off
+2026-10-03T07:15:05Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.10,,,,Audit Success,User grace logged off
+2026-10-03T07:18:45Z,5156,WIN-DC01,,192.168.1.11,57555,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.11:57555 to 10.0.0.30:8080
+2026-10-03T07:20:34Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.20,,,,Audit Success,User svc_backup logged off
+2026-10-03T07:21:49Z,4624,WIN-DC01,carol,192.168.1.12,63630,10.0.0.30,3389,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T07:22:41Z,5156,WIN-DC01,,192.168.1.16,54041,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.16:54041 to 10.0.0.30:53
+2026-10-03T07:22:41Z,4624,WIN-DC01,carol,192.168.1.12,56776,10.0.0.10,3389,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T07:22:50Z,4624,WIN-DC01,dave,192.168.1.13,57847,10.0.0.30,22,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T07:23:00Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.10,,,,Audit Success,User grace logged off
+2026-10-03T07:23:19Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.20,,,,Audit Success,User carol logged off
+2026-10-03T07:24:16Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.30,,,,Audit Success,User heidi logged off
+2026-10-03T07:24:32Z,4625,WIN-DC01,alice,203.0.113.6,59488,10.0.0.40,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.6
+2026-10-03T07:24:36Z,4625,WIN-DC01,alice,203.0.113.6,52036,10.0.0.40,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.6
+2026-10-03T07:24:38Z,4625,WIN-DC01,alice,203.0.113.6,55668,10.0.0.40,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.6
+2026-10-03T07:24:43Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.20,,,,Audit Success,User grace logged off
+2026-10-03T07:24:43Z,4625,WIN-DC01,alice,203.0.113.6,64159,10.0.0.40,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.6
+2026-10-03T07:24:48Z,4625,WIN-DC01,alice,203.0.113.6,49856,10.0.0.40,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.6
+2026-10-03T07:24:49Z,4625,WIN-DC01,alice,203.0.113.6,57258,10.0.0.40,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.6
+2026-10-03T07:24:54Z,4625,WIN-DC01,alice,203.0.113.6,59143,10.0.0.40,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.6
+2026-10-03T07:24:57Z,4625,WIN-DC01,alice,203.0.113.6,65206,10.0.0.40,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.6
+2026-10-03T07:25:01Z,4625,WIN-DC01,alice,203.0.113.6,54296,10.0.0.40,22,6,10,Audit Failure,Failed logon for alice from 203.0.113.6
+2026-10-03T07:25:18Z,4624,WIN-DC01,alice,203.0.113.6,60797,10.0.0.40,22,6,10,Audit Success,Successful logon for alice from 203.0.113.6
+2026-10-03T07:25:40Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.20,,,,Audit Success,User erin logged off
+2026-10-03T07:27:17Z,4624,WIN-DC01,admin,192.168.1.5,57508,10.0.0.30,22,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T07:29:03Z,5156,WIN-DC01,,192.168.1.12,65409,10.0.0.40,53,17,,Audit Success,Connection allowed from 192.168.1.12:65409 to 10.0.0.40:53
+2026-10-03T07:29:58Z,5156,WIN-DC01,,192.168.1.11,62404,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.11:62404 to 10.0.0.30:445
+2026-10-03T07:30:06Z,5156,WIN-DC01,,192.168.1.14,52955,10.0.0.40,80,6,,Audit Success,Connection allowed from 192.168.1.14:52955 to 10.0.0.40:80
+2026-10-03T07:32:05Z,5156,WIN-DC01,,192.168.1.12,56859,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.12:56859 to 10.0.0.10:8080
+2026-10-03T07:32:52Z,4624,WIN-DC01,grace,192.168.1.16,52308,10.0.0.20,22,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T07:33:30Z,5156,WIN-DC01,,192.168.1.10,53427,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.10:53427 to 10.0.0.30:443
+2026-10-03T07:41:34Z,5156,WIN-DC01,,192.168.1.10,54601,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.10:54601 to 10.0.0.10:443
+2026-10-03T07:42:07Z,4624,WIN-DC01,heidi,192.168.1.17,59342,10.0.0.30,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T07:42:13Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.30,,,,Audit Success,User admin logged off
+2026-10-03T07:42:14Z,5156,WIN-DC01,,192.168.1.14,61607,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.14:61607 to 10.0.0.10:80
+2026-10-03T07:42:15Z,5156,WIN-DC01,,192.168.1.6,63773,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.6:63773 to 10.0.0.20:443
+2026-10-03T07:43:56Z,5156,WIN-DC01,,192.168.1.15,61796,10.0.0.40,80,6,,Audit Success,Connection allowed from 192.168.1.15:61796 to 10.0.0.40:80
+2026-10-03T07:45:27Z,4634,WIN-DC01,alice,192.168.1.10,,10.0.0.20,,,,Audit Success,User alice logged off
+2026-10-03T07:46:02Z,5156,WIN-DC01,,192.168.1.14,49367,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.14:49367 to 10.0.0.10:443
+2026-10-03T07:47:34Z,4624,WIN-DC01,alice,192.168.1.10,51400,10.0.0.30,22,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T07:47:39Z,5156,WIN-DC01,,192.168.1.13,49297,10.0.0.40,53,17,,Audit Success,Connection allowed from 192.168.1.13:49297 to 10.0.0.40:53
+2026-10-03T07:50:21Z,5156,WIN-DC01,,192.168.1.13,51400,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.13:51400 to 10.0.0.20:443
+2026-10-03T07:50:38Z,5156,WIN-DC01,,192.168.1.5,50333,10.0.0.20,8080,6,,Audit Success,Connection allowed from 192.168.1.5:50333 to 10.0.0.20:8080
+2026-10-03T07:51:20Z,4624,WIN-DC01,grace,192.168.1.16,59463,10.0.0.30,22,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T07:51:42Z,4624,WIN-DC01,grace,192.168.1.16,51356,10.0.0.10,22,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T07:52:14Z,5156,WIN-DC01,,192.168.1.17,64655,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.17:64655 to 10.0.0.30:445
+2026-10-03T07:54:30Z,5156,WIN-DC01,,192.168.1.13,60609,10.0.0.20,53,17,,Audit Success,Connection allowed from 192.168.1.13:60609 to 10.0.0.20:53
+2026-10-03T07:55:42Z,4624,WIN-DC01,dave,192.168.1.13,63378,10.0.0.10,3389,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T07:57:51Z,5156,WIN-DC01,,192.168.1.14,60864,10.0.0.10,53,17,,Audit Success,Connection allowed from 192.168.1.14:60864 to 10.0.0.10:53
+2026-10-03T07:59:04Z,4624,WIN-DC01,erin,192.168.1.14,59457,10.0.0.10,22,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T07:59:58Z,5156,WIN-DC01,,192.168.1.13,64489,10.0.0.40,80,6,,Audit Success,Connection allowed from 192.168.1.13:64489 to 10.0.0.40:80
+2026-10-03T08:00:03Z,4624,WIN-DC01,dave,192.168.1.13,62278,10.0.0.20,3389,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T08:00:19Z,5156,WIN-DC01,,192.168.1.17,53493,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.17:53493 to 10.0.0.30:80
+2026-10-03T08:01:40Z,5156,WIN-DC01,,192.168.1.6,49600,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.6:49600 to 10.0.0.20:443
+2026-10-03T08:02:00Z,5156,WIN-DC01,,192.168.1.6,59136,10.0.0.40,80,6,,Audit Success,Connection allowed from 192.168.1.6:59136 to 10.0.0.40:80
+2026-10-03T08:05:24Z,5156,WIN-DC01,,192.168.1.11,57819,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.11:57819 to 10.0.0.30:445
+2026-10-03T08:07:53Z,5156,WIN-DC01,,192.168.1.17,57079,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.17:57079 to 10.0.0.10:445
+2026-10-03T08:09:27Z,4624,WIN-DC01,svc_backup,192.168.1.6,63031,10.0.0.30,3389,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T08:10:27Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.40,,,,Audit Success,User erin logged off
+2026-10-03T08:11:27Z,4624,WIN-DC01,heidi,192.168.1.17,52088,10.0.0.40,3389,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T08:11:42Z,5156,WIN-DC01,,192.168.1.6,64266,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.6:64266 to 10.0.0.10:445
+2026-10-03T08:12:57Z,4624,WIN-DC01,heidi,192.168.1.17,60016,10.0.0.20,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T08:13:28Z,5156,WIN-DC01,,192.168.1.6,56340,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.6:56340 to 10.0.0.40:443
+2026-10-03T08:13:33Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.40,,,,Audit Success,User dave logged off
+2026-10-03T08:13:34Z,5156,WIN-DC01,,192.168.1.16,49930,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.16:49930 to 10.0.0.10:443
+2026-10-03T08:15:22Z,5156,WIN-DC01,,192.168.1.15,60153,10.0.0.20,80,6,,Audit Success,Connection allowed from 192.168.1.15:60153 to 10.0.0.20:80
+2026-10-03T08:16:12Z,4624,WIN-DC01,admin,192.168.1.5,59074,10.0.0.30,22,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T08:16:39Z,5156,WIN-DC01,,192.168.1.12,59289,10.0.0.10,53,17,,Audit Success,Connection allowed from 192.168.1.12:59289 to 10.0.0.10:53
+2026-10-03T08:16:41Z,5156,WIN-DC01,,192.168.1.15,56491,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.15:56491 to 10.0.0.10:8080
+2026-10-03T08:19:02Z,5156,WIN-DC01,,192.168.1.11,52735,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.11:52735 to 10.0.0.10:8080
+2026-10-03T08:19:29Z,4624,WIN-DC01,heidi,192.168.1.17,58558,10.0.0.10,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T08:19:45Z,4624,WIN-DC01,admin,192.168.1.5,50100,10.0.0.40,22,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T08:20:23Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.20,,,,Audit Success,User erin logged off
+2026-10-03T08:20:27Z,4634,WIN-DC01,frank,192.168.1.15,,10.0.0.30,,,,Audit Success,User frank logged off
+2026-10-03T08:20:42Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.30,,,,Audit Success,User erin logged off
+2026-10-03T08:21:06Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.40,,,,Audit Success,User admin logged off
+2026-10-03T08:21:38Z,4625,WIN-DC01,svc_backup,192.168.1.6,59846,10.0.0.40,22,6,3,Audit Failure,Failed logon for svc_backup from 192.168.1.6
+2026-10-03T08:23:25Z,4625,WIN-DC01,heidi,192.168.1.17,56552,10.0.0.20,3389,6,3,Audit Failure,Failed logon for heidi from 192.168.1.17
+2026-10-03T08:25:26Z,5156,WIN-DC01,,192.168.1.10,59133,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.10:59133 to 10.0.0.10:445
+2026-10-03T08:25:57Z,4624,WIN-DC01,alice,192.168.1.10,63866,10.0.0.20,22,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T08:26:09Z,5156,WIN-DC01,,192.168.1.12,52461,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.12:52461 to 10.0.0.10:445
+2026-10-03T08:26:58Z,5156,WIN-DC01,,192.168.1.6,63509,10.0.0.40,8080,6,,Audit Success,Connection allowed from 192.168.1.6:63509 to 10.0.0.40:8080
+2026-10-03T08:27:38Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.30,,,,Audit Success,User carol logged off
+2026-10-03T08:28:55Z,4624,WIN-DC01,bob,192.168.1.11,60641,10.0.0.20,3389,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T08:30:04Z,5156,WIN-DC01,,192.168.1.15,57709,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.15:57709 to 10.0.0.30:443
+2026-10-03T08:30:42Z,5156,WIN-DC01,,192.168.1.12,63291,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.12:63291 to 10.0.0.10:8080
+2026-10-03T08:32:15Z,4624,WIN-DC01,erin,192.168.1.14,53487,10.0.0.40,3389,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T08:32:41Z,5156,WIN-DC01,,192.168.1.15,52610,10.0.0.10,53,17,,Audit Success,Connection allowed from 192.168.1.15:52610 to 10.0.0.10:53
+2026-10-03T08:34:13Z,4624,WIN-DC01,admin,192.168.1.5,60588,10.0.0.30,22,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T08:34:22Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.40,,,,Audit Success,User dave logged off
+2026-10-03T08:34:46Z,4624,WIN-DC01,dave,192.168.1.13,50447,10.0.0.10,22,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T08:35:18Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.30,,,,Audit Success,User admin logged off
+2026-10-03T08:37:01Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.40,,,,Audit Success,User erin logged off
+2026-10-03T08:38:02Z,5156,WIN-DC01,,192.168.1.16,52144,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.16:52144 to 10.0.0.30:80
+2026-10-03T08:40:50Z,5156,WIN-DC01,,192.168.1.11,61245,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.11:61245 to 10.0.0.40:443
+2026-10-03T08:41:53Z,5156,WIN-DC01,,192.168.1.12,58111,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.12:58111 to 10.0.0.40:443
+2026-10-03T08:42:22Z,5156,WIN-DC01,,192.168.1.17,57141,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.17:57141 to 10.0.0.20:445
+2026-10-03T08:42:58Z,5156,WIN-DC01,,192.168.1.15,58992,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.15:58992 to 10.0.0.30:80
+2026-10-03T08:43:14Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.20,,,,Audit Success,User erin logged off
+2026-10-03T08:45:06Z,4634,WIN-DC01,alice,192.168.1.10,,10.0.0.20,,,,Audit Success,User alice logged off
+2026-10-03T08:45:18Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.30,,,,Audit Success,User dave logged off
+2026-10-03T08:46:12Z,5156,WIN-DC01,,192.168.1.15,55218,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.15:55218 to 10.0.0.10:8080
+2026-10-03T08:49:15Z,5156,WIN-DC01,,192.168.1.15,62246,10.0.0.20,80,6,,Audit Success,Connection allowed from 192.168.1.15:62246 to 10.0.0.20:80
+2026-10-03T08:51:46Z,5156,WIN-DC01,,192.168.1.17,59405,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.17:59405 to 10.0.0.30:443
+2026-10-03T08:52:04Z,4624,WIN-DC01,grace,192.168.1.16,50908,10.0.0.40,22,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T08:53:12Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.20,,,,Audit Success,User erin logged off
+2026-10-03T08:53:30Z,4624,WIN-DC01,svc_backup,192.168.1.6,51567,10.0.0.20,22,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T08:54:31Z,4624,WIN-DC01,heidi,192.168.1.17,65449,10.0.0.30,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T08:57:05Z,4624,WIN-DC01,frank,192.168.1.15,58163,10.0.0.20,3389,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T08:57:12Z,4634,WIN-DC01,frank,192.168.1.15,,10.0.0.40,,,,Audit Success,User frank logged off
+2026-10-03T08:59:23Z,4624,WIN-DC01,erin,192.168.1.14,51732,10.0.0.20,22,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T08:59:30Z,4634,WIN-DC01,alice,192.168.1.10,,10.0.0.30,,,,Audit Success,User alice logged off
+2026-10-03T08:59:54Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.40,,,,Audit Success,User carol logged off
+2026-10-03T08:59:54Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.20,,,,Audit Success,User grace logged off
+2026-10-03T08:59:56Z,4624,WIN-DC01,heidi,192.168.1.17,62161,10.0.0.10,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T09:02:22Z,5156,WIN-DC01,,192.168.1.5,64376,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.5:64376 to 10.0.0.30:443
+2026-10-03T09:03:06Z,4625,WIN-DC01,frank,192.168.1.15,62563,10.0.0.20,3389,6,3,Audit Failure,Failed logon for frank from 192.168.1.15
+2026-10-03T09:03:16Z,4624,WIN-DC01,grace,192.168.1.16,59862,10.0.0.30,3389,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T09:04:32Z,5156,WIN-DC01,,192.168.1.11,60656,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.11:60656 to 10.0.0.20:443
+2026-10-03T09:04:52Z,5156,WIN-DC01,,192.168.1.10,60222,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.10:60222 to 10.0.0.30:53
+2026-10-03T09:06:10Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.40,,,,Audit Success,User heidi logged off
+2026-10-03T09:06:25Z,5156,WIN-DC01,,192.168.1.15,53879,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.15:53879 to 10.0.0.30:443
+2026-10-03T09:06:39Z,4624,WIN-DC01,svc_backup,192.168.1.6,56546,10.0.0.20,22,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T09:08:12Z,4625,WIN-DC01,frank,192.168.1.15,64145,10.0.0.40,22,6,3,Audit Failure,Failed logon for frank from 192.168.1.15
+2026-10-03T09:08:16Z,4624,WIN-DC01,frank,192.168.1.15,58992,10.0.0.20,22,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T09:08:17Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.30,,,,Audit Success,User erin logged off
+2026-10-03T09:11:05Z,5156,WIN-DC01,,192.168.1.6,65459,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.6:65459 to 10.0.0.40:443
+2026-10-03T09:11:15Z,5156,WIN-DC01,,192.168.1.6,60908,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.6:60908 to 10.0.0.30:8080
+2026-10-03T09:11:20Z,5156,WIN-DC01,,192.168.1.17,65031,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.17:65031 to 10.0.0.10:80
+2026-10-03T09:11:36Z,5156,WIN-DC01,,192.168.1.6,60909,10.0.0.20,53,17,,Audit Success,Connection allowed from 192.168.1.6:60909 to 10.0.0.20:53
+2026-10-03T09:11:59Z,4624,WIN-DC01,alice,192.168.1.10,57287,10.0.0.40,3389,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T09:12:21Z,5156,WIN-DC01,,192.168.1.13,65513,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.13:65513 to 10.0.0.40:443
+2026-10-03T09:12:52Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.40,,,,Audit Success,User grace logged off
+2026-10-03T09:13:51Z,4624,WIN-DC01,dave,192.168.1.13,51719,10.0.0.20,3389,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T09:14:04Z,4624,WIN-DC01,admin,192.168.1.5,55276,10.0.0.30,22,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T09:15:11Z,4624,WIN-DC01,admin,192.168.1.5,62538,10.0.0.10,3389,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T09:15:18Z,5156,WIN-DC01,,192.168.1.14,59842,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.14:59842 to 10.0.0.30:53
+2026-10-03T09:16:58Z,5156,WIN-DC01,,192.168.1.17,52925,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.17:52925 to 10.0.0.30:443
+2026-10-03T09:17:17Z,4624,WIN-DC01,heidi,192.168.1.17,57205,10.0.0.20,3389,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T09:18:07Z,4624,WIN-DC01,heidi,192.168.1.17,65273,10.0.0.40,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T09:19:00Z,4634,WIN-DC01,alice,192.168.1.10,,10.0.0.20,,,,Audit Success,User alice logged off
+2026-10-03T09:20:41Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.40,,,,Audit Success,User bob logged off
+2026-10-03T09:20:59Z,5156,WIN-DC01,,192.168.1.13,58459,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.13:58459 to 10.0.0.30:445
+2026-10-03T09:21:14Z,5156,WIN-DC01,,192.168.1.15,57916,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.15:57916 to 10.0.0.30:8080
+2026-10-03T09:22:39Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.20,,,,Audit Success,User heidi logged off
+2026-10-03T09:23:19Z,5156,WIN-DC01,,192.168.1.15,54310,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.15:54310 to 10.0.0.10:443
+2026-10-03T09:24:12Z,5156,WIN-DC01,,192.168.1.6,62748,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.6:62748 to 10.0.0.20:443
+2026-10-03T09:24:34Z,4624,WIN-DC01,dave,192.168.1.13,50538,10.0.0.30,3389,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T09:26:12Z,5156,WIN-DC01,,192.168.1.5,49791,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.5:49791 to 10.0.0.20:445
+2026-10-03T09:29:47Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.30,,,,Audit Success,User svc_backup logged off
+2026-10-03T09:31:22Z,4624,WIN-DC01,admin,192.168.1.5,53311,10.0.0.30,3389,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T09:32:31Z,5156,WIN-DC01,,192.168.1.11,54394,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.11:54394 to 10.0.0.10:443
+2026-10-03T09:33:40Z,4624,WIN-DC01,svc_backup,192.168.1.6,57088,10.0.0.40,22,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T09:34:25Z,5156,WIN-DC01,,192.168.1.5,49265,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.5:49265 to 10.0.0.20:443
+2026-10-03T09:34:49Z,5156,WIN-DC01,,192.168.1.5,49790,10.0.0.10,53,17,,Audit Success,Connection allowed from 192.168.1.5:49790 to 10.0.0.10:53
+2026-10-03T09:37:14Z,4624,WIN-DC01,admin,192.168.1.5,60410,10.0.0.40,22,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T09:37:16Z,5156,WIN-DC01,,192.168.1.10,59430,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.10:59430 to 10.0.0.10:443
+2026-10-03T09:38:09Z,4625,WIN-DC01,bob,192.168.1.11,65343,10.0.0.20,3389,6,3,Audit Failure,Failed logon for bob from 192.168.1.11
+2026-10-03T09:39:08Z,5156,WIN-DC01,,192.168.1.13,60647,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.13:60647 to 10.0.0.20:445
+2026-10-03T09:39:24Z,5156,WIN-DC01,,192.168.1.15,53433,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.15:53433 to 10.0.0.10:8080
+2026-10-03T09:39:38Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.10,,,,Audit Success,User grace logged off
+2026-10-03T09:40:32Z,4624,WIN-DC01,alice,192.168.1.10,57614,10.0.0.20,22,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T09:42:42Z,4624,WIN-DC01,bob,192.168.1.11,49818,10.0.0.30,3389,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T09:43:37Z,5156,WIN-DC01,,192.168.1.16,57227,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.16:57227 to 10.0.0.10:443
+2026-10-03T09:43:59Z,4624,WIN-DC01,heidi,192.168.1.17,51949,10.0.0.10,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T09:45:13Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.40,,,,Audit Success,User bob logged off
+2026-10-03T09:45:47Z,4624,WIN-DC01,grace,192.168.1.16,51747,10.0.0.40,3389,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T09:46:04Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.10,,,,Audit Success,User admin logged off
+2026-10-03T09:46:43Z,5156,WIN-DC01,,192.168.1.15,56682,10.0.0.40,80,6,,Audit Success,Connection allowed from 192.168.1.15:56682 to 10.0.0.40:80
+2026-10-03T09:47:26Z,5156,WIN-DC01,,192.168.1.5,63841,10.0.0.10,53,17,,Audit Success,Connection allowed from 192.168.1.5:63841 to 10.0.0.10:53
+2026-10-03T09:48:44Z,5156,WIN-DC01,,192.168.1.11,62717,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.11:62717 to 10.0.0.10:445
+2026-10-03T09:50:19Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.30,,,,Audit Success,User svc_backup logged off
+2026-10-03T09:51:29Z,4625,WIN-DC01,admin,192.168.1.5,63654,10.0.0.30,3389,6,3,Audit Failure,Failed logon for admin from 192.168.1.5
+2026-10-03T09:51:36Z,4625,WIN-DC01,erin,192.168.1.14,53033,10.0.0.10,3389,6,3,Audit Failure,Failed logon for erin from 192.168.1.14
+2026-10-03T09:55:02Z,5156,WIN-DC01,,192.168.1.14,63111,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.14:63111 to 10.0.0.30:443
+2026-10-03T09:57:34Z,5156,WIN-DC01,,192.168.1.13,51657,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.13:51657 to 10.0.0.30:8080
+2026-10-03T09:59:58Z,5156,WIN-DC01,,192.168.1.10,58637,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.10:58637 to 10.0.0.40:443
+2026-10-03T10:00:02Z,5156,WIN-DC01,,192.168.1.6,61321,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.6:61321 to 10.0.0.40:443
+2026-10-03T10:00:16Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.20,,,,Audit Success,User grace logged off
+2026-10-03T10:05:57Z,5156,WIN-DC01,,192.168.1.11,61735,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.11:61735 to 10.0.0.20:445
+2026-10-03T10:07:08Z,4624,WIN-DC01,bob,192.168.1.11,63737,10.0.0.40,22,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T10:07:54Z,5156,WIN-DC01,,192.168.1.17,49851,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.17:49851 to 10.0.0.10:8080
+2026-10-03T10:09:45Z,5156,WIN-DC01,,192.168.1.15,62020,10.0.0.20,8080,6,,Audit Success,Connection allowed from 192.168.1.15:62020 to 10.0.0.20:8080
+2026-10-03T10:12:12Z,4624,WIN-DC01,admin,192.168.1.5,55164,10.0.0.40,3389,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T10:12:39Z,5156,WIN-DC01,,192.168.1.5,62157,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.5:62157 to 10.0.0.30:443
+2026-10-03T10:13:37Z,4624,WIN-DC01,frank,192.168.1.15,65368,10.0.0.10,3389,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T10:13:47Z,5156,WIN-DC01,,192.168.1.17,58425,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.17:58425 to 10.0.0.30:445
+2026-10-03T10:14:04Z,5156,WIN-DC01,,192.168.1.15,56368,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.15:56368 to 10.0.0.10:443
+2026-10-03T10:15:47Z,5156,WIN-DC01,,192.168.1.14,54742,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.14:54742 to 10.0.0.40:443
+2026-10-03T10:16:25Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.30,,,,Audit Success,User carol logged off
+2026-10-03T10:16:42Z,5156,WIN-DC01,,192.168.1.12,63867,10.0.0.40,80,6,,Audit Success,Connection allowed from 192.168.1.12:63867 to 10.0.0.40:80
+2026-10-03T10:18:36Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.20,,,,Audit Success,User erin logged off
+2026-10-03T10:19:07Z,5156,WIN-DC01,,192.168.1.12,61881,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.12:61881 to 10.0.0.30:445
+2026-10-03T10:21:38Z,5156,WIN-DC01,,192.168.1.12,60469,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.12:60469 to 10.0.0.30:443
+2026-10-03T10:22:14Z,5156,WIN-DC01,,192.168.1.14,61331,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.14:61331 to 10.0.0.40:443
+2026-10-03T10:23:18Z,5156,WIN-DC01,,192.168.1.12,59064,10.0.0.40,8080,6,,Audit Success,Connection allowed from 192.168.1.12:59064 to 10.0.0.40:8080
+2026-10-03T10:23:43Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.40,,,,Audit Success,User svc_backup logged off
+2026-10-03T10:24:54Z,4624,WIN-DC01,heidi,192.168.1.17,60914,10.0.0.10,3389,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T10:25:38Z,4624,WIN-DC01,alice,192.168.1.10,56073,10.0.0.10,22,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T10:26:21Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.40,,,,Audit Success,User heidi logged off
+2026-10-03T10:26:56Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.40,,,,Audit Success,User admin logged off
+2026-10-03T10:27:50Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.30,,,,Audit Success,User svc_backup logged off
+2026-10-03T10:31:40Z,5156,WIN-DC01,,192.168.1.6,60984,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.6:60984 to 10.0.0.10:80
+2026-10-03T10:32:07Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.30,,,,Audit Success,User grace logged off
+2026-10-03T10:32:29Z,5156,WIN-DC01,,192.168.1.15,64985,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.15:64985 to 10.0.0.10:8080
+2026-10-03T10:32:50Z,5156,WIN-DC01,,192.168.1.14,62802,10.0.0.10,53,17,,Audit Success,Connection allowed from 192.168.1.14:62802 to 10.0.0.10:53
+2026-10-03T10:33:30Z,4624,WIN-DC01,frank,192.168.1.15,63977,10.0.0.40,3389,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T10:33:43Z,5156,WIN-DC01,,192.168.1.17,62580,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.17:62580 to 10.0.0.20:443
+2026-10-03T10:34:22Z,4624,WIN-DC01,alice,192.168.1.10,61481,10.0.0.30,3389,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T10:35:20Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.40,,,,Audit Success,User erin logged off
+2026-10-03T10:37:09Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.10,,,,Audit Success,User grace logged off
+2026-10-03T10:38:32Z,4624,WIN-DC01,grace,192.168.1.16,53642,10.0.0.10,3389,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T10:39:02Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.30,,,,Audit Success,User admin logged off
+2026-10-03T10:42:17Z,5156,WIN-DC01,,192.168.1.11,54506,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.11:54506 to 10.0.0.20:443
+2026-10-03T10:42:37Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.40,,,,Audit Success,User carol logged off
+2026-10-03T10:43:15Z,5156,WIN-DC01,,192.168.1.11,54216,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.11:54216 to 10.0.0.30:53
+2026-10-03T10:43:53Z,4625,WIN-DC01,svc_backup,192.168.1.6,57983,10.0.0.10,22,6,3,Audit Failure,Failed logon for svc_backup from 192.168.1.6
+2026-10-03T10:44:56Z,4624,WIN-DC01,frank,192.168.1.15,61720,10.0.0.30,3389,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T10:45:28Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.20,,,,Audit Success,User heidi logged off
+2026-10-03T10:46:26Z,5156,WIN-DC01,,192.168.1.17,65235,10.0.0.20,8080,6,,Audit Success,Connection allowed from 192.168.1.17:65235 to 10.0.0.20:8080
+2026-10-03T10:47:05Z,5156,WIN-DC01,,192.168.1.16,52445,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.16:52445 to 10.0.0.10:8080
+2026-10-03T10:47:47Z,4634,WIN-DC01,frank,192.168.1.15,,10.0.0.20,,,,Audit Success,User frank logged off
+2026-10-03T10:48:18Z,5156,WIN-DC01,,192.168.1.15,56761,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.15:56761 to 10.0.0.30:80
+2026-10-03T10:48:49Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.20,,,,Audit Success,User carol logged off
+2026-10-03T10:50:30Z,4624,WIN-DC01,grace,192.168.1.16,63276,10.0.0.20,3389,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T10:51:12Z,4624,WIN-DC01,carol,192.168.1.12,64721,10.0.0.10,22,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T10:51:33Z,4624,WIN-DC01,alice,192.168.1.10,64392,10.0.0.40,3389,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T10:51:48Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.20,,,,Audit Success,User svc_backup logged off
+2026-10-03T10:51:51Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.30,,,,Audit Success,User grace logged off
+2026-10-03T10:52:16Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.10,,,,Audit Success,User heidi logged off
+2026-10-03T10:52:40Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.30,,,,Audit Success,User carol logged off
+2026-10-03T10:53:09Z,4624,WIN-DC01,admin,192.168.1.5,58592,10.0.0.40,22,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T10:53:54Z,4624,WIN-DC01,frank,192.168.1.15,57285,10.0.0.20,3389,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T10:55:10Z,4624,WIN-DC01,carol,192.168.1.12,60037,10.0.0.40,3389,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T10:56:53Z,4624,WIN-DC01,dave,192.168.1.13,64108,10.0.0.10,22,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T11:00:45Z,4624,WIN-DC01,admin,192.168.1.5,50938,10.0.0.20,3389,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T11:01:20Z,4624,WIN-DC01,erin,192.168.1.14,54726,10.0.0.10,3389,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T11:02:17Z,4624,WIN-DC01,dave,192.168.1.13,64137,10.0.0.30,3389,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T11:03:41Z,5156,WIN-DC01,,192.168.1.17,53237,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.17:53237 to 10.0.0.30:80
+2026-10-03T11:04:24Z,5156,WIN-DC01,,192.168.1.13,60722,10.0.0.20,53,17,,Audit Success,Connection allowed from 192.168.1.13:60722 to 10.0.0.20:53
+2026-10-03T11:05:48Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.30,,,,Audit Success,User carol logged off
+2026-10-03T11:07:03Z,5156,WIN-DC01,,192.168.1.13,64130,10.0.0.40,445,6,,Audit Success,Connection allowed from 192.168.1.13:64130 to 10.0.0.40:445
+2026-10-03T11:08:45Z,4624,WIN-DC01,heidi,192.168.1.17,54089,10.0.0.10,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T11:11:26Z,5156,WIN-DC01,,192.168.1.5,58794,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.5:58794 to 10.0.0.10:445
+2026-10-03T11:12:02Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.10,,,,Audit Success,User dave logged off
+2026-10-03T11:12:51Z,4624,WIN-DC01,bob,192.168.1.11,64189,10.0.0.30,3389,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T11:13:02Z,5156,WIN-DC01,,192.168.1.10,62764,10.0.0.40,8080,6,,Audit Success,Connection allowed from 192.168.1.10:62764 to 10.0.0.40:8080
+2026-10-03T11:14:13Z,5156,WIN-DC01,,192.168.1.15,58194,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.15:58194 to 10.0.0.10:8080
+2026-10-03T11:14:38Z,5156,WIN-DC01,,192.168.1.13,49304,10.0.0.40,445,6,,Audit Success,Connection allowed from 192.168.1.13:49304 to 10.0.0.40:445
+2026-10-03T11:18:38Z,4624,WIN-DC01,dave,192.168.1.13,57802,10.0.0.30,3389,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T11:21:19Z,4624,WIN-DC01,svc_backup,192.168.1.6,60933,10.0.0.10,22,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T11:21:35Z,5156,WIN-DC01,,192.168.1.6,60415,10.0.0.20,53,17,,Audit Success,Connection allowed from 192.168.1.6:60415 to 10.0.0.20:53
+2026-10-03T11:24:11Z,4624,WIN-DC01,admin,192.168.1.5,56536,10.0.0.40,3389,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T11:24:26Z,5156,WIN-DC01,,192.168.1.15,60117,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.15:60117 to 10.0.0.10:8080
+2026-10-03T11:25:45Z,5156,WIN-DC01,,192.168.1.17,51568,10.0.0.40,445,6,,Audit Success,Connection allowed from 192.168.1.17:51568 to 10.0.0.40:445
+2026-10-03T11:26:42Z,5156,WIN-DC01,,192.168.1.11,53646,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.11:53646 to 10.0.0.30:8080
+2026-10-03T11:27:31Z,4634,WIN-DC01,alice,192.168.1.10,,10.0.0.40,,,,Audit Success,User alice logged off
+2026-10-03T11:28:29Z,5156,WIN-DC01,,192.168.1.14,51171,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.14:51171 to 10.0.0.20:445
+2026-10-03T11:29:40Z,4634,WIN-DC01,frank,192.168.1.15,,10.0.0.20,,,,Audit Success,User frank logged off
+2026-10-03T11:30:40Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.20,,,,Audit Success,User erin logged off
+2026-10-03T11:30:49Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.10,,,,Audit Success,User dave logged off
+2026-10-03T11:31:07Z,5156,WIN-DC01,,192.168.1.11,61887,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.11:61887 to 10.0.0.20:443
+2026-10-03T11:32:25Z,4624,WIN-DC01,admin,192.168.1.5,55414,10.0.0.40,3389,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T11:33:55Z,4625,WIN-DC01,svc_backup,192.168.1.6,55743,10.0.0.40,3389,6,3,Audit Failure,Failed logon for svc_backup from 192.168.1.6
+2026-10-03T11:34:00Z,4624,WIN-DC01,bob,192.168.1.11,57818,10.0.0.40,3389,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T11:34:46Z,5156,WIN-DC01,,192.168.1.14,63752,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.14:63752 to 10.0.0.10:443
+2026-10-03T11:35:08Z,5156,WIN-DC01,,192.168.1.13,54854,10.0.0.40,53,17,,Audit Success,Connection allowed from 192.168.1.13:54854 to 10.0.0.40:53
+2026-10-03T11:36:22Z,5156,WIN-DC01,,192.168.1.16,53054,10.0.0.20,8080,6,,Audit Success,Connection allowed from 192.168.1.16:53054 to 10.0.0.20:8080
+2026-10-03T11:37:18Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.10,,,,Audit Success,User heidi logged off
+2026-10-03T11:38:19Z,5156,WIN-DC01,,192.168.1.15,54222,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.15:54222 to 10.0.0.10:443
+2026-10-03T11:41:14Z,4624,WIN-DC01,heidi,192.168.1.17,50793,10.0.0.30,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T11:45:36Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.40,,,,Audit Success,User bob logged off
+2026-10-03T11:46:26Z,4624,WIN-DC01,svc_backup,192.168.1.6,56078,10.0.0.10,3389,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T11:47:53Z,4624,WIN-DC01,bob,192.168.1.11,50778,10.0.0.30,22,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T11:48:50Z,5156,WIN-DC01,,192.168.1.12,51184,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.12:51184 to 10.0.0.30:443
+2026-10-03T11:49:06Z,4624,WIN-DC01,svc_backup,192.168.1.6,49236,10.0.0.10,22,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T11:49:23Z,5156,WIN-DC01,,192.168.1.12,59344,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.12:59344 to 10.0.0.10:443
+2026-10-03T11:49:24Z,4625,WIN-DC01,admin,192.168.1.5,55695,10.0.0.40,22,6,3,Audit Failure,Failed logon for admin from 192.168.1.5
+2026-10-03T11:49:25Z,4624,WIN-DC01,bob,192.168.1.11,57346,10.0.0.40,3389,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T11:49:51Z,4624,WIN-DC01,dave,192.168.1.13,55382,10.0.0.30,3389,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T11:50:28Z,5156,WIN-DC01,,192.168.1.10,58822,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.10:58822 to 10.0.0.30:80
+2026-10-03T11:52:16Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.30,,,,Audit Success,User admin logged off
+2026-10-03T11:52:50Z,4624,WIN-DC01,dave,192.168.1.13,55480,10.0.0.20,3389,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T11:52:50Z,4624,WIN-DC01,grace,192.168.1.16,55699,10.0.0.30,22,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T11:53:23Z,5156,WIN-DC01,,192.168.1.12,63745,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.12:63745 to 10.0.0.30:53
+2026-10-03T11:54:07Z,5156,WIN-DC01,,192.168.1.11,50473,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.11:50473 to 10.0.0.20:443
+2026-10-03T11:54:10Z,5156,WIN-DC01,,192.168.1.12,55737,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.12:55737 to 10.0.0.30:80
+2026-10-03T11:55:02Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.30,,,,Audit Success,User heidi logged off
+2026-10-03T11:56:38Z,5156,WIN-DC01,,192.168.1.14,51957,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.14:51957 to 10.0.0.10:443
+2026-10-03T11:57:58Z,5156,WIN-DC01,,192.168.1.10,50596,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.10:50596 to 10.0.0.10:443
+2026-10-03T12:00:11Z,4624,WIN-DC01,carol,192.168.1.12,50156,10.0.0.40,22,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T12:00:39Z,4624,WIN-DC01,carol,198.51.100.5,65458,10.0.0.40,22,6,10,Audit Success,Successful logon for carol from 198.51.100.5
+2026-10-03T12:01:09Z,4624,WIN-DC01,alice,192.168.1.10,52503,10.0.0.10,3389,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T12:03:31Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.20,,,,Audit Success,User svc_backup logged off
+2026-10-03T12:07:51Z,5156,WIN-DC01,,192.168.1.5,57348,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.5:57348 to 10.0.0.30:445
+2026-10-03T12:07:54Z,4624,WIN-DC01,carol,203.0.113.157,56946,10.0.0.40,22,6,10,Audit Success,Successful logon for carol from 203.0.113.157
+2026-10-03T12:08:24Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.40,,,,Audit Success,User svc_backup logged off
+2026-10-03T12:10:51Z,5156,WIN-DC01,,192.168.1.6,52039,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.6:52039 to 10.0.0.40:443
+2026-10-03T12:11:07Z,4625,WIN-DC01,grace,192.168.1.16,58059,10.0.0.40,3389,6,3,Audit Failure,Failed logon for grace from 192.168.1.16
+2026-10-03T12:11:31Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.20,,,,Audit Success,User grace logged off
+2026-10-03T12:12:45Z,4624,WIN-DC01,carol,198.51.100.118,63631,10.0.0.40,22,6,10,Audit Success,Successful logon for carol from 198.51.100.118
+2026-10-03T12:15:24Z,4624,WIN-DC01,bob,192.168.1.11,59594,10.0.0.30,22,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T12:15:41Z,4624,WIN-DC01,alice,192.168.1.10,58193,10.0.0.20,3389,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T12:16:20Z,5156,WIN-DC01,,192.168.1.11,64290,10.0.0.40,80,6,,Audit Success,Connection allowed from 192.168.1.11:64290 to 10.0.0.40:80
+2026-10-03T12:16:23Z,4634,WIN-DC01,frank,192.168.1.15,,10.0.0.30,,,,Audit Success,User frank logged off
+2026-10-03T12:16:25Z,4624,WIN-DC01,carol,203.0.113.64,55955,10.0.0.30,22,6,10,Audit Success,Successful logon for carol from 203.0.113.64
+2026-10-03T12:17:55Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.30,,,,Audit Success,User bob logged off
+2026-10-03T12:19:50Z,4624,WIN-DC01,carol,203.0.113.39,60588,10.0.0.10,22,6,10,Audit Success,Successful logon for carol from 203.0.113.39
+2026-10-03T12:19:58Z,5156,WIN-DC01,,192.168.1.10,52996,10.0.0.20,8080,6,,Audit Success,Connection allowed from 192.168.1.10:52996 to 10.0.0.20:8080
+2026-10-03T12:20:12Z,4624,WIN-DC01,heidi,192.168.1.17,65191,10.0.0.10,3389,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T12:20:42Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.20,,,,Audit Success,User bob logged off
+2026-10-03T12:22:08Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.10,,,,Audit Success,User dave logged off
+2026-10-03T12:22:12Z,5156,WIN-DC01,,192.168.1.15,59140,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.15:59140 to 10.0.0.30:80
+2026-10-03T12:22:13Z,4624,WIN-DC01,svc_backup,192.168.1.6,55383,10.0.0.30,3389,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T12:22:53Z,5156,WIN-DC01,,192.168.1.14,54531,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.14:54531 to 10.0.0.30:80
+2026-10-03T12:22:57Z,5156,WIN-DC01,,192.168.1.17,61362,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.17:61362 to 10.0.0.30:80
+2026-10-03T12:23:27Z,5156,WIN-DC01,,192.168.1.12,55052,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.12:55052 to 10.0.0.20:445
+2026-10-03T12:26:48Z,5156,WIN-DC01,,192.168.1.16,56161,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.16:56161 to 10.0.0.30:445
+2026-10-03T12:27:20Z,4624,WIN-DC01,carol,192.168.1.12,51912,10.0.0.20,22,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T12:28:17Z,5156,WIN-DC01,,192.168.1.13,52722,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.13:52722 to 10.0.0.10:443
+2026-10-03T12:29:45Z,4624,WIN-DC01,carol,192.168.1.12,59723,10.0.0.10,22,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T12:30:08Z,4672,WIN-DC01,bob,192.168.1.11,,10.0.0.40,,,,Audit Success,Special privileges assigned to bob
+2026-10-03T12:30:22Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.30,,,,Audit Success,User admin logged off
+2026-10-03T12:30:35Z,4732,WIN-DC01,bob,192.168.1.11,,10.0.0.40,,,,Audit Success,Member bob was added to a privileged group
+2026-10-03T12:31:50Z,5156,WIN-DC01,,192.168.1.17,63566,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.17:63566 to 10.0.0.10:443
+2026-10-03T12:37:51Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.10,,,,Audit Success,User svc_backup logged off
+2026-10-03T12:38:30Z,4625,WIN-DC01,admin,192.168.1.5,63914,10.0.0.20,22,6,3,Audit Failure,Failed logon for admin from 192.168.1.5
+2026-10-03T12:38:45Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.20,,,,Audit Success,User bob logged off
+2026-10-03T12:40:45Z,5156,WIN-DC01,,192.168.1.17,58568,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.17:58568 to 10.0.0.10:443
+2026-10-03T12:42:25Z,5156,WIN-DC01,,192.168.1.16,51400,10.0.0.20,8080,6,,Audit Success,Connection allowed from 192.168.1.16:51400 to 10.0.0.20:8080
+2026-10-03T12:43:59Z,4624,WIN-DC01,svc_backup,192.168.1.6,62704,10.0.0.10,3389,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T12:44:15Z,5156,WIN-DC01,,192.168.1.10,49814,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.10:49814 to 10.0.0.40:443
+2026-10-03T12:45:11Z,4624,WIN-DC01,frank,192.168.1.15,53793,10.0.0.10,22,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T12:45:12Z,5156,WIN-DC01,,192.168.1.14,62159,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.14:62159 to 10.0.0.30:445
+2026-10-03T12:45:26Z,4624,WIN-DC01,erin,192.168.1.14,65416,10.0.0.20,22,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T12:46:07Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.40,,,,Audit Success,User heidi logged off
+2026-10-03T12:46:08Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.10,,,,Audit Success,User erin logged off
+2026-10-03T12:46:29Z,4624,WIN-DC01,erin,192.168.1.14,54231,10.0.0.20,3389,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T12:47:26Z,4624,WIN-DC01,carol,192.168.1.12,61140,10.0.0.20,3389,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T12:47:30Z,4625,WIN-DC01,grace,192.168.1.16,54136,10.0.0.40,3389,6,3,Audit Failure,Failed logon for grace from 192.168.1.16
+2026-10-03T12:49:19Z,4624,WIN-DC01,heidi,192.168.1.17,51838,10.0.0.10,3389,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T12:52:50Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.30,,,,Audit Success,User erin logged off
+2026-10-03T12:55:12Z,4624,WIN-DC01,dave,192.168.1.13,62612,10.0.0.40,22,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T12:55:45Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.10,,,,Audit Success,User carol logged off
+2026-10-03T12:55:49Z,4624,WIN-DC01,alice,192.168.1.10,61211,10.0.0.30,3389,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T12:56:24Z,4634,WIN-DC01,frank,192.168.1.15,,10.0.0.20,,,,Audit Success,User frank logged off
+2026-10-03T12:59:01Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.10,,,,Audit Success,User grace logged off
+2026-10-03T12:59:39Z,4634,WIN-DC01,frank,192.168.1.15,,10.0.0.20,,,,Audit Success,User frank logged off
+2026-10-03T12:59:50Z,5156,WIN-DC01,,192.168.1.5,58935,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.5:58935 to 10.0.0.30:443
+2026-10-03T12:59:51Z,5156,WIN-DC01,,192.168.1.5,63062,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.5:63062 to 10.0.0.30:8080
+2026-10-03T13:02:36Z,4624,WIN-DC01,dave,192.168.1.13,62835,10.0.0.20,3389,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T13:03:12Z,5156,WIN-DC01,,192.168.1.5,63636,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.5:63636 to 10.0.0.30:53
+2026-10-03T13:06:47Z,5156,WIN-DC01,,192.168.1.15,59953,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.15:59953 to 10.0.0.20:445
+2026-10-03T13:07:18Z,5156,WIN-DC01,,192.168.1.6,50640,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.6:50640 to 10.0.0.40:443
+2026-10-03T13:07:22Z,5156,WIN-DC01,,192.168.1.6,54871,10.0.0.20,8080,6,,Audit Success,Connection allowed from 192.168.1.6:54871 to 10.0.0.20:8080
+2026-10-03T13:07:35Z,5156,WIN-DC01,,192.168.1.14,49456,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.14:49456 to 10.0.0.40:443
+2026-10-03T13:07:56Z,5156,WIN-DC01,,192.168.1.6,51838,10.0.0.20,80,6,,Audit Success,Connection allowed from 192.168.1.6:51838 to 10.0.0.20:80
+2026-10-03T13:08:02Z,5156,WIN-DC01,,192.168.1.14,60876,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.14:60876 to 10.0.0.30:80
+2026-10-03T13:08:48Z,4634,WIN-DC01,frank,192.168.1.15,,10.0.0.10,,,,Audit Success,User frank logged off
+2026-10-03T13:09:26Z,5156,WIN-DC01,,192.168.1.13,64605,10.0.0.40,445,6,,Audit Success,Connection allowed from 192.168.1.13:64605 to 10.0.0.40:445
+2026-10-03T13:10:00Z,5156,WIN-DC01,,192.168.1.15,63442,10.0.0.20,8080,6,,Audit Success,Connection allowed from 192.168.1.15:63442 to 10.0.0.20:8080
+2026-10-03T13:10:11Z,5156,WIN-DC01,,192.168.1.10,57397,10.0.0.20,8080,6,,Audit Success,Connection allowed from 192.168.1.10:57397 to 10.0.0.20:8080
+2026-10-03T13:12:09Z,5156,WIN-DC01,,192.168.1.12,62964,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.12:62964 to 10.0.0.40:443
+2026-10-03T13:12:44Z,4624,WIN-DC01,carol,192.168.1.12,58131,10.0.0.30,22,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T13:15:09Z,5156,WIN-DC01,,192.168.1.10,54915,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.10:54915 to 10.0.0.10:443
+2026-10-03T13:15:16Z,5156,WIN-DC01,,192.168.1.13,61311,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.13:61311 to 10.0.0.30:53
+2026-10-03T13:18:50Z,4624,WIN-DC01,grace,192.168.1.16,51856,10.0.0.20,3389,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T13:19:17Z,5156,WIN-DC01,,192.168.1.10,65392,10.0.0.20,53,17,,Audit Success,Connection allowed from 192.168.1.10:65392 to 10.0.0.20:53
+2026-10-03T13:23:40Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.20,,,,Audit Success,User heidi logged off
+2026-10-03T13:23:57Z,4672,WIN-DC01,erin,192.168.1.14,,10.0.0.40,,,,Audit Success,Special privileges assigned to erin
+2026-10-03T13:24:05Z,5156,WIN-DC01,,192.168.1.5,53039,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.5:53039 to 10.0.0.20:443
+2026-10-03T13:24:08Z,4624,WIN-DC01,bob,192.168.1.11,62907,10.0.0.10,22,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T13:24:41Z,4728,WIN-DC01,erin,192.168.1.14,,10.0.0.40,,,,Audit Success,Member erin was added to a privileged group
+2026-10-03T13:24:49Z,5156,WIN-DC01,,192.168.1.11,61627,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.11:61627 to 10.0.0.20:443
+2026-10-03T13:26:29Z,4624,WIN-DC01,alice,192.168.1.10,60270,10.0.0.10,22,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T13:26:59Z,5156,WIN-DC01,,192.168.1.11,49526,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.11:49526 to 10.0.0.20:445
+2026-10-03T13:29:49Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.20,,,,Audit Success,User svc_backup logged off
+2026-10-03T13:30:31Z,5156,WIN-DC01,,192.168.1.14,55210,10.0.0.10,53,17,,Audit Success,Connection allowed from 192.168.1.14:55210 to 10.0.0.10:53
+2026-10-03T13:31:30Z,5156,WIN-DC01,,192.168.1.13,61570,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.13:61570 to 10.0.0.40:443
+2026-10-03T13:31:38Z,4624,WIN-DC01,heidi,192.168.1.17,52881,10.0.0.40,3389,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T13:32:03Z,5156,WIN-DC01,,192.168.1.14,50170,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.14:50170 to 10.0.0.30:443
+2026-10-03T13:34:47Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.20,,,,Audit Success,User admin logged off
+2026-10-03T13:35:20Z,5156,WIN-DC01,,192.168.1.14,62901,10.0.0.40,80,6,,Audit Success,Connection allowed from 192.168.1.14:62901 to 10.0.0.40:80
+2026-10-03T13:37:36Z,5156,WIN-DC01,,192.168.1.10,64280,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.10:64280 to 10.0.0.10:443
+2026-10-03T13:38:08Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.40,,,,Audit Success,User svc_backup logged off
+2026-10-03T13:38:09Z,5156,WIN-DC01,,192.168.1.6,57819,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.6:57819 to 10.0.0.20:445
+2026-10-03T13:38:32Z,5156,WIN-DC01,,192.168.1.11,57498,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.11:57498 to 10.0.0.40:443
+2026-10-03T13:38:33Z,5156,WIN-DC01,,192.168.1.14,52401,10.0.0.40,53,17,,Audit Success,Connection allowed from 192.168.1.14:52401 to 10.0.0.40:53
+2026-10-03T13:39:18Z,5156,WIN-DC01,,192.168.1.17,60207,10.0.0.20,8080,6,,Audit Success,Connection allowed from 192.168.1.17:60207 to 10.0.0.20:8080
+2026-10-03T13:40:39Z,5156,WIN-DC01,,192.168.1.6,51744,10.0.0.40,80,6,,Audit Success,Connection allowed from 192.168.1.6:51744 to 10.0.0.40:80
+2026-10-03T13:41:06Z,5156,WIN-DC01,,192.168.1.17,50224,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.17:50224 to 10.0.0.40:443
+2026-10-03T13:42:37Z,5156,WIN-DC01,,192.168.1.6,59447,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.6:59447 to 10.0.0.30:443
+2026-10-03T13:42:41Z,5156,WIN-DC01,,192.168.1.15,53117,10.0.0.40,53,17,,Audit Success,Connection allowed from 192.168.1.15:53117 to 10.0.0.40:53
+2026-10-03T13:43:19Z,5156,WIN-DC01,,192.168.1.15,53154,10.0.0.20,80,6,,Audit Success,Connection allowed from 192.168.1.15:53154 to 10.0.0.20:80
+2026-10-03T13:43:47Z,5156,WIN-DC01,,192.168.1.15,64767,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.15:64767 to 10.0.0.10:443
+2026-10-03T13:44:08Z,4624,WIN-DC01,heidi,192.168.1.17,52079,10.0.0.10,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T13:44:25Z,4624,WIN-DC01,bob,192.168.1.11,59307,10.0.0.20,22,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T13:47:02Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.20,,,,Audit Success,User svc_backup logged off
+2026-10-03T13:47:28Z,4625,WIN-DC01,grace,192.168.1.16,65411,10.0.0.30,3389,6,3,Audit Failure,Failed logon for grace from 192.168.1.16
+2026-10-03T13:49:35Z,4625,WIN-DC01,erin,192.168.1.14,63815,10.0.0.30,3389,6,3,Audit Failure,Failed logon for erin from 192.168.1.14
+2026-10-03T13:50:45Z,5156,WIN-DC01,,192.168.1.15,60425,10.0.0.40,53,17,,Audit Success,Connection allowed from 192.168.1.15:60425 to 10.0.0.40:53
+2026-10-03T13:52:13Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.30,,,,Audit Success,User heidi logged off
+2026-10-03T13:53:30Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.20,,,,Audit Success,User heidi logged off
+2026-10-03T13:53:57Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.10,,,,Audit Success,User bob logged off
+2026-10-03T13:54:06Z,5156,WIN-DC01,,192.168.1.13,51729,10.0.0.40,445,6,,Audit Success,Connection allowed from 192.168.1.13:51729 to 10.0.0.40:445
+2026-10-03T13:54:28Z,4624,WIN-DC01,admin,192.168.1.5,52491,10.0.0.20,22,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T13:55:19Z,4634,WIN-DC01,frank,192.168.1.15,,10.0.0.20,,,,Audit Success,User frank logged off
+2026-10-03T13:55:39Z,4625,WIN-DC01,grace,192.168.1.16,54385,10.0.0.20,3389,6,3,Audit Failure,Failed logon for grace from 192.168.1.16
+2026-10-03T13:56:43Z,4625,WIN-DC01,carol,192.168.1.12,65214,10.0.0.30,3389,6,3,Audit Failure,Failed logon for carol from 192.168.1.12
+2026-10-03T13:57:24Z,4624,WIN-DC01,frank,192.168.1.15,64444,10.0.0.40,3389,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T14:00:16Z,5156,WIN-DC01,,192.168.1.13,57562,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.13:57562 to 10.0.0.20:443
+2026-10-03T14:00:46Z,5156,WIN-DC01,,192.168.1.14,58931,10.0.0.20,80,6,,Audit Success,Connection allowed from 192.168.1.14:58931 to 10.0.0.20:80
+2026-10-03T14:02:18Z,5156,WIN-DC01,,192.168.1.13,54637,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.13:54637 to 10.0.0.30:80
+2026-10-03T14:02:40Z,4624,WIN-DC01,grace,192.168.1.16,49684,10.0.0.30,3389,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T14:04:09Z,4625,WIN-DC01,dave,192.168.1.13,61137,10.0.0.40,22,6,3,Audit Failure,Failed logon for dave from 192.168.1.13
+2026-10-03T14:06:08Z,5156,WIN-DC01,,192.168.1.14,61600,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.14:61600 to 10.0.0.10:443
+2026-10-03T14:06:39Z,5156,WIN-DC01,,192.168.1.5,61895,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.5:61895 to 10.0.0.20:445
+2026-10-03T14:07:17Z,4624,WIN-DC01,heidi,192.168.1.17,50810,10.0.0.20,3389,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T14:07:44Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.40,,,,Audit Success,User admin logged off
+2026-10-03T14:08:32Z,5156,WIN-DC01,,192.168.1.16,64303,10.0.0.40,445,6,,Audit Success,Connection allowed from 192.168.1.16:64303 to 10.0.0.40:445
+2026-10-03T14:08:47Z,5156,WIN-DC01,,192.168.1.14,52078,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.14:52078 to 10.0.0.20:443
+2026-10-03T14:08:52Z,4624,WIN-DC01,grace,192.168.1.16,55571,10.0.0.10,22,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T14:08:57Z,5156,WIN-DC01,,192.168.1.5,57375,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.5:57375 to 10.0.0.30:443
+2026-10-03T14:09:36Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.40,,,,Audit Success,User erin logged off
+2026-10-03T14:10:44Z,4624,WIN-DC01,erin,192.168.1.14,50990,10.0.0.10,3389,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T14:10:46Z,4624,WIN-DC01,frank,192.168.1.15,65153,10.0.0.20,22,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T14:11:43Z,4625,WIN-DC01,bob,192.168.1.11,53062,10.0.0.20,3389,6,3,Audit Failure,Failed logon for bob from 192.168.1.11
+2026-10-03T14:13:21Z,5156,WIN-DC01,,192.168.1.16,61321,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.16:61321 to 10.0.0.30:53
+2026-10-03T14:14:34Z,4624,WIN-DC01,dave,192.168.1.13,58630,10.0.0.10,22,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T14:14:51Z,4624,WIN-DC01,grace,192.168.1.16,63312,10.0.0.20,3389,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T14:15:48Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.40,,,,Audit Success,User heidi logged off
+2026-10-03T14:15:55Z,5156,WIN-DC01,,192.168.1.11,52360,10.0.0.40,445,6,,Audit Success,Connection allowed from 192.168.1.11:52360 to 10.0.0.40:445
+2026-10-03T14:19:55Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.40,,,,Audit Success,User svc_backup logged off
+2026-10-03T14:20:11Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.30,,,,Audit Success,User grace logged off
+2026-10-03T14:22:09Z,5156,WIN-DC01,,192.168.1.14,52849,10.0.0.20,8080,6,,Audit Success,Connection allowed from 192.168.1.14:52849 to 10.0.0.20:8080
+2026-10-03T14:22:21Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.40,,,,Audit Success,User admin logged off
+2026-10-03T14:22:37Z,5156,WIN-DC01,,192.168.1.14,59051,10.0.0.40,53,17,,Audit Success,Connection allowed from 192.168.1.14:59051 to 10.0.0.40:53
+2026-10-03T14:22:46Z,5156,WIN-DC01,,192.168.1.13,63648,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.13:63648 to 10.0.0.20:445
+2026-10-03T14:23:42Z,5156,WIN-DC01,,192.168.1.5,54215,10.0.0.40,8080,6,,Audit Success,Connection allowed from 192.168.1.5:54215 to 10.0.0.40:8080
+2026-10-03T14:24:00Z,5156,WIN-DC01,,192.168.1.10,59710,10.0.0.20,80,6,,Audit Success,Connection allowed from 192.168.1.10:59710 to 10.0.0.20:80
+2026-10-03T14:24:17Z,5156,WIN-DC01,,192.168.1.5,56657,10.0.0.20,80,6,,Audit Success,Connection allowed from 192.168.1.5:56657 to 10.0.0.20:80
+2026-10-03T14:24:25Z,4624,WIN-DC01,alice,192.168.1.10,56356,10.0.0.40,22,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T14:26:45Z,4624,WIN-DC01,heidi,192.168.1.17,50163,10.0.0.40,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T14:26:56Z,5156,WIN-DC01,,192.168.1.6,65351,10.0.0.20,53,17,,Audit Success,Connection allowed from 192.168.1.6:65351 to 10.0.0.20:53
+2026-10-03T14:26:56Z,4624,WIN-DC01,admin,192.168.1.5,58319,10.0.0.40,3389,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T14:30:28Z,4625,WIN-DC01,frank,192.168.1.15,57425,10.0.0.20,3389,6,3,Audit Failure,Failed logon for frank from 192.168.1.15
+2026-10-03T14:31:20Z,5156,WIN-DC01,,192.168.1.6,52204,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.6:52204 to 10.0.0.10:8080
+2026-10-03T14:32:32Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.40,,,,Audit Success,User bob logged off
+2026-10-03T14:34:00Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.40,,,,Audit Success,User heidi logged off
+2026-10-03T14:35:18Z,4624,WIN-DC01,admin,192.168.1.5,55267,10.0.0.40,3389,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T14:39:11Z,5156,WIN-DC01,,192.168.1.14,53014,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.14:53014 to 10.0.0.10:443
+2026-10-03T14:40:25Z,4624,WIN-DC01,grace,192.168.1.16,53028,10.0.0.30,22,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T14:40:34Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.20,,,,Audit Success,User carol logged off
+2026-10-03T14:41:34Z,5156,WIN-DC01,,192.168.1.5,64488,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.5:64488 to 10.0.0.40:443
+2026-10-03T14:42:07Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.20,,,,Audit Success,User svc_backup logged off
+2026-10-03T14:43:13Z,5156,WIN-DC01,,192.168.1.5,54712,10.0.0.40,8080,6,,Audit Success,Connection allowed from 192.168.1.5:54712 to 10.0.0.40:8080
+2026-10-03T14:44:19Z,5156,WIN-DC01,,192.168.1.16,63496,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.16:63496 to 10.0.0.30:53
+2026-10-03T14:44:50Z,4624,WIN-DC01,alice,192.168.1.10,53939,10.0.0.30,22,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T14:45:21Z,4624,WIN-DC01,alice,192.168.1.10,54984,10.0.0.10,3389,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T14:50:01Z,4624,WIN-DC01,bob,192.168.1.11,57124,10.0.0.30,3389,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T14:51:08Z,5156,WIN-DC01,,192.168.1.12,58946,10.0.0.40,8080,6,,Audit Success,Connection allowed from 192.168.1.12:58946 to 10.0.0.40:8080
+2026-10-03T14:52:57Z,5156,WIN-DC01,,192.168.1.6,50376,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.6:50376 to 10.0.0.10:443
+2026-10-03T14:54:20Z,4624,WIN-DC01,carol,192.168.1.12,57617,10.0.0.40,3389,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T14:54:44Z,4624,WIN-DC01,bob,192.168.1.11,63671,10.0.0.20,3389,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T14:56:02Z,4624,WIN-DC01,alice,192.168.1.10,58113,10.0.0.30,3389,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T14:57:56Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.30,,,,Audit Success,User svc_backup logged off
+2026-10-03T14:58:31Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.40,,,,Audit Success,User bob logged off
+2026-10-03T15:00:07Z,5156,WIN-DC01,,192.168.1.11,54004,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.11:54004 to 10.0.0.20:443
+2026-10-03T15:00:24Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.30,,,,Audit Success,User dave logged off
+2026-10-03T15:01:55Z,5156,WIN-DC01,,192.168.1.10,54827,10.0.0.40,8080,6,,Audit Success,Connection allowed from 192.168.1.10:54827 to 10.0.0.40:8080
+2026-10-03T15:04:36Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.30,,,,Audit Success,User dave logged off
+2026-10-03T15:05:08Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.20,,,,Audit Success,User carol logged off
+2026-10-03T15:05:38Z,5156,WIN-DC01,,192.168.1.6,58715,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.6:58715 to 10.0.0.30:80
+2026-10-03T15:06:01Z,4624,WIN-DC01,grace,192.168.1.16,51006,10.0.0.20,22,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T15:06:06Z,4624,WIN-DC01,dave,192.168.1.13,57303,10.0.0.40,22,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T15:06:18Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.10,,,,Audit Success,User erin logged off
+2026-10-03T15:07:16Z,4624,WIN-DC01,erin,192.168.1.14,58509,10.0.0.40,3389,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T15:09:53Z,5156,WIN-DC01,,192.168.1.16,63934,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.16:63934 to 10.0.0.10:443
+2026-10-03T15:14:41Z,5156,WIN-DC01,,192.168.1.12,51106,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.12:51106 to 10.0.0.30:80
+2026-10-03T15:16:24Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.40,,,,Audit Success,User dave logged off
+2026-10-03T15:16:51Z,5156,WIN-DC01,,192.168.1.12,53470,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.12:53470 to 10.0.0.10:80
+2026-10-03T15:17:38Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.20,,,,Audit Success,User admin logged off
+2026-10-03T15:18:04Z,5156,WIN-DC01,,192.168.1.16,53045,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.16:53045 to 10.0.0.40:443
+2026-10-03T15:18:53Z,5156,WIN-DC01,,192.168.1.6,51431,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.6:51431 to 10.0.0.30:8080
+2026-10-03T15:19:11Z,4624,WIN-DC01,heidi,192.168.1.17,56774,10.0.0.10,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T15:19:14Z,5156,WIN-DC01,,192.168.1.14,65175,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.14:65175 to 10.0.0.30:8080
+2026-10-03T15:19:42Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.30,,,,Audit Success,User grace logged off
+2026-10-03T15:19:54Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.20,,,,Audit Success,User carol logged off
+2026-10-03T15:21:42Z,5156,WIN-DC01,,192.168.1.12,59790,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.12:59790 to 10.0.0.40:443
+2026-10-03T15:22:08Z,5156,WIN-DC01,,192.168.1.5,63328,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.5:63328 to 10.0.0.20:443
+2026-10-03T15:24:20Z,5156,WIN-DC01,,192.168.1.12,60761,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.12:60761 to 10.0.0.40:443
+2026-10-03T15:25:38Z,5156,WIN-DC01,,192.168.1.6,58440,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.6:58440 to 10.0.0.10:8080
+2026-10-03T15:25:43Z,5156,WIN-DC01,,192.168.1.5,57711,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.5:57711 to 10.0.0.30:80
+2026-10-03T15:26:05Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.10,,,,Audit Success,User dave logged off
+2026-10-03T15:26:16Z,5156,WIN-DC01,,192.168.1.13,53013,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.13:53013 to 10.0.0.10:80
+2026-10-03T15:26:23Z,4624,WIN-DC01,alice,192.168.1.10,64950,10.0.0.40,3389,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T15:28:08Z,5156,WIN-DC01,,192.168.1.5,63405,10.0.0.20,53,17,,Audit Success,Connection allowed from 192.168.1.5:63405 to 10.0.0.20:53
+2026-10-03T15:28:33Z,5156,WIN-DC01,,192.168.1.15,51175,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.15:51175 to 10.0.0.10:80
+2026-10-03T15:28:57Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.40,,,,Audit Success,User carol logged off
+2026-10-03T15:29:26Z,5156,WIN-DC01,,192.168.1.10,49792,10.0.0.20,53,17,,Audit Success,Connection allowed from 192.168.1.10:49792 to 10.0.0.20:53
+2026-10-03T15:29:31Z,4624,WIN-DC01,erin,192.168.1.14,62037,10.0.0.40,3389,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T15:30:03Z,4624,WIN-DC01,alice,192.168.1.10,63370,10.0.0.20,3389,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T15:32:07Z,4624,WIN-DC01,svc_backup,192.168.1.6,61173,10.0.0.10,22,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T15:32:35Z,4624,WIN-DC01,svc_backup,192.168.1.6,64237,10.0.0.20,3389,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T15:34:00Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.20,,,,Audit Success,User erin logged off
+2026-10-03T15:35:13Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.30,,,,Audit Success,User heidi logged off
+2026-10-03T15:38:38Z,5156,WIN-DC01,,192.168.1.6,50030,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.6:50030 to 10.0.0.30:8080
+2026-10-03T15:39:44Z,4624,WIN-DC01,svc_backup,192.168.1.6,56384,10.0.0.30,22,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T15:40:40Z,5156,WIN-DC01,,192.168.1.5,56594,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.5:56594 to 10.0.0.30:53
+2026-10-03T15:41:03Z,5156,WIN-DC01,,192.168.1.5,50741,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.5:50741 to 10.0.0.10:80
+2026-10-03T15:41:10Z,4624,WIN-DC01,svc_backup,192.168.1.6,60215,10.0.0.20,22,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T15:41:24Z,4624,WIN-DC01,grace,192.168.1.16,63707,10.0.0.20,3389,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T15:41:38Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.30,,,,Audit Success,User svc_backup logged off
+2026-10-03T15:41:43Z,5156,WIN-DC01,,192.168.1.15,65227,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.15:65227 to 10.0.0.30:53
+2026-10-03T15:43:55Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.20,,,,Audit Success,User heidi logged off
+2026-10-03T15:47:33Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.20,,,,Audit Success,User admin logged off
+2026-10-03T15:47:35Z,5156,WIN-DC01,,192.168.1.16,60881,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.16:60881 to 10.0.0.10:445
+2026-10-03T15:47:46Z,4634,WIN-DC01,alice,192.168.1.10,,10.0.0.20,,,,Audit Success,User alice logged off
+2026-10-03T15:49:34Z,5156,WIN-DC01,,192.168.1.5,53446,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.5:53446 to 10.0.0.10:445
+2026-10-03T15:50:41Z,5156,WIN-DC01,,192.168.1.15,61530,10.0.0.40,80,6,,Audit Success,Connection allowed from 192.168.1.15:61530 to 10.0.0.40:80
+2026-10-03T15:50:47Z,5156,WIN-DC01,,192.168.1.10,55320,10.0.0.40,445,6,,Audit Success,Connection allowed from 192.168.1.10:55320 to 10.0.0.40:445
+2026-10-03T15:51:27Z,5156,WIN-DC01,,192.168.1.17,54879,10.0.0.10,53,17,,Audit Success,Connection allowed from 192.168.1.17:54879 to 10.0.0.10:53
+2026-10-03T15:52:50Z,5156,WIN-DC01,,192.168.1.10,60778,10.0.0.20,53,17,,Audit Success,Connection allowed from 192.168.1.10:60778 to 10.0.0.20:53
+2026-10-03T15:54:36Z,4624,WIN-DC01,alice,192.168.1.10,54504,10.0.0.40,22,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T15:55:23Z,5156,WIN-DC01,,192.168.1.11,62114,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.11:62114 to 10.0.0.30:8080
+2026-10-03T15:56:24Z,4624,WIN-DC01,grace,192.168.1.16,60386,10.0.0.20,3389,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T15:57:32Z,4624,WIN-DC01,dave,192.168.1.13,63630,10.0.0.20,22,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T15:58:13Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.30,,,,Audit Success,User carol logged off
+2026-10-03T15:58:29Z,4634,WIN-DC01,alice,192.168.1.10,,10.0.0.20,,,,Audit Success,User alice logged off
+2026-10-03T15:58:30Z,5156,WIN-DC01,,192.168.1.5,51834,10.0.0.20,8080,6,,Audit Success,Connection allowed from 192.168.1.5:51834 to 10.0.0.20:8080
+2026-10-03T15:58:55Z,5156,WIN-DC01,,192.168.1.10,54547,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.10:54547 to 10.0.0.10:443
+2026-10-03T15:59:10Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.40,,,,Audit Success,User grace logged off
+2026-10-03T15:59:27Z,5156,WIN-DC01,,192.168.1.6,54842,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.6:54842 to 10.0.0.40:443
+2026-10-03T16:00:48Z,5156,WIN-DC01,,192.168.1.5,59487,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.5:59487 to 10.0.0.10:443
+2026-10-03T16:01:45Z,5156,WIN-DC01,,192.168.1.15,65281,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.15:65281 to 10.0.0.20:443
+2026-10-03T16:02:28Z,4624,WIN-DC01,svc_backup,192.168.1.6,50601,10.0.0.10,3389,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T16:02:38Z,5156,WIN-DC01,,192.168.1.12,63699,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.12:63699 to 10.0.0.40:443
+2026-10-03T16:03:19Z,4624,WIN-DC01,carol,192.168.1.12,53648,10.0.0.10,22,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T16:03:39Z,5156,WIN-DC01,,192.168.1.11,51812,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.11:51812 to 10.0.0.20:443
+2026-10-03T16:04:02Z,5156,WIN-DC01,,192.168.1.16,51126,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.16:51126 to 10.0.0.30:445
+2026-10-03T16:06:11Z,5156,WIN-DC01,,192.168.1.17,53002,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.17:53002 to 10.0.0.10:445
+2026-10-03T16:06:21Z,4624,WIN-DC01,erin,192.168.1.14,54313,10.0.0.30,3389,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T16:08:36Z,5156,WIN-DC01,,192.168.1.13,63314,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.13:63314 to 10.0.0.10:443
+2026-10-03T16:09:14Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.30,,,,Audit Success,User heidi logged off
+2026-10-03T16:10:41Z,4624,WIN-DC01,grace,192.168.1.16,53342,10.0.0.10,22,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T16:15:36Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.30,,,,Audit Success,User grace logged off
+2026-10-03T16:17:33Z,5156,WIN-DC01,,192.168.1.10,56226,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.10:56226 to 10.0.0.10:80
+2026-10-03T16:17:43Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.20,,,,Audit Success,User grace logged off
+2026-10-03T16:18:48Z,5156,WIN-DC01,,192.168.1.17,64520,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.17:64520 to 10.0.0.20:443
+2026-10-03T16:22:09Z,5156,WIN-DC01,,192.168.1.11,65295,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.11:65295 to 10.0.0.10:8080
+2026-10-03T16:23:29Z,5156,WIN-DC01,,192.168.1.5,51306,10.0.0.20,80,6,,Audit Success,Connection allowed from 192.168.1.5:51306 to 10.0.0.20:80
+2026-10-03T16:24:09Z,5156,WIN-DC01,,192.168.1.12,54576,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.12:54576 to 10.0.0.20:445
+2026-10-03T16:24:39Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.10,,,,Audit Success,User grace logged off
+2026-10-03T16:25:36Z,5156,WIN-DC01,,192.168.1.13,54817,10.0.0.10,53,17,,Audit Success,Connection allowed from 192.168.1.13:54817 to 10.0.0.10:53
+2026-10-03T16:27:02Z,4624,WIN-DC01,alice,192.168.1.10,50021,10.0.0.10,22,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T16:27:05Z,4624,WIN-DC01,bob,192.168.1.11,51774,10.0.0.30,22,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T16:28:11Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.30,,,,Audit Success,User heidi logged off
+2026-10-03T16:29:33Z,5156,WIN-DC01,,192.168.1.14,57895,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.14:57895 to 10.0.0.10:80
+2026-10-03T16:30:16Z,5156,WIN-DC01,,192.168.1.6,64895,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.6:64895 to 10.0.0.20:445
+2026-10-03T16:30:37Z,5156,WIN-DC01,,192.168.1.16,51936,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.16:51936 to 10.0.0.40:443
+2026-10-03T16:31:49Z,4624,WIN-DC01,dave,192.168.1.13,62588,10.0.0.20,22,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T16:32:20Z,4624,WIN-DC01,grace,192.168.1.16,59600,10.0.0.30,22,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T16:34:36Z,5156,WIN-DC01,,192.168.1.12,51702,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.12:51702 to 10.0.0.40:443
+2026-10-03T16:35:22Z,5156,WIN-DC01,,192.168.1.11,51386,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.11:51386 to 10.0.0.30:443
+2026-10-03T16:36:19Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.10,,,,Audit Success,User grace logged off
+2026-10-03T16:36:42Z,5156,WIN-DC01,,192.168.1.16,49570,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.16:49570 to 10.0.0.30:53
+2026-10-03T16:37:42Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.20,,,,Audit Success,User heidi logged off
+2026-10-03T16:38:50Z,5156,WIN-DC01,,192.168.1.6,63914,10.0.0.20,53,17,,Audit Success,Connection allowed from 192.168.1.6:63914 to 10.0.0.20:53
+2026-10-03T16:40:01Z,5156,WIN-DC01,,192.168.1.17,64977,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.17:64977 to 10.0.0.30:443
+2026-10-03T16:41:25Z,5156,WIN-DC01,,192.168.1.14,63907,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.14:63907 to 10.0.0.40:443
+2026-10-03T16:42:09Z,4625,WIN-DC01,frank,192.168.1.15,61995,10.0.0.30,22,6,3,Audit Failure,Failed logon for frank from 192.168.1.15
+2026-10-03T16:42:19Z,5156,WIN-DC01,,192.168.1.6,59517,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.6:59517 to 10.0.0.20:443
+2026-10-03T16:42:31Z,5156,WIN-DC01,,192.168.1.12,52471,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.12:52471 to 10.0.0.10:80
+2026-10-03T16:43:34Z,5156,WIN-DC01,,192.168.1.16,58669,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.16:58669 to 10.0.0.40:443
+2026-10-03T16:44:07Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.10,,,,Audit Success,User dave logged off
+2026-10-03T16:45:05Z,5156,WIN-DC01,,192.168.1.14,53339,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.14:53339 to 10.0.0.40:443
+2026-10-03T16:46:20Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.20,,,,Audit Success,User dave logged off
+2026-10-03T16:47:03Z,4624,WIN-DC01,admin,192.168.1.5,62210,10.0.0.40,3389,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T16:47:34Z,4624,WIN-DC01,alice,192.168.1.10,64775,10.0.0.30,22,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T16:47:53Z,5156,WIN-DC01,,192.168.1.14,65203,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.14:65203 to 10.0.0.30:445
+2026-10-03T16:49:13Z,5156,WIN-DC01,,192.168.1.13,62570,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.13:62570 to 10.0.0.20:443
+2026-10-03T16:51:00Z,5156,WIN-DC01,,192.168.1.13,58175,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.13:58175 to 10.0.0.30:443
+2026-10-03T16:51:41Z,5156,WIN-DC01,,192.168.1.5,58962,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.5:58962 to 10.0.0.10:445
+2026-10-03T16:54:06Z,4624,WIN-DC01,admin,192.168.1.5,64733,10.0.0.10,3389,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T16:54:40Z,5156,WIN-DC01,,192.168.1.16,62286,10.0.0.40,80,6,,Audit Success,Connection allowed from 192.168.1.16:62286 to 10.0.0.40:80
+2026-10-03T16:55:16Z,4624,WIN-DC01,carol,192.168.1.12,64597,10.0.0.30,3389,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T16:55:49Z,5156,WIN-DC01,,192.168.1.17,61202,10.0.0.20,8080,6,,Audit Success,Connection allowed from 192.168.1.17:61202 to 10.0.0.20:8080
+2026-10-03T16:57:30Z,5156,WIN-DC01,,192.168.1.10,63379,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.10:63379 to 10.0.0.40:443
+2026-10-03T16:59:42Z,4624,WIN-DC01,erin,192.168.1.14,59276,10.0.0.10,3389,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T17:00:51Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.20,,,,Audit Success,User bob logged off
+2026-10-03T17:00:57Z,5156,WIN-DC01,,192.168.1.17,51572,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.17:51572 to 10.0.0.30:443
+2026-10-03T17:05:18Z,4624,WIN-DC01,admin,192.168.1.5,56848,10.0.0.30,3389,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T17:06:11Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.40,,,,Audit Success,User carol logged off
+2026-10-03T17:06:56Z,4624,WIN-DC01,carol,192.168.1.12,52659,10.0.0.30,22,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T17:07:01Z,4624,WIN-DC01,erin,192.168.1.14,52510,10.0.0.20,22,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T17:07:26Z,5156,WIN-DC01,,192.168.1.15,50837,10.0.0.40,8080,6,,Audit Success,Connection allowed from 192.168.1.15:50837 to 10.0.0.40:8080
+2026-10-03T17:07:26Z,5156,WIN-DC01,,192.168.1.6,50025,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.6:50025 to 10.0.0.30:8080
+2026-10-03T17:08:45Z,5156,WIN-DC01,,192.168.1.12,64892,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.12:64892 to 10.0.0.30:443
+2026-10-03T17:09:04Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.30,,,,Audit Success,User heidi logged off
+2026-10-03T17:11:20Z,4634,WIN-DC01,alice,192.168.1.10,,10.0.0.10,,,,Audit Success,User alice logged off
+2026-10-03T17:11:48Z,4624,WIN-DC01,heidi,192.168.1.17,51364,10.0.0.10,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T17:13:45Z,4624,WIN-DC01,svc_backup,192.168.1.6,63749,10.0.0.40,22,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T17:14:30Z,5156,WIN-DC01,,192.168.1.10,51223,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.10:51223 to 10.0.0.30:443
+2026-10-03T17:15:33Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.30,,,,Audit Success,User svc_backup logged off
+2026-10-03T17:16:49Z,5156,WIN-DC01,,192.168.1.5,52694,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.5:52694 to 10.0.0.10:80
+2026-10-03T17:17:15Z,5156,WIN-DC01,,192.168.1.11,61832,10.0.0.10,53,17,,Audit Success,Connection allowed from 192.168.1.11:61832 to 10.0.0.10:53
+2026-10-03T17:17:50Z,4624,WIN-DC01,heidi,192.168.1.17,61453,10.0.0.40,3389,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T17:18:05Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.10,,,,Audit Success,User heidi logged off
+2026-10-03T17:18:19Z,4624,WIN-DC01,dave,192.168.1.13,65239,10.0.0.10,22,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T17:19:50Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.10,,,,Audit Success,User erin logged off
+2026-10-03T17:20:07Z,4624,WIN-DC01,bob,192.168.1.11,53404,10.0.0.10,22,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T17:20:09Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.10,,,,Audit Success,User heidi logged off
+2026-10-03T17:21:21Z,4624,WIN-DC01,frank,192.168.1.15,64712,10.0.0.30,22,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T17:22:19Z,5156,WIN-DC01,,192.168.1.14,64422,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.14:64422 to 10.0.0.30:53
+2026-10-03T17:23:16Z,5156,WIN-DC01,,192.168.1.11,54575,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.11:54575 to 10.0.0.30:8080
+2026-10-03T17:23:34Z,4634,WIN-DC01,frank,192.168.1.15,,10.0.0.10,,,,Audit Success,User frank logged off
+2026-10-03T17:29:44Z,4624,WIN-DC01,grace,192.168.1.16,55063,10.0.0.10,3389,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T17:29:57Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.10,,,,Audit Success,User svc_backup logged off
+2026-10-03T17:30:14Z,5156,WIN-DC01,,192.168.1.11,52916,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.11:52916 to 10.0.0.30:443
+2026-10-03T17:31:01Z,4624,WIN-DC01,alice,192.168.1.10,58154,10.0.0.40,3389,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T17:31:25Z,4624,WIN-DC01,heidi,192.168.1.17,57233,10.0.0.20,3389,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T17:31:36Z,4624,WIN-DC01,svc_backup,192.168.1.6,58176,10.0.0.40,3389,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T17:32:38Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.20,,,,Audit Success,User dave logged off
+2026-10-03T17:33:52Z,5156,WIN-DC01,,192.168.1.6,61414,10.0.0.40,80,6,,Audit Success,Connection allowed from 192.168.1.6:61414 to 10.0.0.40:80
+2026-10-03T17:35:04Z,4624,WIN-DC01,erin,192.168.1.14,55620,10.0.0.10,3389,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T17:36:06Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.20,,,,Audit Success,User heidi logged off
+2026-10-03T17:36:12Z,4624,WIN-DC01,admin,192.168.1.5,57876,10.0.0.20,3389,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T17:37:23Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.30,,,,Audit Success,User heidi logged off
+2026-10-03T17:37:37Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.10,,,,Audit Success,User svc_backup logged off
+2026-10-03T17:38:08Z,5156,WIN-DC01,,192.168.1.14,55733,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.14:55733 to 10.0.0.30:8080
+2026-10-03T17:40:25Z,4625,WIN-DC01,frank,192.168.1.15,53830,10.0.0.20,3389,6,3,Audit Failure,Failed logon for frank from 192.168.1.15
+2026-10-03T17:40:38Z,4624,WIN-DC01,heidi,192.168.1.17,55933,10.0.0.20,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T17:40:41Z,5156,WIN-DC01,,192.168.1.11,49866,10.0.0.30,80,6,,Audit Success,Connection allowed from 192.168.1.11:49866 to 10.0.0.30:80
+2026-10-03T17:44:53Z,5156,WIN-DC01,,192.168.1.5,61008,10.0.0.10,53,17,,Audit Success,Connection allowed from 192.168.1.5:61008 to 10.0.0.10:53
+2026-10-03T17:45:57Z,4624,WIN-DC01,erin,192.168.1.14,57026,10.0.0.20,22,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T17:46:39Z,5156,WIN-DC01,,192.168.1.11,60873,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.11:60873 to 10.0.0.10:80
+2026-10-03T17:47:43Z,5156,WIN-DC01,,192.168.1.14,52702,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.14:52702 to 10.0.0.40:443
+2026-10-03T17:48:03Z,5156,WIN-DC01,,192.168.1.10,49685,10.0.0.10,53,17,,Audit Success,Connection allowed from 192.168.1.10:49685 to 10.0.0.10:53
+2026-10-03T17:48:46Z,5156,WIN-DC01,,192.168.1.12,50443,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.12:50443 to 10.0.0.10:8080
+2026-10-03T17:48:53Z,5156,WIN-DC01,,192.168.1.11,56971,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.11:56971 to 10.0.0.30:8080
+2026-10-03T17:49:09Z,4624,WIN-DC01,frank,192.168.1.15,58687,10.0.0.40,22,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T17:49:35Z,5156,WIN-DC01,,192.168.1.10,63519,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.10:63519 to 10.0.0.40:443
+2026-10-03T17:49:40Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.10,,,,Audit Success,User grace logged off
+2026-10-03T17:49:55Z,4624,WIN-DC01,erin,192.168.1.14,57229,10.0.0.40,3389,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T17:51:10Z,5156,WIN-DC01,,192.168.1.13,63123,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.13:63123 to 10.0.0.20:443
+2026-10-03T17:51:19Z,4624,WIN-DC01,alice,192.168.1.10,49250,10.0.0.40,22,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T17:51:25Z,5156,WIN-DC01,,192.168.1.12,50035,10.0.0.40,445,6,,Audit Success,Connection allowed from 192.168.1.12:50035 to 10.0.0.40:445
+2026-10-03T17:52:25Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.10,,,,Audit Success,User bob logged off
+2026-10-03T17:52:29Z,4624,WIN-DC01,erin,192.168.1.14,50637,10.0.0.40,22,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T17:52:31Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.40,,,,Audit Success,User bob logged off
+2026-10-03T17:52:54Z,4624,WIN-DC01,bob,192.168.1.11,61579,10.0.0.10,3389,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T17:53:01Z,4634,WIN-DC01,alice,192.168.1.10,,10.0.0.10,,,,Audit Success,User alice logged off
+2026-10-03T17:54:32Z,4624,WIN-DC01,carol,192.168.1.12,57433,10.0.0.20,22,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T17:55:21Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.10,,,,Audit Success,User admin logged off
+2026-10-03T17:55:54Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.40,,,,Audit Success,User bob logged off
+2026-10-03T17:56:19Z,5156,WIN-DC01,,192.168.1.13,50940,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.13:50940 to 10.0.0.20:443
+2026-10-03T17:56:58Z,5156,WIN-DC01,,192.168.1.15,53784,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.15:53784 to 10.0.0.10:445
+2026-10-03T17:58:18Z,4624,WIN-DC01,frank,192.168.1.15,53528,10.0.0.20,3389,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T17:59:07Z,4634,WIN-DC01,alice,192.168.1.10,,10.0.0.20,,,,Audit Success,User alice logged off
+2026-10-03T17:59:10Z,5156,WIN-DC01,,192.168.1.5,51605,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.5:51605 to 10.0.0.40:443
+2026-10-03T18:01:37Z,4624,WIN-DC01,admin,192.168.1.5,50376,10.0.0.20,3389,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T18:01:41Z,4624,WIN-DC01,heidi,192.168.1.17,62867,10.0.0.30,3389,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T18:02:12Z,5156,WIN-DC01,,192.168.1.17,64645,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.17:64645 to 10.0.0.10:443
+2026-10-03T18:03:10Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.40,,,,Audit Success,User heidi logged off
+2026-10-03T18:04:05Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.20,,,,Audit Success,User erin logged off
+2026-10-03T18:04:57Z,5156,WIN-DC01,,192.168.1.10,62427,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.10:62427 to 10.0.0.10:445
+2026-10-03T18:07:06Z,5156,WIN-DC01,,192.168.1.10,54739,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.10:54739 to 10.0.0.10:8080
+2026-10-03T18:08:40Z,5156,WIN-DC01,,192.168.1.17,58469,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.17:58469 to 10.0.0.10:445
+2026-10-03T18:08:50Z,4624,WIN-DC01,bob,192.168.1.11,63474,10.0.0.30,22,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T18:09:18Z,5156,WIN-DC01,,192.168.1.16,62802,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.16:62802 to 10.0.0.10:443
+2026-10-03T18:09:22Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.30,,,,Audit Success,User erin logged off
+2026-10-03T18:09:51Z,5156,WIN-DC01,,192.168.1.17,53545,10.0.0.10,53,17,,Audit Success,Connection allowed from 192.168.1.17:53545 to 10.0.0.10:53
+2026-10-03T18:11:00Z,5156,WIN-DC01,,192.168.1.15,54902,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.15:54902 to 10.0.0.30:443
+2026-10-03T18:12:04Z,4624,WIN-DC01,svc_backup,192.168.1.6,59034,10.0.0.20,22,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T18:12:15Z,4624,WIN-DC01,dave,192.168.1.13,55796,10.0.0.30,22,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T18:13:13Z,5156,WIN-DC01,,192.168.1.14,55278,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.14:55278 to 10.0.0.10:445
+2026-10-03T18:14:09Z,4625,WIN-DC01,alice,192.168.1.10,52103,10.0.0.40,22,6,3,Audit Failure,Failed logon for alice from 192.168.1.10
+2026-10-03T18:14:28Z,4624,WIN-DC01,carol,192.168.1.12,62277,10.0.0.10,3389,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T18:14:43Z,5156,WIN-DC01,,192.168.1.5,60899,10.0.0.40,8080,6,,Audit Success,Connection allowed from 192.168.1.5:60899 to 10.0.0.40:8080
+2026-10-03T18:15:30Z,4624,WIN-DC01,frank,192.168.1.15,50940,10.0.0.40,22,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T18:18:01Z,4624,WIN-DC01,grace,192.168.1.16,50759,10.0.0.30,3389,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T18:18:08Z,5156,WIN-DC01,,192.168.1.12,61983,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.12:61983 to 10.0.0.10:445
+2026-10-03T18:18:18Z,4625,WIN-DC01,svc_backup,192.168.1.6,52272,10.0.0.30,22,6,3,Audit Failure,Failed logon for svc_backup from 192.168.1.6
+2026-10-03T18:20:17Z,4624,WIN-DC01,bob,192.168.1.11,50877,10.0.0.30,22,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T18:23:13Z,4625,WIN-DC01,heidi,192.168.1.17,61036,10.0.0.40,22,6,3,Audit Failure,Failed logon for heidi from 192.168.1.17
+2026-10-03T18:24:59Z,5156,WIN-DC01,,192.168.1.16,51034,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.16:51034 to 10.0.0.30:445
+2026-10-03T18:25:41Z,5156,WIN-DC01,,192.168.1.11,61604,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.11:61604 to 10.0.0.30:445
+2026-10-03T18:25:50Z,4625,WIN-DC01,admin,192.168.1.5,53873,10.0.0.30,3389,6,3,Audit Failure,Failed logon for admin from 192.168.1.5
+2026-10-03T18:26:10Z,5156,WIN-DC01,,192.168.1.16,61451,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.16:61451 to 10.0.0.40:443
+2026-10-03T18:27:10Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.30,,,,Audit Success,User heidi logged off
+2026-10-03T18:28:02Z,5156,WIN-DC01,,192.168.1.16,63707,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.16:63707 to 10.0.0.30:443
+2026-10-03T18:28:24Z,5156,WIN-DC01,,192.168.1.6,64187,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.6:64187 to 10.0.0.40:443
+2026-10-03T18:29:40Z,5156,WIN-DC01,,192.168.1.15,56289,10.0.0.10,53,17,,Audit Success,Connection allowed from 192.168.1.15:56289 to 10.0.0.10:53
+2026-10-03T18:30:13Z,5156,WIN-DC01,,192.168.1.13,58052,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.13:58052 to 10.0.0.30:8080
+2026-10-03T18:30:40Z,4624,WIN-DC01,carol,192.168.1.12,64149,10.0.0.20,22,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T18:31:18Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.10,,,,Audit Success,User grace logged off
+2026-10-03T18:31:48Z,5156,WIN-DC01,,192.168.1.5,54361,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.5:54361 to 10.0.0.30:445
+2026-10-03T18:31:52Z,4624,WIN-DC01,bob,192.168.1.11,64726,10.0.0.20,22,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T18:33:13Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.40,,,,Audit Success,User grace logged off
+2026-10-03T18:33:41Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.40,,,,Audit Success,User erin logged off
+2026-10-03T18:34:51Z,4624,WIN-DC01,erin,192.168.1.14,51395,10.0.0.40,22,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T18:35:21Z,4624,WIN-DC01,frank,192.168.1.15,57389,10.0.0.40,22,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T18:35:55Z,4624,WIN-DC01,frank,192.168.1.15,58673,10.0.0.20,3389,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T18:36:19Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.10,,,,Audit Success,User heidi logged off
+2026-10-03T18:36:20Z,4624,WIN-DC01,svc_backup,192.168.1.6,53846,10.0.0.30,22,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T18:37:17Z,5156,WIN-DC01,,192.168.1.15,58291,10.0.0.20,80,6,,Audit Success,Connection allowed from 192.168.1.15:58291 to 10.0.0.20:80
+2026-10-03T18:37:27Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.40,,,,Audit Success,User svc_backup logged off
+2026-10-03T18:38:30Z,4624,WIN-DC01,erin,192.168.1.14,58416,10.0.0.10,3389,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T18:40:26Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.10,,,,Audit Success,User erin logged off
+2026-10-03T18:40:31Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.20,,,,Audit Success,User svc_backup logged off
+2026-10-03T18:41:21Z,4624,WIN-DC01,carol,192.168.1.12,64633,10.0.0.20,22,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T18:41:44Z,4624,WIN-DC01,admin,192.168.1.5,58267,10.0.0.40,22,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T18:42:23Z,4624,WIN-DC01,heidi,192.168.1.17,56418,10.0.0.10,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T18:44:47Z,4624,WIN-DC01,bob,192.168.1.11,52527,10.0.0.20,22,6,3,Audit Success,Successful logon for bob from 192.168.1.11
+2026-10-03T18:46:03Z,5156,WIN-DC01,,192.168.1.12,64827,10.0.0.20,8080,6,,Audit Success,Connection allowed from 192.168.1.12:64827 to 10.0.0.20:8080
+2026-10-03T18:48:30Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.20,,,,Audit Success,User dave logged off
+2026-10-03T18:50:18Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.10,,,,Audit Success,User dave logged off
+2026-10-03T18:50:35Z,4624,WIN-DC01,heidi,192.168.1.17,56285,10.0.0.20,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T18:51:36Z,5156,WIN-DC01,,192.168.1.16,60552,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.16:60552 to 10.0.0.10:443
+2026-10-03T18:52:08Z,5156,WIN-DC01,,192.168.1.11,59698,10.0.0.40,445,6,,Audit Success,Connection allowed from 192.168.1.11:59698 to 10.0.0.40:445
+2026-10-03T18:52:41Z,4624,WIN-DC01,carol,192.168.1.12,57539,10.0.0.20,22,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T18:54:30Z,4624,WIN-DC01,grace,192.168.1.16,51073,10.0.0.20,22,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T18:54:42Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.20,,,,Audit Success,User svc_backup logged off
+2026-10-03T18:55:58Z,4624,WIN-DC01,frank,192.168.1.15,51031,10.0.0.40,22,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T18:56:07Z,5156,WIN-DC01,,192.168.1.10,51244,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.10:51244 to 10.0.0.30:443
+2026-10-03T18:57:23Z,5156,WIN-DC01,,192.168.1.17,53526,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.17:53526 to 10.0.0.10:445
+2026-10-03T18:58:51Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.10,,,,Audit Success,User bob logged off
+2026-10-03T18:59:30Z,4624,WIN-DC01,frank,192.168.1.15,52068,10.0.0.20,22,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T19:00:26Z,4624,WIN-DC01,carol,192.168.1.12,54100,10.0.0.20,22,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T19:01:15Z,5156,WIN-DC01,,192.168.1.13,53288,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.13:53288 to 10.0.0.10:443
+2026-10-03T19:01:19Z,5156,WIN-DC01,,192.168.1.17,57262,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.17:57262 to 10.0.0.40:443
+2026-10-03T19:02:46Z,4625,WIN-DC01,heidi,192.168.1.17,61555,10.0.0.10,22,6,3,Audit Failure,Failed logon for heidi from 192.168.1.17
+2026-10-03T19:03:13Z,5156,WIN-DC01,,192.168.1.14,65035,10.0.0.20,53,17,,Audit Success,Connection allowed from 192.168.1.14:65035 to 10.0.0.20:53
+2026-10-03T19:04:22Z,5156,WIN-DC01,,192.168.1.13,60047,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.13:60047 to 10.0.0.10:8080
+2026-10-03T19:04:23Z,5156,WIN-DC01,,192.168.1.14,55559,10.0.0.20,53,17,,Audit Success,Connection allowed from 192.168.1.14:55559 to 10.0.0.20:53
+2026-10-03T19:04:36Z,4634,WIN-DC01,carol,192.168.1.12,,10.0.0.30,,,,Audit Success,User carol logged off
+2026-10-03T19:05:15Z,4624,WIN-DC01,carol,192.168.1.12,60241,10.0.0.40,22,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T19:05:28Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.30,,,,Audit Success,User erin logged off
+2026-10-03T19:06:31Z,5156,WIN-DC01,,192.168.1.13,55760,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.13:55760 to 10.0.0.20:445
+2026-10-03T19:06:46Z,4634,WIN-DC01,alice,192.168.1.10,,10.0.0.10,,,,Audit Success,User alice logged off
+2026-10-03T19:07:55Z,4625,WIN-DC01,guest,198.51.100.49,58048,10.0.0.30,22,6,10,Audit Failure,Failed logon for guest from 198.51.100.49
+2026-10-03T19:08:15Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.10,,,,Audit Success,User heidi logged off
+2026-10-03T19:08:18Z,5157,WIN-DC01,,198.51.100.49,61328,10.0.0.20,3389,6,,Audit Failure,Connection blocked from 198.51.100.49:61328 to 10.0.0.20:3389
+2026-10-03T19:08:37Z,5157,WIN-DC01,,198.51.100.49,54886,10.0.0.30,22,6,,Audit Failure,Connection blocked from 198.51.100.49:54886 to 10.0.0.30:22
+2026-10-03T19:08:49Z,4625,WIN-DC01,grace,192.168.1.16,61685,10.0.0.30,3389,6,3,Audit Failure,Failed logon for grace from 192.168.1.16
+2026-10-03T19:08:58Z,4625,WIN-DC01,guest,198.51.100.49,63693,10.0.0.20,22,6,10,Audit Failure,Failed logon for guest from 198.51.100.49
+2026-10-03T19:09:24Z,5157,WIN-DC01,,198.51.100.49,54200,10.0.0.40,23,6,,Audit Failure,Connection blocked from 198.51.100.49:54200 to 10.0.0.40:23
+2026-10-03T19:09:44Z,4625,WIN-DC01,oracle,198.51.100.49,53847,10.0.0.30,22,6,10,Audit Failure,Failed logon for oracle from 198.51.100.49
+2026-10-03T19:09:50Z,4624,WIN-DC01,svc_backup,192.168.1.6,53893,10.0.0.10,22,6,3,Audit Success,Successful logon for svc_backup from 192.168.1.6
+2026-10-03T19:09:57Z,4625,WIN-DC01,test,198.51.100.49,50349,10.0.0.20,22,6,10,Audit Failure,Failed logon for test from 198.51.100.49
+2026-10-03T19:10:21Z,5157,WIN-DC01,,198.51.100.49,49286,10.0.0.10,445,6,,Audit Failure,Connection blocked from 198.51.100.49:49286 to 10.0.0.10:445
+2026-10-03T19:10:32Z,5157,WIN-DC01,,198.51.100.49,60073,10.0.0.10,3389,6,,Audit Failure,Connection blocked from 198.51.100.49:60073 to 10.0.0.10:3389
+2026-10-03T19:10:43Z,5157,WIN-DC01,,198.51.100.49,49888,10.0.0.30,8080,6,,Audit Failure,Connection blocked from 198.51.100.49:49888 to 10.0.0.30:8080
+2026-10-03T19:11:02Z,5157,WIN-DC01,,198.51.100.49,59666,10.0.0.20,23,6,,Audit Failure,Connection blocked from 198.51.100.49:59666 to 10.0.0.20:23
+2026-10-03T19:11:18Z,5157,WIN-DC01,,198.51.100.49,63606,10.0.0.30,1433,6,,Audit Failure,Connection blocked from 198.51.100.49:63606 to 10.0.0.30:1433
+2026-10-03T19:11:31Z,5157,WIN-DC01,,198.51.100.49,58118,10.0.0.20,22,6,,Audit Failure,Connection blocked from 198.51.100.49:58118 to 10.0.0.20:22
+2026-10-03T19:11:41Z,4625,WIN-DC01,test,198.51.100.49,60631,10.0.0.10,22,6,10,Audit Failure,Failed logon for test from 198.51.100.49
+2026-10-03T19:12:08Z,5157,WIN-DC01,,198.51.100.49,58434,10.0.0.20,8080,6,,Audit Failure,Connection blocked from 198.51.100.49:58434 to 10.0.0.20:8080
+2026-10-03T19:12:10Z,4624,WIN-DC01,grace,192.168.1.16,53451,10.0.0.10,22,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T19:12:25Z,5157,WIN-DC01,,198.51.100.49,60251,10.0.0.30,8080,6,,Audit Failure,Connection blocked from 198.51.100.49:60251 to 10.0.0.30:8080
+2026-10-03T19:12:45Z,5156,WIN-DC01,,192.168.1.15,53189,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.15:53189 to 10.0.0.10:80
+2026-10-03T19:12:49Z,5157,WIN-DC01,,198.51.100.49,64577,10.0.0.10,1433,6,,Audit Failure,Connection blocked from 198.51.100.49:64577 to 10.0.0.10:1433
+2026-10-03T19:13:00Z,5157,WIN-DC01,,198.51.100.49,51973,10.0.0.10,3389,6,,Audit Failure,Connection blocked from 198.51.100.49:51973 to 10.0.0.10:3389
+2026-10-03T19:15:53Z,5156,WIN-DC01,,192.168.1.14,63565,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.14:63565 to 10.0.0.40:443
+2026-10-03T19:16:18Z,4624,WIN-DC01,frank,192.168.1.15,63263,10.0.0.10,22,6,3,Audit Success,Successful logon for frank from 192.168.1.15
+2026-10-03T19:17:36Z,5156,WIN-DC01,,192.168.1.13,50012,10.0.0.40,445,6,,Audit Success,Connection allowed from 192.168.1.13:50012 to 10.0.0.40:445
+2026-10-03T19:18:22Z,5156,WIN-DC01,,192.168.1.15,51721,10.0.0.40,53,17,,Audit Success,Connection allowed from 192.168.1.15:51721 to 10.0.0.40:53
+2026-10-03T19:18:53Z,5156,WIN-DC01,,192.168.1.11,59075,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.11:59075 to 10.0.0.40:443
+2026-10-03T19:18:55Z,5156,WIN-DC01,,192.168.1.5,61703,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.5:61703 to 10.0.0.30:443
+2026-10-03T19:21:50Z,4624,WIN-DC01,grace,192.168.1.16,57630,10.0.0.10,22,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T19:23:23Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.30,,,,Audit Success,User grace logged off
+2026-10-03T19:23:32Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.10,,,,Audit Success,User svc_backup logged off
+2026-10-03T19:25:00Z,4634,WIN-DC01,erin,192.168.1.14,,10.0.0.10,,,,Audit Success,User erin logged off
+2026-10-03T19:25:23Z,4624,WIN-DC01,alice,192.168.1.10,55530,10.0.0.40,3389,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T19:27:51Z,5156,WIN-DC01,,192.168.1.14,61395,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.14:61395 to 10.0.0.20:445
+2026-10-03T19:30:33Z,5156,WIN-DC01,,192.168.1.17,53732,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.17:53732 to 10.0.0.20:445
+2026-10-03T19:31:12Z,4624,WIN-DC01,dave,192.168.1.13,58844,10.0.0.20,22,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T19:31:20Z,4625,WIN-DC01,dave,192.168.1.13,50801,10.0.0.30,22,6,3,Audit Failure,Failed logon for dave from 192.168.1.13
+2026-10-03T19:32:10Z,4624,WIN-DC01,grace,192.168.1.16,56400,10.0.0.40,22,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T19:34:34Z,4624,WIN-DC01,alice,192.168.1.10,56137,10.0.0.10,3389,6,3,Audit Success,Successful logon for alice from 192.168.1.10
+2026-10-03T19:35:13Z,5156,WIN-DC01,,192.168.1.6,59918,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.6:59918 to 10.0.0.20:443
+2026-10-03T19:35:30Z,5156,WIN-DC01,,192.168.1.12,57467,10.0.0.30,53,17,,Audit Success,Connection allowed from 192.168.1.12:57467 to 10.0.0.30:53
+2026-10-03T19:35:39Z,4634,WIN-DC01,alice,192.168.1.10,,10.0.0.20,,,,Audit Success,User alice logged off
+2026-10-03T19:36:02Z,5156,WIN-DC01,,192.168.1.12,56390,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.12:56390 to 10.0.0.30:445
+2026-10-03T19:36:24Z,5156,WIN-DC01,,192.168.1.17,61931,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.17:61931 to 10.0.0.10:443
+2026-10-03T19:36:48Z,5156,WIN-DC01,,192.168.1.6,59742,10.0.0.40,445,6,,Audit Success,Connection allowed from 192.168.1.6:59742 to 10.0.0.40:445
+2026-10-03T19:36:50Z,5156,WIN-DC01,,192.168.1.10,61294,10.0.0.30,8080,6,,Audit Success,Connection allowed from 192.168.1.10:61294 to 10.0.0.30:8080
+2026-10-03T19:37:13Z,5156,WIN-DC01,,192.168.1.10,64621,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.10:64621 to 10.0.0.30:445
+2026-10-03T19:37:14Z,4624,WIN-DC01,carol,192.168.1.12,57054,10.0.0.10,3389,6,3,Audit Success,Successful logon for carol from 192.168.1.12
+2026-10-03T19:37:14Z,5156,WIN-DC01,,192.168.1.5,62869,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.5:62869 to 10.0.0.10:445
+2026-10-03T19:37:34Z,5156,WIN-DC01,,192.168.1.6,58791,10.0.0.20,443,6,,Audit Success,Connection allowed from 192.168.1.6:58791 to 10.0.0.20:443
+2026-10-03T19:39:03Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.30,,,,Audit Success,User bob logged off
+2026-10-03T19:39:15Z,5156,WIN-DC01,,192.168.1.15,61849,10.0.0.10,445,6,,Audit Success,Connection allowed from 192.168.1.15:61849 to 10.0.0.10:445
+2026-10-03T19:40:03Z,5156,WIN-DC01,,192.168.1.15,51062,10.0.0.40,8080,6,,Audit Success,Connection allowed from 192.168.1.15:51062 to 10.0.0.40:8080
+2026-10-03T19:40:09Z,4634,WIN-DC01,grace,192.168.1.16,,10.0.0.30,,,,Audit Success,User grace logged off
+2026-10-03T19:40:31Z,5156,WIN-DC01,,192.168.1.15,60844,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.15:60844 to 10.0.0.20:445
+2026-10-03T19:40:32Z,5156,WIN-DC01,,192.168.1.16,61082,10.0.0.20,445,6,,Audit Success,Connection allowed from 192.168.1.16:61082 to 10.0.0.20:445
+2026-10-03T19:41:21Z,4634,WIN-DC01,bob,192.168.1.11,,10.0.0.30,,,,Audit Success,User bob logged off
+2026-10-03T19:42:55Z,4624,WIN-DC01,dave,192.168.1.13,52694,10.0.0.30,3389,6,3,Audit Success,Successful logon for dave from 192.168.1.13
+2026-10-03T19:43:20Z,4624,WIN-DC01,admin,192.168.1.5,57387,10.0.0.10,22,6,3,Audit Success,Successful logon for admin from 192.168.1.5
+2026-10-03T19:43:27Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.10,,,,Audit Success,User svc_backup logged off
+2026-10-03T19:43:54Z,5156,WIN-DC01,,192.168.1.15,58666,10.0.0.30,445,6,,Audit Success,Connection allowed from 192.168.1.15:58666 to 10.0.0.30:445
+2026-10-03T19:44:07Z,4634,WIN-DC01,admin,192.168.1.5,,10.0.0.20,,,,Audit Success,User admin logged off
+2026-10-03T19:44:08Z,5156,WIN-DC01,,192.168.1.12,62105,10.0.0.40,53,17,,Audit Success,Connection allowed from 192.168.1.12:62105 to 10.0.0.40:53
+2026-10-03T19:44:33Z,5156,WIN-DC01,,192.168.1.17,64109,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.17:64109 to 10.0.0.10:80
+2026-10-03T19:45:30Z,5156,WIN-DC01,,192.168.1.17,57538,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.17:57538 to 10.0.0.10:80
+2026-10-03T19:46:28Z,4625,WIN-DC01,admin,192.168.1.5,52507,10.0.0.20,22,6,3,Audit Failure,Failed logon for admin from 192.168.1.5
+2026-10-03T19:48:11Z,5156,WIN-DC01,,192.168.1.17,63435,10.0.0.40,443,6,,Audit Success,Connection allowed from 192.168.1.17:63435 to 10.0.0.40:443
+2026-10-03T19:49:05Z,5156,WIN-DC01,,192.168.1.12,63210,10.0.0.40,53,17,,Audit Success,Connection allowed from 192.168.1.12:63210 to 10.0.0.40:53
+2026-10-03T19:50:26Z,5156,WIN-DC01,,192.168.1.10,53500,10.0.0.30,443,6,,Audit Success,Connection allowed from 192.168.1.10:53500 to 10.0.0.30:443
+2026-10-03T19:51:10Z,4624,WIN-DC01,grace,192.168.1.16,56207,10.0.0.30,3389,6,3,Audit Success,Successful logon for grace from 192.168.1.16
+2026-10-03T19:52:11Z,4624,WIN-DC01,heidi,192.168.1.17,58523,10.0.0.40,22,6,3,Audit Success,Successful logon for heidi from 192.168.1.17
+2026-10-03T19:53:33Z,5156,WIN-DC01,,192.168.1.13,57305,10.0.0.10,8080,6,,Audit Success,Connection allowed from 192.168.1.13:57305 to 10.0.0.10:8080
+2026-10-03T19:54:19Z,5156,WIN-DC01,,192.168.1.15,61240,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.15:61240 to 10.0.0.10:80
+2026-10-03T19:54:51Z,5156,WIN-DC01,,192.168.1.6,53737,10.0.0.40,8080,6,,Audit Success,Connection allowed from 192.168.1.6:53737 to 10.0.0.40:8080
+2026-10-03T19:55:08Z,5156,WIN-DC01,,192.168.1.12,54529,10.0.0.10,80,6,,Audit Success,Connection allowed from 192.168.1.12:54529 to 10.0.0.10:80
+2026-10-03T19:55:21Z,4634,WIN-DC01,heidi,192.168.1.17,,10.0.0.30,,,,Audit Success,User heidi logged off
+2026-10-03T19:56:24Z,4624,WIN-DC01,erin,192.168.1.14,51835,10.0.0.40,3389,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T19:57:28Z,4625,WIN-DC01,heidi,192.168.1.17,49294,10.0.0.20,22,6,3,Audit Failure,Failed logon for heidi from 192.168.1.17
+2026-10-03T19:57:50Z,4634,WIN-DC01,dave,192.168.1.13,,10.0.0.40,,,,Audit Success,User dave logged off
+2026-10-03T19:57:53Z,5156,WIN-DC01,,192.168.1.15,50434,10.0.0.10,443,6,,Audit Success,Connection allowed from 192.168.1.15:50434 to 10.0.0.10:443
+2026-10-03T19:58:32Z,4624,WIN-DC01,erin,192.168.1.14,53354,10.0.0.40,22,6,3,Audit Success,Successful logon for erin from 192.168.1.14
+2026-10-03T19:59:04Z,5156,WIN-DC01,,192.168.1.10,52428,10.0.0.40,445,6,,Audit Success,Connection allowed from 192.168.1.10:52428 to 10.0.0.40:445
+2026-10-03T19:59:40Z,4634,WIN-DC01,svc_backup,192.168.1.6,,10.0.0.30,,,,Audit Success,User svc_backup logged off
+2026-10-03T20:33:05Z,4625,WIN-DC01,postgres,203.0.113.148,59522,10.0.0.30,22,6,10,Audit Failure,Failed logon for postgres from 203.0.113.148
+2026-10-03T20:33:23Z,5157,WIN-DC01,,203.0.113.148,53402,10.0.0.30,8080,6,,Audit Failure,Connection blocked from 203.0.113.148:53402 to 10.0.0.30:8080
+2026-10-03T20:33:51Z,5157,WIN-DC01,,203.0.113.148,65290,10.0.0.40,23,6,,Audit Failure,Connection blocked from 203.0.113.148:65290 to 10.0.0.40:23
+2026-10-03T20:34:20Z,5157,WIN-DC01,,203.0.113.148,55494,10.0.0.30,22,6,,Audit Failure,Connection blocked from 203.0.113.148:55494 to 10.0.0.30:22
+2026-10-03T20:34:33Z,5157,WIN-DC01,,203.0.113.148,55945,10.0.0.10,8080,6,,Audit Failure,Connection blocked from 203.0.113.148:55945 to 10.0.0.10:8080
+2026-10-03T20:34:56Z,5157,WIN-DC01,,203.0.113.148,60609,10.0.0.30,8080,6,,Audit Failure,Connection blocked from 203.0.113.148:60609 to 10.0.0.30:8080
+2026-10-03T20:35:26Z,5157,WIN-DC01,,203.0.113.148,58380,10.0.0.20,445,6,,Audit Failure,Connection blocked from 203.0.113.148:58380 to 10.0.0.20:445
+2026-10-03T20:35:38Z,5157,WIN-DC01,,203.0.113.148,49352,10.0.0.30,22,6,,Audit Failure,Connection blocked from 203.0.113.148:49352 to 10.0.0.30:22
+2026-10-03T20:35:58Z,5157,WIN-DC01,,203.0.113.148,54907,10.0.0.10,23,6,,Audit Failure,Connection blocked from 203.0.113.148:54907 to 10.0.0.10:23
+2026-10-03T20:36:18Z,4625,WIN-DC01,postgres,203.0.113.148,50317,10.0.0.40,22,6,10,Audit Failure,Failed logon for postgres from 203.0.113.148
+2026-10-03T20:36:48Z,5157,WIN-DC01,,203.0.113.148,64245,10.0.0.20,8080,6,,Audit Failure,Connection blocked from 203.0.113.148:64245 to 10.0.0.20:8080
+2026-10-03T20:37:08Z,5157,WIN-DC01,,203.0.113.148,50987,10.0.0.40,8080,6,,Audit Failure,Connection blocked from 203.0.113.148:50987 to 10.0.0.40:8080
+2026-10-03T20:37:27Z,5157,WIN-DC01,,203.0.113.148,49765,10.0.0.30,23,6,,Audit Failure,Connection blocked from 203.0.113.148:49765 to 10.0.0.30:23
+2026-10-03T20:37:55Z,5157,WIN-DC01,,203.0.113.148,51321,10.0.0.30,23,6,,Audit Failure,Connection blocked from 203.0.113.148:51321 to 10.0.0.30:23
+2026-10-03T20:38:13Z,4625,WIN-DC01,postgres,203.0.113.148,54590,10.0.0.30,22,6,10,Audit Failure,Failed logon for postgres from 203.0.113.148
+2026-10-03T22:44:42Z,4625,WIN-DC01,bob,198.51.100.142,61492,10.0.0.20,22,6,10,Audit Failure,Failed logon for bob from 198.51.100.142
+2026-10-03T22:44:47Z,4625,WIN-DC01,bob,198.51.100.142,50576,10.0.0.20,22,6,10,Audit Failure,Failed logon for bob from 198.51.100.142
+2026-10-03T22:44:50Z,4625,WIN-DC01,bob,198.51.100.142,54733,10.0.0.20,22,6,10,Audit Failure,Failed logon for bob from 198.51.100.142
+2026-10-03T22:44:51Z,4625,WIN-DC01,bob,198.51.100.142,58458,10.0.0.20,22,6,10,Audit Failure,Failed logon for bob from 198.51.100.142
+2026-10-03T22:44:53Z,4625,WIN-DC01,bob,198.51.100.142,58041,10.0.0.20,22,6,10,Audit Failure,Failed logon for bob from 198.51.100.142
+2026-10-03T22:44:54Z,4625,WIN-DC01,bob,198.51.100.142,64387,10.0.0.20,22,6,10,Audit Failure,Failed logon for bob from 198.51.100.142
+2026-10-03T22:45:00Z,4625,WIN-DC01,bob,198.51.100.142,49425,10.0.0.20,22,6,10,Audit Failure,Failed logon for bob from 198.51.100.142
+2026-10-03T22:45:01Z,4625,WIN-DC01,bob,198.51.100.142,61887,10.0.0.20,22,6,10,Audit Failure,Failed logon for bob from 198.51.100.142
+2026-10-03T22:45:33Z,4624,WIN-DC01,bob,198.51.100.142,60955,10.0.0.20,22,6,10,Audit Success,Successful logon for bob from 198.51.100.142

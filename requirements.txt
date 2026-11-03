@@ -1,0 +1,5 @@
+# Minimum versions the project was built and tested with.
+Flask>=3.0
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.3

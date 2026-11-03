@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Threat Summary Report - {{ r.scope.label }}</title>
+  <style>
+    body { margin: 0; background: #f6f8fa; color: #1f2328; font-family: "Segoe UI", Arial, sans-serif; line-height: 1.45; }
+    .page { max-width: 1000px; margin: 0 auto; padding: 28px 34px; background: #fff; }
+    h1 { margin: 0 0 4px; font-size: 1.7rem; }
+    h2 { font-size: 1.15rem; margin: 28px 0 8px; padding-bottom: 4px; border-bottom: 2px solid #d0d7de; }
+    .meta { color: #57606a; font-size: .9rem; margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; font-size: .86rem; margin-bottom: 6px; }
+    th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid #d8dee4; vertical-align: top; word-break: break-word; }
+    th { background: #f6f8fa; font-size: .75rem; text-transform: uppercase; letter-spacing: .4px; color: #57606a; }
+    .cards { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0; }
+    .card { flex: 1 1 120px; border: 1px solid #d0d7de; border-radius: 8px; padding: 8px 12px; }
+    .card b { display: block; font-size: 1.5rem; }
+    .card span { font-size: .72rem; text-transform: uppercase; color: #57606a; }
+    .pill { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: .72rem; font-weight: 600; border: 1px solid; }
+    .critical { color: #cf222e; border-color: #cf222e; background: #ffebe9; }
+    .high { color: #bc4c00; border-color: #bc4c00; background: #fff1e5; }
+    .medium { color: #9a6700; border-color: #9a6700; background: #fff8c5; }
+    .low { color: #0969da; border-color: #0969da; background: #ddf4ff; }
+    .note { color: #57606a; font-size: .85rem; }
+    code { font-family: Consolas, monospace; font-size: .85em; }
+    @media print { body { background: #fff; } .page { padding: 0; } h2 { break-after: avoid; } tr { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+<div class="page">
+  <h1>Threat Summary Report</h1>
+  <div class="meta">Scope: <strong>{{ r.scope.label }}</strong> &middot; Generated: {{ r.generated_at }}</div>
+  <div class="meta">AI-Based SOC Log Analyzer &amp; Threat Detection System. Tip: use your browser's Print, then Save as PDF.</div>
+
+  <div class="cards">
+    <div class="card"><b>{{ "{:,}".format(r.totals.logs) }}</b><span>Logs analyzed</span></div>
+    <div class="card"><b>{{ "{:,}".format(r.totals.alerts) }}</b><span>Alerts</span></div>
+    <div class="card"><b>{{ r.totals.open_alerts }}</b><span>Open alerts</span></div>
+    <div class="card"><b>{{ r.totals.source_ips }}</b><span>Source IPs</span></div>
+    <div class="card"><b>{{ r.totals.possible_compromises }}</b><span>Possible compromises</span></div>
+    <div class="card"><b>{{ r.totals.anomalies }}</b><span>ML anomalies</span></div>
+  </div>
+
+  <h2>Key findings</h2>
+  <ul>
+    {% for item in r.key_findings %}<li>{{ item }}</li>{% endfor %}
+  </ul>
+
+  <h2>Alerts by severity, status and detection method</h2>
+  <table>
+    <tr><th>Critical</th><th>High</th><th>Medium</th><th>Low</th></tr>
+    <tr><td>{{ r.severity_counts.CRITICAL }}</td><td>{{ r.severity_counts.HIGH }}</td>
+        <td>{{ r.severity_counts.MEDIUM }}</td><td>{{ r.severity_counts.LOW }}</td></tr>
+  </table>
+  <table>
+    <tr><th>New</th><th>Investigating</th><th>Resolved</th><th>False Positive</th></tr>
+    <tr><td>{{ r.status_counts["New"] }}</td><td>{{ r.status_counts["Investigating"] }}</td>
+        <td>{{ r.status_counts["Resolved"] }}</td><td>{{ r.status_counts["False Positive"] }}</td></tr>
+  </table>
+  <table>
+    <tr><th>Rule only</th><th>ML only</th><th>Rule + ML</th></tr>
+    <tr><td>{{ r.detection_methods["RULE"] }}</td><td>{{ r.detection_methods["ML"] }}</td>
+        <td>{{ r.detection_methods["RULE+ML"] }}</td></tr>
+  </table>
+
+  <h2>Highest-scoring alerts</h2>
+  {% if r.top_alerts %}
+  <table>
+    <tr><th>ID</th><th>Time</th><th>Threat</th><th>Severity</th><th>Score</th><th>Source IP</th>
+        <th>User</th><th>Method</th><th>Status</th></tr>
+    {% for a in r.top_alerts %}
+    <tr>
+      <td>#{{ a.id }}</td><td>{{ a.timestamp }}</td><td>{{ a.threat_type }}</td>
+      <td><span class="pill {{ a.severity|lower }}">{{ a.severity }}</span></td>
+      <td>{{ a.threat_score|round|int }}</td><td><code>{{ a.source_ip or "-" }}</code></td>
+      <td>{{ a.username or "-" }}</td><td>{{ a.detection_method }}</td><td>{{ a.status }}</td>
+    </tr>
+    <tr><td></td><td colspan="8" class="note">{{ a.reason }}</td></tr>
+    {% endfor %}
+  </table>
+  {% else %}<p class="note">No alerts.</p>{% endif %}
+
+  <h2>Threat types</h2>
+  {% if r.threat_types %}
+  <table>
+    <tr><th>Threat type</th><th>Alerts</th><th>Critical</th><th>High</th><th>Medium</th><th>Low</th>
+        <th>Avg score</th><th>Max score</th><th>Source IPs</th></tr>
+    {% for t in r.threat_types %}
+    <tr><td>{{ t.threat_type }}</td><td>{{ t.count }}</td><td>{{ t.severity.CRITICAL }}</td>
+        <td>{{ t.severity.HIGH }}</td><td>{{ t.severity.MEDIUM }}</td><td>{{ t.severity.LOW }}</td>
+        <td>{{ t.avg_score }}</td><td>{{ t.max_score|round|int }}</td><td>{{ t.unique_ips }}</td></tr>
+    {% endfor %}
+  </table>
+  {% else %}<p class="note">No alerts.</p>{% endif %}
+
+  <h2>Top source IPs</h2>
+  {% if r.top_attackers %}
+  <table>
+    <tr><th>Source IP</th><th>Network</th><th>Alerts</th><th>Highest severity</th><th>Max score</th>
+        <th>Threat types</th><th>First seen</th><th>Last seen</th></tr>
+    {% for a in r.top_attackers %}
+    <tr><td><code>{{ a.source_ip }}</code></td><td>{{ "internal" if a.internal else "external" }}</td>
+        <td>{{ a.alerts }}</td><td><span class="pill {{ a.highest_severity|lower }}">{{ a.highest_severity }}</span></td>
+        <td>{{ a.max_score|round|int }}</td><td>{{ a.threat_types|join(", ") }}</td>
+        <td>{{ a.first_seen }}</td><td>{{ a.last_seen }}</td></tr>
+    {% endfor %}
+  </table>
+  {% else %}<p class="note">No source IPs.</p>{% endif %}
+
+  <h2>Most targeted accounts</h2>
+  {% if r.targeted_users %}
+  <table>
+    <tr><th>Username</th><th>Alerts</th><th>Source IPs</th><th>Highest score</th></tr>
+    {% for u in r.targeted_users %}
+    <tr><td>{{ u.username }}</td><td>{{ u.alerts }}</td><td>{{ u.source_ips }}</td><td>{{ u.max_score|round|int }}</td></tr>
+    {% endfor %}
+  </table>
+  {% else %}<p class="note">No accounts involved.</p>{% endif %}
+
+  <h2>Machine learning (Isolation Forest)</h2>
+  <table>
+    <tr><th>Events scored</th><th>Flagged as unusual</th><th>Events inside rule alerts</th>
+        <th>...also flagged by ML</th><th>Flagged outside rule alerts</th></tr>
+    <tr><td>{{ r.ml.scored }}</td><td>{{ r.ml.anomalies }}</td><td>{{ r.ml.rule_events }}</td>
+        <td>{{ r.ml.rule_events_flagged }}</td><td>{{ r.ml.anomalies_outside_rules }}</td></tr>
+  </table>
+  <p class="note">The model is unsupervised: it learns what is typical in each file and flags what stands out.
+    The figures above show how two methods overlap. They are <strong>not an accuracy measure</strong>, because
+    there is no labelled data. The number of flagged events follows the contamination setting.</p>
+  {% for run in r.ml_runs %}
+  <p class="note">Upload #{{ run.upload_id }}: {{ run.ml_note or "ML did not run." }}</p>
+  {% endfor %}
+
+  <h2>Uploads analyzed</h2>
+  {% if r.uploads %}
+  <table>
+    <tr><th>ID</th><th>File</th><th>Format</th><th>Events</th><th>Alerts</th><th>Status</th><th>Uploaded</th></tr>
+    {% for u in r.uploads %}
+    <tr><td>#{{ u.id }}</td><td>{{ u.original_name }}</td><td>{{ u.file_type }}</td><td>{{ u.total_rows }}</td>
+        <td>{{ u.total_alerts if u.total_alerts is not none else "-" }}</td><td>{{ u.status }}</td><td>{{ u.uploaded_at }}</td></tr>
+    {% endfor %}
+  </table>
+  {% else %}<p class="note">No uploads.</p>{% endif %}
+
+  <h2>Configuration used</h2>
+  <ul class="note">
+    {% for rule in r.configuration.detection_rules %}<li><strong>{{ rule.name }}</strong>: {{ rule.text }}</li>{% endfor %}
+    <li><strong>ml</strong>: {{ r.configuration.ml }}</li>
+    <li><strong>severity bands</strong>: {{ r.configuration.severity_bands }}</li>
+  </ul>
+
+  <h2>Methodology</h2>
+  <p class="note">Logs are parsed and normalized, then checked by configurable rules (brute force, port scan,
+    suspicious login, account activity, privilege activity, suspicious IP) and by an Isolation Forest anomaly
+    detector. Each finding gets a 0-100 threat score from transparent point components (threat type, attempt
+    volume, event frequency, affected accounts, ML anomaly score, source IP behaviour, escalation indicators),
+    mapped to LOW, MEDIUM, HIGH or CRITICAL. Each alert stores the reason for its severity.</p>
+
+  <h2>Limitations</h2>
+  <ul class="note">
+    <li>Rule thresholds and scoring weights are judgement-based settings, not learned from labelled data. No accuracy figure is claimed.</li>
+    <li>ML anomalies are leads, not confirmed attacks. A model trained on a mostly malicious file would find little unusual.</li>
+    <li>"Possible compromise" is a pattern (failures followed by a success from the same IP), not a confirmed breach.</li>
+    <li>This tool only analyzes logs. It has no login, no CSRF protection, and is intended for local use.</li>
+  </ul>
+</div>
+</body>
+</html>

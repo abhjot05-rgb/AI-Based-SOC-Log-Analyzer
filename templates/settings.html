@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Settings{% endblock %}
+{% block heading %}Settings{% endblock %}
+
+{% block content %}
+<div class="alert alert-secondary">
+  These are the settings the app is using. They are read-only here. To change one, edit
+  <code>config.py</code>, restart <code>python app.py</code>, then re-analyze an upload below.
+</div>
+
+<div id="statusBox" class="d-none" role="status"></div>
+
+<div class="card soc-card mb-4">
+  <div class="card-header soc-card-title">Settings check</div>
+  <div class="card-body" id="validationBox">Loading...</div>
+</div>
+
+<h2 class="h6 soc-label mb-2">Detection rules</h2>
+<div class="row g-3 mb-4" id="rulesBox"></div>
+
+<div class="row g-3 mb-4">
+  <div class="col-lg-4" id="mlBox"></div>
+  <div class="col-lg-4" id="bandsBox"></div>
+  <div class="col-lg-4" id="limitsBox"></div>
+</div>
+
+<h2 class="h6 soc-label mb-2">Threat scoring</h2>
+<div class="mb-4" id="scoringBox"></div>
+<p class="text-secondary small">Scoring weights and rule thresholds are judgement-based settings chosen
+  for this project. They are not learned from labelled data. The ML <code>contamination</code> value is
+  the share of events flagged as unusual, not a measured attack rate.</p>
+
+<div class="card soc-card mb-4">
+  <div class="card-header soc-card-title">Re-analyze an upload with the current settings</div>
+  <div class="card-body">
+    <div class="row g-3 align-items-end">
+      <div class="col-md-6 col-lg-5">
+        <label class="form-label soc-label" for="reanalyzeSelect">Upload</label>
+        <select id="reanalyzeSelect" class="form-select"><option value="">Choose an upload...</option></select>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <button id="reanalyzeBtn" class="btn btn-primary w-100" type="button">Re-analyze</button>
+      </div>
+    </div>
+    <div class="form-text mt-2">Old alerts of that upload are replaced and their statuses reset to New.</div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/settings.js') }}"></script>
+{% endblock %}

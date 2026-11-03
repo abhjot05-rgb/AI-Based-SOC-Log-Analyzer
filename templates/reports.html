@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block title %}Reports{% endblock %}
+{% block heading %}Reports{% endblock %}
+
+{% block content %}
+<div class="card soc-card mb-3">
+  <div class="card-body">
+    <div class="row g-3 align-items-end">
+      <div class="col-md-6 col-lg-4">
+        <label class="form-label soc-label" for="scopeSelect">Report scope</label>
+        <select id="scopeSelect" class="form-select"><option value="">All uploads</option></select>
+      </div>
+      <div class="col-lg-8 text-secondary small">
+        Pick an upload (or all of them), set optional filters on each card, then download.
+        Text that could run as a spreadsheet formula (starting with = + - @) is prefixed with a
+        single quote in the CSV files, so opening them in Excel is safe.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="statusBox" class="d-none" role="status"></div>
+
+<div class="row g-3 mb-4">
+  <div class="col-lg-4">
+    <div class="card soc-card h-100">
+      <div class="card-header soc-card-title">Alerts CSV</div>
+      <div class="card-body">
+        <p class="text-secondary small">One row per alert: score, severity, reason, why this severity,
+          recommended steps, original log and status.</p>
+        <label class="form-label soc-label" for="alertSeverity">Severity</label>
+        <select id="alertSeverity" class="form-select mb-2"><option value="">All severities</option></select>
+        <label class="form-label soc-label" for="alertStatus">Status</label>
+        <select id="alertStatus" class="form-select mb-3"><option value="">All statuses</option></select>
+        <a id="alertsCsvLink" class="btn btn-primary w-100" href="/api/export/alerts.csv">Download alerts CSV</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="card soc-card h-100">
+      <div class="card-header soc-card-title">Analyzed logs CSV</div>
+      <div class="card-body">
+        <p class="text-secondary small">One row per log event with its severity, ML anomaly flag and score,
+          and the IDs of the alerts that include it.</p>
+        <label class="form-label soc-label" for="logSeverity">Severity</label>
+        <select id="logSeverity" class="form-select mb-2"><option value="">All severities</option></select>
+        <div class="form-check mb-3 mt-3">
+          <input class="form-check-input" type="checkbox" id="logAnomalies">
+          <label class="form-check-label" for="logAnomalies">ML anomalies only</label>
+        </div>
+        <a id="logsCsvLink" class="btn btn-primary w-100" href="/api/export/logs.csv">Download logs CSV</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="card soc-card h-100">
+      <div class="card-header soc-card-title">Threat summary report</div>
+      <div class="card-body">
+        <p class="text-secondary small">Key findings, severity and threat tables, top alerts and attackers,
+          ML section, configuration used, methodology and limitations.</p>
+        <a id="summaryViewLink" class="btn btn-primary w-100 mb-2" href="/reports/summary" target="_blank" rel="noopener">View / print report</a>
+        <a id="summaryDownloadLink" class="btn btn-outline-primary w-100 mb-2" href="/reports/summary?download=1">Download as HTML</a>
+        <a id="summaryJsonLink" class="btn btn-outline-secondary w-100" href="/api/reports/summary">Download data (JSON)</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card soc-card mb-4">
+  <div class="card-header soc-card-title">Reports per upload</div>
+  <div class="table-responsive">
+    <table class="table table-sm align-middle soc-table mb-0">
+      <thead><tr><th>ID</th><th>File</th><th>Format</th><th>Events</th><th>Alerts</th><th>Status</th><th>Download</th></tr></thead>
+      <tbody id="uploadsBody"><tr><td colspan="7" class="text-secondary">Loading...</td></tr></tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/reports.js') }}"></script>
+{% endblock %}

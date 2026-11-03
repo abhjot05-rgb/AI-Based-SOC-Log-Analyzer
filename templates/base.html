@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Dashboard{% endblock %} | SOC Log Analyzer</title>
+  <link rel="stylesheet" href="{{ assets.bootstrap_css }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/soc.css') }}">
+</head>
+<body>
+  <div class="soc-shell">
+    <aside class="soc-sidebar" id="sidebar">
+      <div class="soc-brand">
+        <span class="soc-brand-mark">◈</span>
+        <div>
+          <div class="soc-brand-name">SOC Analyzer</div>
+          <div class="soc-brand-sub">Log analysis &amp; threat detection</div>
+        </div>
+      </div>
+      <nav class="soc-nav">
+        {% for item in nav_items %}
+        <a class="soc-nav-link{% if item.key == active %} active{% endif %}" href="{{ item.href }}">
+          <span class="soc-nav-icon">{{ item.icon }}</span>{{ item.label }}
+        </a>
+        {% endfor %}
+      </nav>
+      <div class="soc-sidebar-foot">Analysis only. No active scanning.</div>
+    </aside>
+    <div class="soc-backdrop" id="backdrop"></div>
+
+    <div class="soc-main">
+      <header class="soc-topbar">
+        <button id="menuBtn" class="btn btn-sm btn-outline-secondary d-lg-none" aria-label="Open menu">☰</button>
+        <h1 class="soc-page-title">{% block heading %}{% endblock %}</h1>
+        <div class="ms-auto d-flex align-items-center gap-2">{% block topbar_actions %}{% endblock %}</div>
+      </header>
+      <main class="soc-content">
+        {% block content %}{% endblock %}
+      </main>
+    </div>
+  </div>
+
+  <script src="{{ assets.bootstrap_js }}"></script>
+  <script src="{{ url_for('static', filename='js/soc.js') }}"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

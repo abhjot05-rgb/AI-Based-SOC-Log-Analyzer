@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% block title %}Threats{% endblock %}
+{% block heading %}Threats{% endblock %}
+
+{% block topbar_actions %}
+  <button id="refreshBtn" class="btn btn-sm btn-outline-primary" type="button">Refresh</button>
+{% endblock %}
+
+{% block content %}
+<div class="card soc-card mb-3">
+  <div class="card-body">
+    <div class="row g-3 align-items-end">
+      <div class="col-md-6 col-lg-4">
+        <label class="form-label soc-label" for="scopeSelect">Show data for</label>
+        <select id="scopeSelect" class="form-select"><option value="">All uploads</option></select>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="statusBox" class="d-none" role="status"></div>
+
+<div class="row row-cols-2 row-cols-lg-4 g-3 mb-4">
+  <div class="col"><div class="soc-stat"><div class="soc-stat-label">Threat types</div>
+    <div class="soc-stat-value" id="th-types">–</div></div></div>
+  <div class="col"><div class="soc-stat"><div class="soc-stat-label">Alerts</div>
+    <div class="soc-stat-value" id="th-alerts">–</div></div></div>
+  <div class="col"><div class="soc-stat"><div class="soc-stat-label">Source IPs</div>
+    <div class="soc-stat-value" id="th-ips">–</div></div></div>
+  <div class="col"><div class="soc-stat soc-stat-critical">
+    <div class="soc-stat-label" title="Brute-force alerts followed by a successful login from the same IP">Possible compromises</div>
+    <div class="soc-stat-value" id="th-compromised">–</div></div></div>
+</div>
+
+<div class="row g-3 mb-4">
+  <div class="col-xl-8">
+    <div class="card soc-card h-100">
+      <div class="card-header soc-card-title">Severity by threat type</div>
+      <div class="card-body"><div class="chart-box">
+        <canvas id="typeChart"></canvas>
+        <div id="typeEmpty" class="chart-empty d-none"></div>
+      </div></div>
+    </div>
+  </div>
+  <div class="col-xl-4">
+    <div class="card soc-card h-100">
+      <div class="card-header soc-card-title">Detection method</div>
+      <div class="card-body"><div class="chart-box">
+        <canvas id="methodChart"></canvas>
+        <div id="methodEmpty" class="chart-empty d-none"></div>
+      </div>
+      <p class="small text-secondary mt-2 mb-0">RULE = a detection rule matched. ML = only the Isolation
+        Forest flagged it. RULE+ML = a rule matched and ML also flagged events inside it.</p></div>
+    </div>
+  </div>
+</div>
+
+<div class="card soc-card mb-4">
+  <div class="card-header soc-card-title">Threat types <span class="text-secondary small">click a name to see its alerts</span></div>
+  <div class="table-responsive">
+    <table class="table table-sm align-middle soc-table mb-0">
+      <thead><tr><th>Threat type</th><th>Alerts</th><th>Severity mix</th><th>Avg score</th>
+        <th>Max score</th><th>Source IPs</th><th>Log events</th></tr></thead>
+      <tbody id="typesBody"><tr><td colspan="7" class="text-secondary">Loading...</td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card soc-card mb-4">
+  <div class="card-header soc-card-title">Top attackers <span class="text-secondary small">source IPs with the most alerts</span></div>
+  <div class="table-responsive">
+    <table class="table table-sm align-middle soc-table mb-0">
+      <thead><tr><th>Source IP</th><th>Network</th><th>Alerts</th><th>Highest severity</th>
+        <th>Max score</th><th>Threat types</th><th>First seen</th><th>Last seen</th><th>Drill down</th></tr></thead>
+      <tbody id="attackersBody"><tr><td colspan="9" class="text-secondary">Loading...</td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card soc-card mb-4">
+  <div class="card-header soc-card-title">Most targeted accounts</div>
+  <div class="table-responsive">
+    <table class="table table-sm align-middle soc-table mb-0">
+      <thead><tr><th>Username</th><th>Alerts</th><th>Source IPs</th><th>Highest score</th><th>Drill down</th></tr></thead>
+      <tbody id="usersBody"><tr><td colspan="5" class="text-secondary">Loading...</td></tr></tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ assets.chart_js }}"></script>
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+<script src="{{ url_for('static', filename='js/threats.js') }}"></script>
+{% endblock %}

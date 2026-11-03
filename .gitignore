@@ -1,0 +1,46 @@
+# Python virtual environments
+.venv/
+venv/
+venv_library/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated reports and temporary files
+*.tmp
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Coverage and test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+#runtime log
+/data/app.log
+
+/data/uploads/*
+!/data/uploads/.gitkeep
+
+#database
+*.db
+*.sqlite
+*.sqlite3

@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block title %}Alert #{{ alert_id }}{% endblock %}
+{% block heading %}Alert investigation{% endblock %}
+
+{% block topbar_actions %}
+  <a id="logsLink" href="/logs" class="btn btn-sm btn-outline-primary d-none">Logs from this IP</a>
+  <a href="/alerts" class="btn btn-sm btn-outline-secondary">← All alerts</a>
+{% endblock %}
+
+{% block content %}
+<div id="alertRoot" data-alert-id="{{ alert_id }}">
+  <div id="statusBox" class="d-none" role="status"></div>
+
+  <div id="alertContent">
+    <!-- Header -->
+    <div class="card soc-card mb-3">
+      <div class="card-body d-flex flex-wrap align-items-center gap-3">
+        <div>
+          <div class="soc-label">Alert ID</div>
+          <div class="h4 mb-0" id="dAlertId">#{{ alert_id }}</div>
+        </div>
+        <div id="dSeverity"></div>
+        <div class="h5 mb-0" id="dThreatType"></div>
+        <div class="ms-auto d-flex align-items-center gap-2">
+          <label class="soc-label mb-0" for="statusSelect">Status</label>
+          <select id="statusSelect" class="form-select form-select-sm w-auto"></select>
+          <button id="saveStatusBtn" type="button" class="btn btn-sm btn-primary">Save</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-3 mb-3">
+      <!-- Details -->
+      <div class="col-lg-5">
+        <div class="card soc-card h-100">
+          <div class="card-header soc-card-title">Details</div>
+          <div class="card-body">
+            <dl class="row soc-dl mb-0">
+              <dt class="col-sm-5">Timestamp</dt><dd class="col-sm-7" id="dTimestamp">-</dd>
+              <dt class="col-sm-5">Source IP</dt><dd class="col-sm-7"><code id="dSourceIp">-</code></dd>
+              <dt class="col-sm-5">Destination IP</dt><dd class="col-sm-7"><code id="dDestIp">-</code></dd>
+              <dt class="col-sm-5">Username</dt><dd class="col-sm-7" id="dUsername">-</dd>
+              <dt class="col-sm-5">Event ID</dt><dd class="col-sm-7" id="dEventId">-</dd>
+              <dt class="col-sm-5">Detection method</dt>
+              <dd class="col-sm-7"><span id="dMethod">-</span><br><small class="text-secondary" id="dMethodNote"></small></dd>
+              <dt class="col-sm-5">ML anomaly score</dt><dd class="col-sm-7" id="dMlScore">-</dd>
+              <dt class="col-sm-5">Threat score</dt>
+              <dd class="col-sm-7"><span id="dThreatScore">-</span>
+                <span class="score-bar score-bar-wide"><span id="dScoreBar"></span></span></dd>
+              <dt class="col-sm-5">Related events</dt><dd class="col-sm-7 mb-0" id="dRelatedCount">-</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+
+      <!-- Explanations -->
+      <div class="col-lg-7">
+        <div class="card soc-card mb-3">
+          <div class="card-header soc-card-title">Reason for detection</div>
+          <div class="card-body" id="dReason">-</div>
+        </div>
+        <div class="card soc-card mb-3">
+          <div class="card-header soc-card-title">Why this severity</div>
+          <div class="card-body" id="dSeverityReason">-</div>
+        </div>
+        <div class="card soc-card">
+          <div class="card-header soc-card-title">Recommended investigation steps</div>
+          <div class="card-body">
+            <ol class="steps-list mb-0" id="dSteps"></ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Original log -->
+    <div class="card soc-card mb-3">
+      <div class="card-header soc-card-title">Original log entry <span class="text-secondary small">first event of this alert</span></div>
+      <div class="card-body"><pre class="log-pre" id="dOriginalLog">-</pre></div>
+    </div>
+
+    <!-- Related events -->
+    <div class="card soc-card mb-4">
+      <div class="card-header soc-card-title d-flex justify-content-between">
+        <span>Related log events</span><span class="text-secondary small" id="dRelatedNote"></span>
+      </div>
+      <div class="table-responsive">
+        <table class="table table-sm align-middle soc-table mb-0">
+          <thead>
+            <tr><th>Time</th><th>Source IP</th><th>Destination IP</th><th>User</th><th>Event ID</th>
+                <th>Event type</th><th>Status</th><th>Severity</th><th>ML score</th></tr>
+          </thead>
+          <tbody id="dRelatedBody"><tr><td colspan="9" class="text-secondary">Loading...</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/alert_details.js') }}"></script>
+{% endblock %}

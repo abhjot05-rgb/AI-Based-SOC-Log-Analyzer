@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block heading %}Security Dashboard{% endblock %}
+
+{% block topbar_actions %}
+  <span id="lastUpdated" class="text-secondary small d-none d-md-inline"></span>
+  <button id="refreshBtn" class="btn btn-sm btn-outline-primary" type="button">Refresh</button>
+{% endblock %}
+
+{% block content %}
+<!-- Upload and scope panel -->
+<div class="card soc-card mb-4">
+  <div class="card-body">
+    <div class="row g-3 align-items-end">
+      <div class="col-lg-5">
+        <label class="form-label soc-label" for="fileInput">Upload a log file</label>
+        <div class="input-group">
+          <input type="file" id="fileInput" class="form-control" accept=".csv,.json,.log,.txt">
+          <button id="uploadBtn" class="btn btn-primary" type="button">Upload &amp; analyze</button>
+        </div>
+        <div class="form-text">CSV, JSON, Linux auth.log or Windows-style CSV. Maximum 10 MB.</div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <label class="form-label soc-label" for="demoKind">Demo data</label>
+        <div class="input-group">
+          <select id="demoKind" class="form-select">
+            <option value="csv">Generic CSV</option>
+            <option value="json">JSON</option>
+            <option value="windows_csv">Windows CSV</option>
+            <option value="linux_auth">Linux auth.log</option>
+          </select>
+          <button id="demoBtn" class="btn btn-outline-success" type="button">Generate</button>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <label class="form-label soc-label" for="scopeSelect">Show data for</label>
+        <div class="input-group">
+          <select id="scopeSelect" class="form-select"><option value="">All uploads</option></select>
+          <button id="deleteBtn" class="btn btn-outline-danger" type="button" disabled>Delete</button>
+        </div>
+      </div>
+    </div>
+    <div id="statusBox" class="mt-3 d-none" role="status"></div>
+  </div>
+</div>
+
+<div id="emptyState" class="alert alert-secondary d-none">
+  No logs yet. Upload a log file or click <strong>Generate</strong> to create demo data and run the analysis.
+</div>
+
+<!-- Stat cards -->
+{% set cards = [
+  ("total_logs", "Logs analyzed", "", "/logs"),
+  ("total_alerts", "Total alerts", "", "/alerts"),
+  ("critical", "Critical", "critical", "/alerts?severity=CRITICAL"),
+  ("high", "High", "high", "/alerts?severity=HIGH"),
+  ("medium", "Medium", "medium", "/alerts?severity=MEDIUM"),
+  ("low", "Low", "low", "/alerts?severity=LOW"),
+  ("anomalies", "ML anomalies", "anomaly", "/logs?anomalies_only=1")
+] %}
+<div class="row row-cols-2 row-cols-md-4 row-cols-xl-7 g-3 mb-4">
+  {% for key, label, tone, href in cards %}
+  <div class="col">
+    <a class="soc-stat {% if tone %}soc-stat-{{ tone }}{% endif %}" href="{{ href }}">
+      <div class="soc-stat-label">{{ label }}</div>
+      <div class="soc-stat-value" id="stat-{{ key }}">–</div>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- Charts -->
+<div class="row g-3 mb-4">
+  <div class="col-xl-8">
+    <div class="card soc-card h-100">
+      <div class="card-header soc-card-title">Threat timeline <span class="text-secondary small">alerts over time, by severity</span></div>
+      <div class="card-body">
+        <div class="chart-box">
+          <canvas id="timelineChart"></canvas>
+          <div id="timelineEmpty" class="chart-empty d-none">No alerts yet</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4">
+    <div class="card soc-card h-100">
+      <div class="card-header soc-card-title">Attack distribution</div>
+      <div class="card-body">
+        <div class="chart-box">
+          <canvas id="distChart"></canvas>
+          <div id="distEmpty" class="chart-empty d-none">No alerts yet</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Top IPs and threat types -->
+<div class="row g-3 mb-4">
+  <div class="col-lg-6">
+    <div class="card soc-card h-100">
+      <div class="card-header soc-card-title">Top suspicious IPs</div>
+      <div class="table-responsive">
+        <table class="table table-sm align-middle soc-table mb-0">
+          <thead><tr><th>Source IP</th><th>Alerts</th><th>Highest threat score</th></tr></thead>
+          <tbody id="topIpsBody"><tr><td colspan="3" class="text-secondary">Loading...</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="card soc-card h-100">
+      <div class="card-header soc-card-title">Most common threat types</div>
+      <div class="card-body">
+        <ul id="threatTypesList" class="list-unstyled mb-0"><li class="text-secondary">Loading...</li></ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Recent alerts -->
+<div class="card soc-card mb-4">
+  <div class="card-header soc-card-title d-flex justify-content-between">
+    <span>Recent alerts</span><a href="/alerts" class="small">View all</a>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-sm align-middle soc-table mb-0">
+      <thead>
+        <tr><th>ID</th><th>Time</th><th>Threat</th><th>Severity</th><th>Score</th>
+            <th>Source IP</th><th>User</th><th>Status</th></tr>
+      </thead>
+      <tbody id="recentAlertsBody"><tr><td colspan="8" class="text-secondary">Loading...</td></tr></tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ assets.chart_js }}"></script>
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+{% endblock %}

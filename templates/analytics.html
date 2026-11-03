@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% block title %}Analytics{% endblock %}
+{% block heading %}Analytics{% endblock %}
+
+{% block topbar_actions %}
+  <button id="refreshBtn" class="btn btn-sm btn-outline-primary" type="button">Refresh</button>
+{% endblock %}
+
+{% block content %}
+<div class="card soc-card mb-3">
+  <div class="card-body">
+    <div class="row g-3 align-items-end">
+      <div class="col-md-6 col-lg-4">
+        <label class="form-label soc-label" for="scopeSelect">Show data for</label>
+        <select id="scopeSelect" class="form-select"><option value="">All uploads</option></select>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="statusBox" class="d-none" role="status"></div>
+
+<div class="row row-cols-2 row-cols-lg-4 g-3 mb-4">
+  <div class="col"><div class="soc-stat"><div class="soc-stat-label">Logs analyzed</div>
+    <div class="soc-stat-value" id="an-logs">–</div></div></div>
+  <div class="col"><div class="soc-stat"><div class="soc-stat-label">Alerts</div>
+    <div class="soc-stat-value" id="an-alerts">–</div></div></div>
+  <div class="col"><div class="soc-stat soc-stat-medium"><div class="soc-stat-label">Open alerts</div>
+    <div class="soc-stat-value" id="an-open">–</div></div></div>
+  <div class="col"><div class="soc-stat soc-stat-anomaly"><div class="soc-stat-label">ML anomalies</div>
+    <div class="soc-stat-value" id="an-anomalies">–</div></div></div>
+</div>
+
+<div class="row g-3 mb-4">
+  <div class="col-lg-4"><div class="card soc-card h-100">
+    <div class="card-header soc-card-title">Alerts by severity</div>
+    <div class="card-body"><div class="chart-box"><canvas id="severityChart"></canvas>
+      <div id="severityEmpty" class="chart-empty d-none"></div></div></div></div></div>
+  <div class="col-lg-4"><div class="card soc-card h-100">
+    <div class="card-header soc-card-title">Alerts by status</div>
+    <div class="card-body"><div class="chart-box"><canvas id="statusChart"></canvas>
+      <div id="statusEmpty" class="chart-empty d-none"></div></div></div></div></div>
+  <div class="col-lg-4"><div class="card soc-card h-100">
+    <div class="card-header soc-card-title">Detection method</div>
+    <div class="card-body"><div class="chart-box"><canvas id="methodChart"></canvas>
+      <div id="methodEmpty" class="chart-empty d-none"></div></div></div></div></div>
+</div>
+
+<div class="row g-3 mb-4">
+  <div class="col-xl-7"><div class="card soc-card h-100">
+    <div class="card-header soc-card-title">Threat timeline <span class="text-secondary small">alerts over time, by severity</span></div>
+    <div class="card-body"><div class="chart-box"><canvas id="timelineChart"></canvas>
+      <div id="timelineEmpty" class="chart-empty d-none"></div></div></div></div></div>
+  <div class="col-xl-5"><div class="card soc-card h-100">
+    <div class="card-header soc-card-title">Threat score distribution <span class="text-secondary small">alerts per 10-point score range</span></div>
+    <div class="card-body"><div class="chart-box"><canvas id="scoreChart"></canvas>
+      <div id="scoreEmpty" class="chart-empty d-none"></div></div></div></div></div>
+</div>
+
+<div class="row g-3 mb-4">
+  <div class="col-xl-7"><div class="card soc-card h-100">
+    <div class="card-header soc-card-title">Activity by hour of day <span class="text-secondary small">log events</span></div>
+    <div class="card-body"><div class="chart-box"><canvas id="hourlyChart"></canvas>
+      <div id="hourlyEmpty" class="chart-empty d-none"></div></div></div></div></div>
+  <div class="col-xl-5"><div class="card soc-card h-100">
+    <div class="card-header soc-card-title">Top event types</div>
+    <div class="card-body"><div class="chart-box"><canvas id="eventChart"></canvas>
+      <div id="eventEmpty" class="chart-empty d-none"></div></div></div></div></div>
+</div>
+
+<div class="row g-3 mb-4">
+  <div class="col-xl-8"><div class="card soc-card h-100">
+    <div class="card-header soc-card-title">ML anomaly score distribution <span class="text-secondary small">all log events</span></div>
+    <div class="card-body"><div class="chart-box"><canvas id="mlChart"></canvas>
+      <div id="mlEmpty" class="chart-empty d-none"></div></div></div></div></div>
+  <div class="col-xl-4"><div class="card soc-card h-100">
+    <div class="card-header soc-card-title">ML and rules: agreement</div>
+    <div class="card-body">
+      <dl class="row soc-dl mb-2">
+        <dt class="col-7">Events scored by ML</dt><dd class="col-5" id="ml-scored">-</dd>
+        <dt class="col-7">Events flagged as anomalies</dt><dd class="col-5" id="ml-anomalies">-</dd>
+        <dt class="col-7">Events inside rule alerts</dt><dd class="col-5" id="ml-rule-events">-</dd>
+        <dt class="col-7">...of which ML also flagged</dt><dd class="col-5" id="ml-rule-flagged">-</dd>
+        <dt class="col-7">Anomalies outside rule alerts</dt><dd class="col-5 mb-0" id="ml-outside">-</dd>
+      </dl>
+      <p class="small text-secondary mb-0">These numbers show how two methods overlap. They are
+        <strong>not an accuracy measure</strong>: there is no labelled data. The number of flagged events
+        follows the <code>contamination</code> setting (a share of events, about 5% by default), so it
+        does not tell you how many attacks exist.</p>
+    </div>
+  </div></div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ assets.chart_js }}"></script>
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+<script src="{{ url_for('static', filename='js/analytics.js') }}"></script>
+{% endblock %}

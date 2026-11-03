@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}Alerts{% endblock %}
+{% block heading %}Alerts{% endblock %}
+
+{% block content %}
+<div class="card soc-card mb-3">
+  <div class="card-body">
+    <form id="filterForm" autocomplete="off">
+      <div class="row g-3">
+        <div class="col-lg-4">
+          <label class="form-label soc-label" for="q">Search</label>
+          <input type="search" id="q" class="form-control" maxlength="100"
+                 placeholder="Threat, IP, user or reason">
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <label class="form-label soc-label" for="source_ip">Source IP</label>
+          <input type="text" id="source_ip" class="form-control" maxlength="100" placeholder="e.g. 203.0.113.">
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <label class="form-label soc-label" for="username">Username</label>
+          <input type="text" id="username" class="form-control" maxlength="100">
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <label class="form-label soc-label" for="severity">Severity</label>
+          <select id="severity" class="form-select"><option value="">All severities</option></select>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <label class="form-label soc-label" for="status">Status</label>
+          <select id="status" class="form-select"><option value="">All statuses</option></select>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <label class="form-label soc-label" for="threat_type">Threat type</label>
+          <select id="threat_type" class="form-select"><option value="">All threat types</option></select>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <label class="form-label soc-label" for="detection_method">Detection method</label>
+          <select id="detection_method" class="form-select"><option value="">All methods</option></select>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <label class="form-label soc-label" for="date_from">From date</label>
+          <input type="date" id="date_from" class="form-control">
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <label class="form-label soc-label" for="date_to">To date</label>
+          <input type="date" id="date_to" class="form-control">
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <label class="form-label soc-label" for="scopeSelect">Upload</label>
+          <select id="scopeSelect" class="form-select"><option value="">All uploads</option></select>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <label class="form-label soc-label" for="per_page">Per page</label>
+          <select id="per_page" class="form-select">
+            <option value="25" selected>25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="200">200</option>
+          </select>
+        </div>
+        <div class="col-md-4 col-lg-2 d-flex align-items-end">
+          <button type="button" id="resetBtn" class="btn btn-outline-secondary w-100">Reset</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div id="statusBox" class="d-none" role="status"></div>
+
+<div class="card soc-card mb-4">
+  <div class="table-responsive">
+    <table class="table table-sm table-hover align-middle soc-table mb-0">
+      <thead>
+        <tr>
+          <th class="sortable" data-sort="id">ID<span class="sort-ind"></span></th>
+          <th class="sortable" data-sort="timestamp">Time<span class="sort-ind"></span></th>
+          <th class="sortable" data-sort="threat_type">Threat type<span class="sort-ind"></span></th>
+          <th class="sortable" data-sort="severity">Severity<span class="sort-ind"></span></th>
+          <th class="sortable" data-sort="threat_score">Score<span class="sort-ind"></span></th>
+          <th>Method</th>
+          <th class="sortable" data-sort="source_ip">Source IP<span class="sort-ind"></span></th>
+          <th class="sortable" data-sort="username">User<span class="sort-ind"></span></th>
+          <th>Events</th>
+          <th class="sortable" data-sort="status">Status<span class="sort-ind"></span></th>
+        </tr>
+      </thead>
+      <tbody id="alertsBody"><tr><td colspan="10" class="text-secondary">Loading...</td></tr></tbody>
+    </table>
+  </div>
+  <div id="pager" class="pager-bar"></div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/listpage.js') }}"></script>
+<script src="{{ url_for('static', filename='js/alerts.js') }}"></script>
+{% endblock %}
